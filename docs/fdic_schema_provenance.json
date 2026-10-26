@@ -1,0 +1,20 @@
+{
+  "retrieved_date": "2026-10-27",
+  "files": {
+    "risview_properties.yaml": {
+      "url": "https://api.fdic.gov/banks/docs/risview_properties.yaml",
+      "sha256": "b257457e4e821d6a0d9f88ffc4e6e0da80e4ccf67fa394cadb21587b50b23d59",
+      "bytes": 616633
+    },
+    "failure_properties.yaml": {
+      "url": "https://api.fdic.gov/banks/docs/failure_properties.yaml",
+      "sha256": "7e3137fb6fc93dd49371b4d032f48fad403efd3d9a7f5cc8ca5480c00807364c",
+      "bytes": 14728
+    },
+    "swagger.yaml": {
+      "url": "https://api.fdic.gov/banks/docs/swagger.yaml",
+      "sha256": "854500ae68d77185a12fc9260e0bbc0194e3848df0e54086f828656ea508852b",
+      "bytes": 34749
+    }
+  }
+}

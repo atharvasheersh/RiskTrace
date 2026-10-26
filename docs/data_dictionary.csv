@@ -1,0 +1,28 @@
+field,kind,unit,definition,missing_policy,source
+CERT,raw,identifier,FDIC Certificate #,preserve null; no zero fill,FDIC financials schema
+REPDTE,raw,YYYYMMDD,Report Date,preserve null; no zero fill,FDIC financials schema
+NAME,raw,text,INSTITUTION NAME,preserve null; no zero fill,FDIC financials schema
+RSSDID,raw,identifier,FEDERAL RESERVE ID NUMBER,preserve null; no zero fill,FDIC financials schema
+STALP,raw,text,FIPS STATE ALPHA CODE,preserve null; no zero fill,FDIC financials schema
+BKCLASS,raw,text,INSTITUTION CLASS,preserve null; no zero fill,FDIC financials schema
+INSAGNT1,raw,text,PRIMARY INSURER,preserve null; no zero fill,FDIC financials schema
+ASSET,raw,USD_thousands,Total assets,preserve null; no zero fill,FDIC financials schema
+LIAB,raw,USD_thousands,TOTAL LIABILITIES,preserve null; no zero fill,FDIC financials schema
+EQ,raw,USD_thousands,Equity capital,preserve null; no zero fill,FDIC financials schema
+DEP,raw,USD_thousands,Total deposits,preserve null; no zero fill,FDIC financials schema
+DEPDOM,raw,USD_thousands,Deposits held in domestic offices,preserve null; no zero fill,FDIC financials schema
+DEPUNINS,raw,USD_thousands,ESTIMATED UNINSURED DEPOSITS IN DOMESTIC OFFICES AND IN INSURED BRANCHES IN US TERRITORIES AND POSSESSIONS,preserve null; no zero fill,FDIC financials schema
+DEPINS,raw,USD_thousands,ESTIMATED INSURED DEPOSITS,preserve null; no zero fill,FDIC financials schema
+CHBAL,raw,USD_thousands,CASH & DUE FROM DEPOSITORY INST,preserve null; no zero fill,FDIC financials schema
+LNLSNET,raw,USD_thousands,LOANS AND LEASES-NET,preserve null; no zero fill,FDIC financials schema
+LNLSGR,raw,USD_thousands,LOANS AND LEASES-TOTAL,preserve null; no zero fill,FDIC financials schema
+NCLNLS,raw,USD_thousands,TOTAL N/C-LOANS & LEASES,preserve null; no zero fill,FDIC financials schema
+SC,raw,USD_thousands,SECURITIES,preserve null; no zero fill,FDIC financials schema
+SCAF,raw,USD_thousands,SECURITIES-AF,preserve null; no zero fill,FDIC financials schema
+NETINC,raw,USD_thousands,Net income,preserve null; no zero fill,FDIC financials schema
+equity_ratio,derived,fraction,EQ/ASSET,missing if input missing or denominator <=0,RiskTrace formula
+cash_ratio,derived,fraction,CHBAL/ASSET,missing if input missing or denominator <=0,RiskTrace formula
+loan_ratio,derived,fraction,LNLSNET/ASSET,missing if input missing or denominator <=0,RiskTrace formula
+securities_ratio,derived,fraction,SC/ASSET,missing if input missing or denominator <=0,RiskTrace formula
+noncurrent_ratio,derived,fraction,NCLNLS/LNLSGR,missing if input missing or denominator <=0,RiskTrace formula
+uninsured_domestic_ratio,derived,fraction,DEPUNINS/DEPDOM,missing if input missing or denominator <=0,RiskTrace formula
