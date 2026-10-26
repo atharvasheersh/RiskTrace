@@ -98,6 +98,8 @@ def fit_condition(family, candidate, seed, fold, panel, roles, preprocessing, me
                   origin=prep["fit_origin"], train_keys_sha256=prep["training_keys_sha256"],
                   preprocessing_sha256=sha(json.dumps(prep, sort_keys=True).encode()),
                   seconds=time.perf_counter()-start, artifact_directory=directory.relative_to(ROOT).as_posix())
+    if hasattr(model,"evaluation_graph_sha256"):
+        record["evaluation_graph_sha256"]=model.evaluation_graph_sha256
     artifacts = [p for p in directory.iterdir() if p.is_file()]
     record["artifacts"] = [{"path":p.relative_to(ROOT).as_posix(),"sha256":sha(p.read_bytes()),"bytes":p.stat().st_size} for p in artifacts]
     write_json(directory / "run.json", record)

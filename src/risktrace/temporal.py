@@ -24,6 +24,7 @@ def sequence(panel, preprocessing, end, selected_keys=()):
     x = np.zeros((rows,banks,5),np.float32)
     active, reset, target = np.zeros((rows,banks),bool), np.ones((rows,banks),bool), np.zeros((rows,banks),bool)
     labels = np.zeros((rows,banks),np.float32)
+    states=np.full((rows,banks),"",dtype="U2")
     mapping, keys = {}, set(selected_keys)
     z = transform(p,preprocessing)
     for offset, row in enumerate(p.itertuples()):
@@ -33,9 +34,10 @@ def sequence(panel, preprocessing, end, selected_keys=()):
         active[q,i]=good;reset[q,i]=row.history_reset or not good
         target[q,i]=row.row_id in keys
         labels[q,i]=0 if pd.isna(row.label_12m) else row.label_12m
+        states[q,i]=row.STALP
         mapping[row.row_id]=(q,i)
     return dict(x=torch.tensor(x),active=torch.tensor(active),reset=torch.tensor(reset),
-                target=torch.tensor(target),y=torch.tensor(labels),mapping=mapping,ids=ids,dates=dates)
+                target=torch.tensor(target),y=torch.tensor(labels),mapping=mapping,ids=ids,dates=dates,states=states)
 
 
 class TemporalBaseline(nn.Module):
@@ -64,8 +66,11 @@ def train_neural(family,candidate,seed,fit,panel,preprocessing,spec):
     seq=sequence(panel,preprocessing,fit.report_date.max(),fit.row_id)
     y=seq["y"][seq["target"]]
     positive_weight=min(float((y==0).sum()/y.sum()),spec["neural"]["max_positive_weight"])
-    if family!="gru":raise ValueError("Graph family not implemented at baseline stage")
-    model=TemporalBaseline(candidate["hidden"],positive_weight)
+    if family=="gru":model=TemporalBaseline(candidate["hidden"],positive_weight)
+    else:
+        from .graph_models import GraphTemporal,prepare_graph
+        model=GraphTemporal(family,candidate["hidden"],candidate["k"],positive_weight,seed)
+        prepare_graph(seq,model.kind,model.k,seed)
     with torch.no_grad():
         model.output.bias.fill_(float(torch.log(positive_weight*y.mean()/(1-y.mean()))))
     optimizer=torch.optim.Adam(model.parameters(),lr=candidate["learning_rate"],weight_decay=spec["neural"]["weight_decay"])
@@ -80,12 +85,17 @@ def train_neural(family,candidate,seed,fit,panel,preprocessing,spec):
         losses.append(float(loss.detach()))
     model.eval()
     return model,dict(loss=losses,positive_weight=positive_weight,epochs=len(losses),seed=seed,
+                      graph_sha256=seq.get("graph_sha256"),
                       loss_labels=int(seq["target"].sum()),max_report=str(fit.report_date.max().date()),
                       probability_correction="subtract log(training positive_weight); no flexible posthoc calibrator")
 
 
 def predict_neural(model,panel,evaluation,preprocessing):
     seq=sequence(panel,preprocessing,evaluation.report_date.max())
+    if hasattr(model,"kind"):
+        from .graph_models import prepare_graph
+        prepare_graph(seq,model.kind,model.k,model.seed)
+        model.evaluation_graph_sha256=seq["graph_sha256"]
     with torch.no_grad():
         logits=model(seq)-np.log(model.positive_weight)
         p=torch.sigmoid(logits).numpy()
