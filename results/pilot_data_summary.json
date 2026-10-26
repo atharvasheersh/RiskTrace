@@ -1,0 +1,200 @@
+{
+  "rows": 7900,
+  "banks": 793,
+  "quarters": 12,
+  "eligible_rows": 7900,
+  "financial_usable_rows": 7830,
+  "usable_labeled_rows": 7812,
+  "positive_quarters": 50,
+  "distinct_positive_banks": 18,
+  "already_failed_rows": 18,
+  "censored_rows": 0,
+  "failure_source_records": 384,
+  "missing_fields": {
+    "CERT": 0,
+    "REPDTE": 0,
+    "NAME": 0,
+    "RSSDID": 0,
+    "STALP": 0,
+    "BKCLASS": 0,
+    "INSAGNT1": 0,
+    "ASSET": 0,
+    "LIAB": 0,
+    "EQ": 0,
+    "EQTOT": 0,
+    "DEP": 0,
+    "DEPDOM": 0,
+    "DEPUNINS": 0,
+    "DEPINS": 0,
+    "CHBAL": 0,
+    "LNLSNET": 0,
+    "LNLSGR": 0,
+    "NCLNLS": 0,
+    "SC": 0,
+    "SCAF": 0,
+    "NETINC": 0
+  },
+  "quarter_coverage": [
+    {
+      "report_date": "2010-03-31",
+      "rows": 674,
+      "banks": 674,
+      "usable": 659,
+      "positive_quarters": 9,
+      "invalid_accounting": 0,
+      "invalid_ranges": 1
+    },
+    {
+      "report_date": "2010-06-30",
+      "rows": 654,
+      "banks": 654,
+      "usable": 646,
+      "positive_quarters": 10,
+      "invalid_accounting": 0,
+      "invalid_ranges": 1
+    },
+    {
+      "report_date": "2010-09-30",
+      "rows": 659,
+      "banks": 659,
+      "usable": 651,
+      "positive_quarters": 10,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2010-12-31",
+      "rows": 660,
+      "banks": 660,
+      "usable": 652,
+      "positive_quarters": 7,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2011-03-31",
+      "rows": 664,
+      "banks": 664,
+      "usable": 657,
+      "positive_quarters": 6,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2011-06-30",
+      "rows": 661,
+      "banks": 661,
+      "usable": 653,
+      "positive_quarters": 2,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2011-09-30",
+      "rows": 660,
+      "banks": 660,
+      "usable": 653,
+      "positive_quarters": 2,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2011-12-31",
+      "rows": 651,
+      "banks": 651,
+      "usable": 644,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2012-03-31",
+      "rows": 658,
+      "banks": 658,
+      "usable": 652,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2012-06-30",
+      "rows": 653,
+      "banks": 653,
+      "usable": 649,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2012-09-30",
+      "rows": 652,
+      "banks": 652,
+      "usable": 646,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2012-12-31",
+      "rows": 654,
+      "banks": 654,
+      "usable": 650,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    }
+  ],
+  "label_cutoff": "2026-08-25",
+  "source_quarter_counts": [
+    {
+      "report_date": "20100331",
+      "source_count": 674
+    },
+    {
+      "report_date": "20100630",
+      "source_count": 654
+    },
+    {
+      "report_date": "20100930",
+      "source_count": 659
+    },
+    {
+      "report_date": "20101231",
+      "source_count": 660
+    },
+    {
+      "report_date": "20110331",
+      "source_count": 664
+    },
+    {
+      "report_date": "20110630",
+      "source_count": 661
+    },
+    {
+      "report_date": "20110930",
+      "source_count": 660
+    },
+    {
+      "report_date": "20111231",
+      "source_count": 651
+    },
+    {
+      "report_date": "20120331",
+      "source_count": 658
+    },
+    {
+      "report_date": "20120630",
+      "source_count": 653
+    },
+    {
+      "report_date": "20120930",
+      "source_count": 652
+    },
+    {
+      "report_date": "20121231",
+      "source_count": 654
+    }
+  ],
+  "config_sha256": "8e1b6692f1181ce05ae780d8c295d92daf5baee54418ee25ee8b685b03839acd",
+  "panel_sha256": "7e398b2bc02bdfe984911f0465f82e13ff8ff4bcb4f90013a06f5b8d5745da01"
+}

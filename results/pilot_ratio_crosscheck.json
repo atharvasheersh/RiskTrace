@@ -1,0 +1,15 @@
+{
+  "record": {
+    "CHBALR": 10.440879181815168,
+    "EQR": 10.712607023615094,
+    "REPDTE": "20100331",
+    "CHBAL": 447371,
+    "ASSET": 4284802,
+    "CERT": 1003,
+    "EQ": 459014,
+    "ID": "1003_20100331"
+  },
+  "cash_percent_recomputed": 10.44087918181517,
+  "equity_EQ_percent_recomputed": 10.712607023615094,
+  "status": "both match FDIC reported percentage within 1e-8; amounts follow documented USD-thousands convention"
+}

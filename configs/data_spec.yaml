@@ -1,4 +1,4 @@
-version: 1
+version: 1.1
 as_of: '2026-10-27'
 entity: fdic_insured_bank
 id: CERT
@@ -27,7 +27,7 @@ api:
   base: https://api.fdic.gov/banks
   page_size: 10000
   timeout_seconds: 60
-  financial_fields: [CERT, REPDTE, NAME, RSSDID, STALP, BKCLASS, INSAGNT1, ASSET, LIAB, EQ, DEP, DEPDOM, DEPUNINS, DEPINS, CHBAL, LNLSNET, LNLSGR, NCLNLS, SC, SCAF, NETINC]
+  financial_fields: [CERT, REPDTE, NAME, RSSDID, STALP, BKCLASS, INSAGNT1, ASSET, LIAB, EQ, EQTOT, DEP, DEPDOM, DEPUNINS, DEPINS, CHBAL, LNLSNET, LNLSGR, NCLNLS, SC, SCAF, NETINC]
   failure_fields: [CERT, NAME, FAILDATE, RESTYPE1, FIN]
 features: [equity_ratio, cash_ratio, loan_ratio, securities_ratio, noncurrent_ratio]
 optional_features: [uninsured_domestic_ratio]

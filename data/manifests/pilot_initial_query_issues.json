@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://api.fdic.gov/banks/failures?filters=FAILDATE%3A%5B2010-01-01+TO+2026-10-27%5D&fields=CERT%2CNAME%2CFAILDATE%2CRESTYPE1%2CFIN&limit=10000&offset=0&sort_by=ID&sort_order=ASC&format=json",
+    "attempt": 1,
+    "utc": "2026-10-26T21:28:01.170231+00:00",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "url": "https://api.fdic.gov/banks/failures?filters=FAILDATE%3A%5B2010-01-01+TO+2026-10-27%5D&fields=CERT%2CNAME%2CFAILDATE%2CRESTYPE1%2CFIN&limit=10000&offset=0&sort_by=ID&sort_order=ASC&format=json",
+    "attempt": 2,
+    "utc": "2026-10-26T21:28:03.488733+00:00",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "url": "https://api.fdic.gov/banks/failures?filters=FAILDATE%3A%5B2010-01-01+TO+2026-10-27%5D&fields=CERT%2CNAME%2CFAILDATE%2CRESTYPE1%2CFIN&limit=10000&offset=0&sort_by=ID&sort_order=ASC&format=json",
+    "attempt": 3,
+    "utc": "2026-10-26T21:28:06.665035+00:00",
+    "error": "HTTP Error 400: Bad Request"
+  }
+]

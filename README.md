@@ -22,6 +22,15 @@ Small source manifests are committed under data/manifests; reports under docs an
 results. See docs/reproducibility.md for evidence and experiment formats. Later
 stage commits add executable download and paired-audit commands here.
 
+```powershell
+uv run --locked risktrace pilot-data
+```
+
+This retrieves only the 12 development quarters in 2010--2012, validates cached
+responses against checksums, checks source counts, joins failure outcomes and
+writes data/processed/pilot_panel.csv plus results/pilot_data_summary.json.
+The failure source index date conservatively bounds the labeling cutoff.
+
 Atharva Sheersh Pandey owns half the banks and all technical/ML work. Ayush Sinha
 owns the other half, finance literature, documentation and cases, with no ML tasks.
 The bank allocation is separate from the chronological model-evaluation split.

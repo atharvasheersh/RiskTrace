@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=CERT%3A1003+AND+REPDTE%3A20100331&fields=CERT%2CREPDTE%2CASSET%2CCHBAL%2CCHBALR%2CEQ%2CEQR&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "CERT:1003 AND REPDTE:20100331",
+      "fields": "CERT,REPDTE,ASSET,CHBAL,CHBALR,EQ,EQR",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:29:17.415646+00:00",
+    "path": "data/raw/financials_4f9d07daa5f6c01879fb3474.json",
+    "sha256": "1cc52a40213692606711e546016c688760fd70abeacae15b114aa08ae956a6c5",
+    "bytes": 438,
+    "total": 1,
+    "returned": 1,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  }
+]

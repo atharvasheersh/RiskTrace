@@ -11,5 +11,6 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 results/cache/
+data/manifests/partial_*.json
 *.log
 *.tmp

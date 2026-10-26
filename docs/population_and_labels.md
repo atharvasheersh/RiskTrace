@@ -48,7 +48,7 @@ DEPUNINS covers domestic offices and insured territorial branches; **divide by
 DEPDOM**, not total DEP including foreign offices. DEPINS is not assumed equal to
 DEP minus DEPUNINS. Do not construct false accounting identities across scopes.
 
-Main graph features: EQ/ASSET, CHBAL/ASSET, LNLSNET/ASSET, SC/ASSET,
+Main graph features: EQTOT/ASSET, CHBAL/ASSET, LNLSNET/ASSET, SC/ASSET,
 NCLNLS/LNLSGR. The last is noncurrent loan share, not a probability of default.
 Uninsured domestic deposits / DEPDOM is optional until coverage/scope is checked.
 No claim that securities are liquid at book value or equity is regulatory capital.
@@ -89,7 +89,7 @@ are descriptive feasibility checks, not an excuse to alter the target.
 
 Keep blanks/null/suppressed fields missing; never convert them to zero. No ratio
 with nonpositive denominator. Reject duplicate keys instead of arbitrary dedup.
-Check ASSET ~= LIAB + EQ (tolerance max(5 thousand, 1e-5 * ASSET)), nonnegative
+Check ASSET ~= LIAB + EQTOT (tolerance max(5 thousand, 1e-5 * ASSET)), nonnegative
 cash/loans/securities/deposits, and valid ranges. Negative equity is plausible
 distress; preserve it if accounting is valid. Flag rather than silently clip
 scope inconsistencies. Main-feature complete and accounting-valid rows form a
@@ -108,3 +108,16 @@ Step 3 event sufficiency is **unknown pending actual extraction**. Step 5 will
 count distinct failed CERTs and positive bank-quarters separately. Repeated positive
 quarters for one bank are not independent events. A tiny event count restricts the
 audit to feasibility and requires uncertainty estimates at the bank level.
+
+## Pilot amendments (v1.1, Step 5)
+
+The initial EQ identity flagged 1,239 of 7,900 reports. Official schema includes
+the distinct EQTOT field (Total Equity Capital). A four-bank source cross-check
+confirmed ASSET = LIAB + EQTOT while EQ differed. Add EQTOT to the contract and use
+it for the accounting check and equity feature; retain original EQ for provenance.
+Do not treat the original residual as bank misreporting or silently impute EQTOT.
+This is a source-semantics correction, not outcome-driven feature selection.
+
+Outcome censoring uses min(configured as_of, failure API index creation date),
+currently 2026-08-25. Retrieval on 2026-10-27 does not imply an up-to-date index.
+This conservative bound still does not prove completeness or fix revision bias.

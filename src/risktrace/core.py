@@ -11,7 +11,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 RATIOS = {
-    "equity_ratio": ("EQ", "ASSET"),
+    "equity_ratio": ("EQTOT", "ASSET"),
     "cash_ratio": ("CHBAL", "ASSET"),
     "loan_ratio": ("LNLSNET", "ASSET"),
     "securities_ratio": ("SC", "ASSET"),
@@ -67,7 +67,7 @@ def normalize(rows, spec):
     frame["eligible"] = (frame.ASSET.ge(spec["asset_min_thousands"])
                          & frame.ASSET.lt(spec["asset_max_exclusive_thousands"])
                          & frame.BKCLASS.isin(spec["bank_classes"]))
-    residual = (frame.ASSET - frame.LIAB - frame.EQ).abs()
+    residual = (frame.ASSET - frame.LIAB - frame.EQTOT).abs()
     frame["accounting_valid"] = residual.le(np.maximum(5, frame.ASSET * 1e-5))
     nonneg = ["DEP", "CHBAL", "LNLSNET", "LNLSGR", "NCLNLS", "SC"]
     ranges = frame[nonneg].ge(0).all(axis=1)

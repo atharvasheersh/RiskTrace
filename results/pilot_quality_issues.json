@@ -1,0 +1,30 @@
+{
+  "invalid_range_records": [
+    {
+      "CERT": 34221,
+      "REPDTE": 20100331,
+      "ASSET": 6948122,
+      "LIAB": 6189241,
+      "DEP": 6120280,
+      "CHBAL": 2953875,
+      "LNLSNET": 103532,
+      "LNLSGR": 103908,
+      "NCLNLS": 0,
+      "SC": -379
+    },
+    {
+      "CERT": 34221,
+      "REPDTE": 20100630,
+      "ASSET": 6864815,
+      "LIAB": 6086352,
+      "DEP": 6015351,
+      "CHBAL": 2840742,
+      "LNLSNET": 314233,
+      "LNLSGR": 314598,
+      "NCLNLS": 0,
+      "SC": -1161
+    }
+  ],
+  "uninsured_ratio_outside_0_1": 14,
+  "gap_policy": "eligible-quarter source counts checked; interrupted bank histories require lifecycle investigation; no synthetic records created"
+}

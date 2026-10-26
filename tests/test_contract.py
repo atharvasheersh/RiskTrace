@@ -5,7 +5,7 @@ from risktrace.core import allocate, cert, config, label_panel, normalize, repor
 
 def row(**updates):
     base = dict(CERT=123, REPDTE="20100331", BKCLASS="NM", ASSET=1000000,
-                LIAB=900000, EQ=100000, DEP=800000, DEPDOM=700000, DEPUNINS=140000,
+                LIAB=900000, EQ=99000, EQTOT=100000, DEP=800000, DEPDOM=700000, DEPUNINS=140000,
                 CHBAL=100000, LNLSNET=500000, LNLSGR=510000, NCLNLS=10000, SC=200000)
     return base | updates
 
@@ -27,7 +27,7 @@ def test_units_bounds_missingness_and_deposit_scope():
     assert d.iloc[0].uninsured_domestic_ratio == .2
     assert not d.iloc[2].feature_complete
     assert not d.iloc[2].usable_financials
-    assert not normalize([row(EQ=200000)], s).iloc[0].accounting_valid
+    assert not normalize([row(EQTOT=200000)], s).iloc[0].accounting_valid
     with pytest.raises(ValueError, match="Duplicate"):
         normalize([row(), row()], s)
 
