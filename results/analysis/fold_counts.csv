@@ -1,0 +1,10 @@
+fold,origin,train_rows,train_banks,train_positive_quarters,train_distinct_positive_banks,validation_rows,validation_banks,validation_positive_quarters,validation_distinct_positive_banks
+annual_2012,2012-05-30,2608,697,36,16,2597,683,3,2
+annual_2013,2013-05-30,5215,744,47,17,2607,687,5,3
+annual_2014,2014-05-30,7812,777,50,18,2660,698,3,1
+annual_2015,2015-05-30,10419,815,55,20,2757,729,0,0
+annual_2016,2016-05-30,13079,854,58,20,2876,757,6,2
+annual_2017,2017-05-30,15836,908,58,20,2958,780,0,0
+annual_2018,2018-05-30,18712,971,64,22,3028,795,0,0
+annual_2019,2019-05-30,21670,1029,64,22,3125,825,0,0
+annual_2020,2020-05-30,24698,1086,64,22,3496,939,0,0

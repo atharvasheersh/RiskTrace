@@ -1,0 +1,149 @@
+{
+  "dataset_id": "analysis-v1-15e5448d4a96",
+  "status": "frozen_revised_snapshot_exploratory",
+  "rows": 51339,
+  "banks": 1614,
+  "data_path": "data/processed/analysis/analysis-v1-15e5448d4a96/canonical.csv",
+  "sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+  "bytes": 29692187,
+  "outcome_cutoff": "2026-08-25",
+  "split_keys_path": "data/manifests/analysis_v1_split_keys.csv.gz",
+  "split_keys_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+  "uncompressed_split_keys_sha256": "d1b409dbf611c23ab6699d7e7e816c65a1b5dfa6ad9448a950b8cace3ee77378",
+  "split_memberships": 190255,
+  "preprocessing_path": "data/processed/analysis/analysis-v1-15e5448d4a96/preprocessing.json",
+  "preprocessing_sha256": "1e34b71102b26e13128edfc5464cb58ccc9f15ce6dca588eb34d27c949a9cdde",
+  "config_sha256": "3f8acffa3f9f757242b13ad5dc5bf2861fa29ac6f6ae380acbebe88301cb7242",
+  "source_manifest_sha256": "032fd309206a1e84377618165c72f2f49d2fa47c272e15292ad086a368957040",
+  "source_attribution": "Central official bulk; no collaborator submission received",
+  "raw_value_conflicts": 0,
+  "final_fit_counts": {
+    "rows": 31319,
+    "banks": 1295,
+    "positive_quarters": 64,
+    "distinct_positive_banks": 22
+  },
+  "final_test_eligible_rows": 12783,
+  "test_performance_opened": false,
+  "folds": [
+    {
+      "fold": "annual_2012",
+      "origin": "2012-05-30",
+      "train_rows": 2608,
+      "train_banks": 697,
+      "train_positive_quarters": 36,
+      "train_distinct_positive_banks": 16,
+      "validation_rows": 2597,
+      "validation_banks": 683,
+      "validation_positive_quarters": 3,
+      "validation_distinct_positive_banks": 2
+    },
+    {
+      "fold": "annual_2013",
+      "origin": "2013-05-30",
+      "train_rows": 5215,
+      "train_banks": 744,
+      "train_positive_quarters": 47,
+      "train_distinct_positive_banks": 17,
+      "validation_rows": 2607,
+      "validation_banks": 687,
+      "validation_positive_quarters": 5,
+      "validation_distinct_positive_banks": 3
+    },
+    {
+      "fold": "annual_2014",
+      "origin": "2014-05-30",
+      "train_rows": 7812,
+      "train_banks": 777,
+      "train_positive_quarters": 50,
+      "train_distinct_positive_banks": 18,
+      "validation_rows": 2660,
+      "validation_banks": 698,
+      "validation_positive_quarters": 3,
+      "validation_distinct_positive_banks": 1
+    },
+    {
+      "fold": "annual_2015",
+      "origin": "2015-05-30",
+      "train_rows": 10419,
+      "train_banks": 815,
+      "train_positive_quarters": 55,
+      "train_distinct_positive_banks": 20,
+      "validation_rows": 2757,
+      "validation_banks": 729,
+      "validation_positive_quarters": 0,
+      "validation_distinct_positive_banks": 0
+    },
+    {
+      "fold": "annual_2016",
+      "origin": "2016-05-30",
+      "train_rows": 13079,
+      "train_banks": 854,
+      "train_positive_quarters": 58,
+      "train_distinct_positive_banks": 20,
+      "validation_rows": 2876,
+      "validation_banks": 757,
+      "validation_positive_quarters": 6,
+      "validation_distinct_positive_banks": 2
+    },
+    {
+      "fold": "annual_2017",
+      "origin": "2017-05-30",
+      "train_rows": 15836,
+      "train_banks": 908,
+      "train_positive_quarters": 58,
+      "train_distinct_positive_banks": 20,
+      "validation_rows": 2958,
+      "validation_banks": 780,
+      "validation_positive_quarters": 0,
+      "validation_distinct_positive_banks": 0
+    },
+    {
+      "fold": "annual_2018",
+      "origin": "2018-05-30",
+      "train_rows": 18712,
+      "train_banks": 971,
+      "train_positive_quarters": 64,
+      "train_distinct_positive_banks": 22,
+      "validation_rows": 3028,
+      "validation_banks": 795,
+      "validation_positive_quarters": 0,
+      "validation_distinct_positive_banks": 0
+    },
+    {
+      "fold": "annual_2019",
+      "origin": "2019-05-30",
+      "train_rows": 21670,
+      "train_banks": 1029,
+      "train_positive_quarters": 64,
+      "train_distinct_positive_banks": 22,
+      "validation_rows": 3125,
+      "validation_banks": 825,
+      "validation_positive_quarters": 0,
+      "validation_distinct_positive_banks": 0
+    },
+    {
+      "fold": "annual_2020",
+      "origin": "2020-05-30",
+      "train_rows": 24698,
+      "train_banks": 1086,
+      "train_positive_quarters": 64,
+      "train_distinct_positive_banks": 22,
+      "validation_rows": 3496,
+      "validation_banks": 939,
+      "validation_positive_quarters": 0,
+      "validation_distinct_positive_banks": 0
+    }
+  ],
+  "limits": [
+    "Assumed 60-day public availability; revised snapshots, not point-in-time vintages",
+    "Only six positive validation banks; four positive test banks already counted in prior QA",
+    "Historical roster/merger competing events and deposit-scope review incomplete"
+  ],
+  "identifier_audit": {
+    "certs_with_multiple_rssd_ids": 3,
+    "certs_with_multiple_names": 224,
+    "rssd_ids_shared_by_multiple_certs": 6,
+    "handling": "CERT outcome unit; no cross-CERT splicing; reset recurrent state at gaps/RSSD changes"
+  }
+}

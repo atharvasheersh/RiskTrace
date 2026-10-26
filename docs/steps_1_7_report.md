@@ -42,10 +42,10 @@ Each commit has Purpose, Changes, Validation and Limitations in its body.
 | 4 | 018032c | chore(repro): establish locked environment and tested data contracts — isolated dependencies, package, configuration, critical tests and provenance formats |
 | 5 | c23b08a | feat(data): acquire and validate the development bank panel — actual source download, EQTOT fix, failed-query log, validation and feasibility report |
 | 6 | 5dd3d7e | feat(audit): test frozen dependency-aware explanations on synthetic and bank pilots — mechanism experiments, controls, replay, invalid attempts and cautious decision |
-| 7 | Final collection commit (HEAD) | feat(data): collect and reconcile Atharva's assigned historical bank panel — full population/allocation, assigned data, unfiltered gap checks, event sufficiency, integration and snapshot validation |
+| 7 | 1e502e3 | feat(data): collect and reconcile Atharva's assigned historical bank panel — full population/allocation, assigned data, unfiltered gap checks, event sufficiency, integration and snapshot validation |
 
-Resolve the final commit with `git rev-parse HEAD`; it cannot include its own hash
-inside the same committed document. Inspect bodies with `git log --format=fuller`.
+The Step 7 snapshot is 1e502e3; later HEAD commits can continue the project.
+Inspect bodies with `git log --format=fuller`.
 All author/committer records are checked separately from GitHub authentication.
 
 ## Collection actually obtained

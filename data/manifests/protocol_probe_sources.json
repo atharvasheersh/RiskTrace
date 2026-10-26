@@ -1,0 +1,67 @@
+[
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20000331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=1&sort_by=CERT&sort_order=ASC",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20000331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 1,
+      "sort_by": "CERT",
+      "sort_order": "ASC"
+    },
+    "retrieved_utc": "2026-10-26T22:05:13.830678+00:00",
+    "path": "data/raw/financials_6395c42106e2f7f45e2d99b5.json",
+    "sha256": "06cacba4a6ec696a08d06b5ec27f96e847325735bff85525ce86830ebb7d64f9",
+    "bytes": 803,
+    "total": 523,
+    "returned": 1,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20090331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=1&sort_by=CERT&sort_order=ASC",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20090331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 1,
+      "sort_by": "CERT",
+      "sort_order": "ASC"
+    },
+    "retrieved_utc": "2026-10-26T22:05:15.009535+00:00",
+    "path": "data/raw/financials_b34ce9c3d3d80832d4253a7d.json",
+    "sha256": "9ccb8d566e6ec78b32689f09452ae1d7794d8f79036745f5cbf02a544b4708a1",
+    "bytes": 835,
+    "total": 685,
+    "returned": 1,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/failures?filters=FAILDATE%3A%5B2000-01-01+TO+2009-12-31%5D&fields=CERT%2CNAME%2CFAILDATE%2CRESTYPE1%2CFIN&limit=10000&offset=0&sort_by=FAILDATE&sort_order=ASC&format=json",
+    "endpoint": "failures",
+    "parameters": {
+      "filters": "FAILDATE:[2000-01-01 TO 2009-12-31]",
+      "fields": "CERT,NAME,FAILDATE,RESTYPE1,FIN",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "FAILDATE",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T22:05:16.389749+00:00",
+    "path": "data/raw/failures_803f9baf9e7cd9dd1edca236.json",
+    "sha256": "2d4bc97d9c200a573186f34b7187473576d1be2c95dd1accc622ddfce33ab261",
+    "bytes": 27661,
+    "total": 210,
+    "returned": 210,
+    "source_index": {
+      "name": "failures_1787667198788",
+      "createTimestamp": "2026-08-25T14:13:18Z"
+    }
+  }
+]

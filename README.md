@@ -2,10 +2,11 @@
 
 Research feasibility project on bank-failure forecasts and dependency-aware graph
 explanation evaluation. **The novelty and publication prospects are unproven.**
-Current scope: Steps 1--7, before full temporal GNN training or manuscript submission.
+Steps 1--7 are complete; the approved Steps 8--14 continuation is underway.
 The completed work, commits, actual coverage and limitations are summarized in
-docs/steps_1_7_report.md. **The planned validation period has zero positive failures;
-revise the evaluation protocol before further training.**
+docs/steps_1_7_report.md. The user approved annual 2012--2020 rolling validation
+after the original zero-event validation finding. See docs/chronological_action_note.md,
+docs/protocol_decision.md and docs/dataset_freeze.md; the event budget remains small.
 
 ## Setup (PowerShell)
 
@@ -51,6 +52,15 @@ series at data/processed/atharva_bank_panel.csv. Collection/coverage definitions
 the future Ayush handoff are in docs/collection_and_integration.md. Broader bulk
 downloads do not establish completion of Ayush's allocation. This is the Step 7
 stopping point; full-scale training and submission require subsequent research work.
+
+```powershell
+uv run --locked risktrace review-protocol
+uv run --locked risktrace build-analysis
+```
+
+The approved analysis build verifies original source hashes, rebuilds raw/derived
+data, freezes explicit split keys and training-only preprocessing, and records
+lineage in data/manifests/analysis_v1.json. No test performance is opened by it.
 
 Atharva Sheersh Pandey owns half the banks and all technical/ML work. Ayush Sinha
 owns the other half, finance literature, documentation and cases, with no ML tasks.

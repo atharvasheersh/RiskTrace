@@ -1,0 +1,18 @@
+version: 1
+status: approved
+decision_date: '2026-10-27'
+decision_source: direct_user_reply
+decision: annual_rolling_validation_2012_2020
+scope: exploratory; six distinct positive validation banks
+development_report_years: [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+origin: first_quarter_report_plus_availability_lag
+training_horizon_maturity: strictly_before_forecast_origin_for_both_classes
+test_report_start: '2022-01-01'
+test_report_end: '2025-12-31'
+final_fit_origin: '2022-05-30'
+final_model_update: none
+test_outcomes: fully_mature_by_source_cutoff_for_both_classes
+test_performance_opened: false
+preprocessing: fold_training_only
+feature_list: [equity_ratio, cash_ratio, loan_ratio, securities_ratio, noncurrent_ratio]
+excluded_model_inputs: [CERT, RSSDID, NAME, failure_date, label_12m, label_3m, legacy_split, legacy_purged, source_sha256, owner]

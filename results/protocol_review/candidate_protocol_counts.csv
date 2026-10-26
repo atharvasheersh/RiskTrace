@@ -1,0 +1,4 @@
+protocol,first_report_year,last_report_year,rows,banks,positive_quarters,distinct_positive_banks
+original_fixed,2019,2021,10459,1065,0,0
+annual_2012_2020,2012,2020,26104,1213,17,6
+fixed_2013_2018,2013,2018,16886,969,14,5

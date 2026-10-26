@@ -5,7 +5,7 @@ from .core import config, report_dates
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["check-config", "pilot-data", "audit", "collect-half", "verify-integration"])
+    parser.add_argument("command", choices=["check-config", "pilot-data", "audit", "collect-half", "verify-integration", "review-protocol", "build-analysis"])
     parser.add_argument("--file", help="Incoming raw-schema CSV for integration checks")
     args = parser.parse_args()
     spec = config()
@@ -29,6 +29,16 @@ def main():
             parser.error("verify-integration requires --file")
         from .data import verify_integration
         print(verify_integration(args.file))
+    elif args.command == "review-protocol":
+        import pandas as pd
+        from .core import ROOT
+        from .protocol import protocol_review
+        panel = pd.read_csv(ROOT / "data/processed/full_panel.csv", dtype={"CERT": str}, low_memory=False)
+        print(protocol_review(panel))
+    elif args.command == "build-analysis":
+        from .analysis import analysis_build
+        meta = analysis_build()
+        print({k:meta[k] for k in ["dataset_id", "rows", "banks", "split_memberships", "final_test_eligible_rows", "identifier_audit"]})
 
 
 if __name__ == "__main__":

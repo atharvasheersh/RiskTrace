@@ -1,0 +1,50 @@
+{
+  "status": "proposal_only_not_approved",
+  "development_only": true,
+  "recommended_protocol": "annual_2012_2020",
+  "options": [
+    {
+      "protocol": "original_fixed",
+      "first_report_year": 2019,
+      "last_report_year": 2021,
+      "rows": 10459,
+      "banks": 1065,
+      "positive_quarters": 0,
+      "distinct_positive_banks": 0
+    },
+    {
+      "protocol": "annual_2012_2020",
+      "first_report_year": 2012,
+      "last_report_year": 2020,
+      "rows": 26104,
+      "banks": 1213,
+      "positive_quarters": 17,
+      "distinct_positive_banks": 6
+    },
+    {
+      "protocol": "fixed_2013_2018",
+      "first_report_year": 2013,
+      "last_report_year": 2018,
+      "rows": 16886,
+      "banks": 969,
+      "positive_quarters": 14,
+      "distinct_positive_banks": 5
+    }
+  ],
+  "first_test_forecast_origin": "2022-05-30",
+  "parameter_selection_latest_date": "2022-05-29",
+  "all_proposed_validation_labels_mature_before_first_test": true,
+  "latest_final_fit_report_date": "2020-12-31",
+  "final_fit_counts": {
+    "rows": 31319,
+    "banks": 1295,
+    "positive_quarters": 64,
+    "distinct_positive_banks": 22
+  },
+  "limitations": [
+    "Only six independent positive banks in pooled candidate validation",
+    "Same failure can contribute quarters to adjacent folds; do not sum fold event counts",
+    "2021 labels cannot all be known by the first 2022 forecast",
+    "No preprocessing fitted, model trained or test performance inspected"
+  ]
+}
