@@ -1,0 +1,29 @@
+{
+  "url": "https://cercetare.ubbcluj.ro/wp-content/uploads/2018/02/JCR_iunie_2025.pdf",
+  "sha256": "86f3e2e44be263bcd0e5411b376995d6fe6a1ac3f9b1d9368549ad4870620274",
+  "checked": "2026-10-27",
+  "system": "JCR JIF",
+  "reference_year": 2024,
+  "release": "June 2025",
+  "status": "institutional reproduction; direct current Clarivate verification unavailable",
+  "rows": [
+    {
+      "journal": "Expert Systems with Applications",
+      "category": "Computer Science, Artificial Intelligence",
+      "quartile": "Q1",
+      "page": 118
+    },
+    {
+      "journal": "Decision Support Systems",
+      "category": "Computer Science, Artificial Intelligence",
+      "quartile": "Q1",
+      "page": 118
+    },
+    {
+      "journal": "Research in International Business and Finance",
+      "category": "Business, Finance",
+      "quartile": "Q1",
+      "page": 72
+    }
+  ]
+}

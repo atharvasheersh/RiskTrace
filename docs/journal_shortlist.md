@@ -62,3 +62,22 @@ Keep all three on a conditional shortlist. Choose after the pilot clarifies whet
 the strongest supported contribution is technical evaluation, decision support, or
 financial interpretation. Primary current Q1 verification remains an explicit access
 limitation; it is not resolved by repeating an aggregator's label.
+
+## Additional historical JCR evidence
+
+An institutional reproduction hosted by Babes-Bolyai University was subsequently
+accessible: https://cercetare.ubbcluj.ro/wp-content/uploads/2018/02/JCR_iunie_2025.pdf.
+The June 2025 release reproduces 2024 JCR classifications. Its header explicitly
+separates **JIF Quartile** from **AIS Quartile**. Text extraction and rendered-page
+inspection on 27 October 2026 confirmed:
+
+| Journal | Category | Edition | JIF quartile | PDF page |
+|---|---|---|---|---|
+| Expert Systems with Applications | Computer Science, Artificial Intelligence | SCIE | Q1 | 118 |
+| Decision Support Systems | Computer Science, Artificial Intelligence | SCIE | Q1 | 118 |
+| Research in International Business and Finance | Business, Finance | SSCI | Q1 | 72 |
+
+This supplies identifiable **historical JCR/JIF 2024 Q1 evidence through an
+institutional reproduction**. It does not establish current 2025/2026 rankings or
+replace direct Clarivate access. The current-ranking and fee limitations above
+remain. Source checksum and extraction provenance are in journal_rank_evidence.json.
