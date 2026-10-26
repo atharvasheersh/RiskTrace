@@ -1,0 +1,9 @@
+{
+  "stage": "9 environment setup",
+  "initial_status": "failed",
+  "cause": "Transient DNS resolution errors fetching sympy/filelock metadata from files.pythonhosted.org",
+  "effect": "Torch was initially unavailable, so its first test collection/smoke import failed; no predictive run completed on that attempt",
+  "resolution": "Verified native DNS/HTTPS access; retried unchanged package sources; locked sync succeeded",
+  "global_configuration_changed": false,
+  "remaining_setup_issue": null
+}

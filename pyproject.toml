@@ -13,6 +13,9 @@ dependencies = [
   "scipy==1.15.3",
   "scikit-learn==1.6.1",
   "PyYAML==6.0.2",
+  "xgboost==2.1.4",
+  "torch==2.6.0",
+  "matplotlib==3.10.1",
 ]
 
 [project.optional-dependencies]
@@ -27,3 +30,11 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

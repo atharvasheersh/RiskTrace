@@ -1,0 +1,29 @@
+version: 1
+purpose: bounded_exploratory_development_before_test_opening
+seeds: [11, 29, 47]
+cpu_threads: 2
+primary_metric: average_precision
+tie_break: lower_brier_score
+false_alarm_rate: 0.01
+calibration: identity_for_tabular; analytic_prior_correction_for_weighted_neural
+model_features: [equity_ratio, cash_ratio, loan_ratio, securities_ratio, noncurrent_ratio]
+families:
+  prevalence:
+    - {name: constant}
+  logistic:
+    - {name: C0.1, C: 0.1}
+    - {name: C1, C: 1.0}
+  xgboost:
+    - {name: depth2, max_depth: 2, n_estimators: 80, learning_rate: 0.05}
+    - {name: depth3, max_depth: 3, n_estimators: 80, learning_rate: 0.05}
+  gru:
+    - {name: hidden8, hidden: 8, epochs: 40, learning_rate: 0.01}
+    - {name: hidden16, hidden: 16, epochs: 40, learning_rate: 0.005}
+neural:
+  weight_decay: 0.001
+  max_positive_weight: 100.0
+  gradient_clip: 1.0
+  dropout: 0.0
+  history_reset: missing_or_unusable_report_or_RSSD_change
+selection: pooled_OOF_AP_of_seed_mean_probabilities; all_zero_event_years_retained
+budget: two_candidate_configs_per_learned_family; no_unbounded_search; CPU_only

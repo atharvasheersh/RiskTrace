@@ -5,7 +5,7 @@ from .core import config, report_dates
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["check-config", "pilot-data", "audit", "collect-half", "verify-integration", "review-protocol", "build-analysis"])
+    parser.add_argument("command", choices=["check-config", "pilot-data", "audit", "collect-half", "verify-integration", "review-protocol", "build-analysis", "train-baselines"])
     parser.add_argument("--file", help="Incoming raw-schema CSV for integration checks")
     args = parser.parse_args()
     spec = config()
@@ -39,6 +39,9 @@ def main():
         from .analysis import analysis_build
         meta = analysis_build()
         print({k:meta[k] for k in ["dataset_id", "rows", "banks", "split_memberships", "final_test_eligible_rows", "identifier_audit"]})
+    elif args.command == "train-baselines":
+        from .predictive import development
+        development(["prevalence","logistic","xgboost","gru"])
 
 
 if __name__ == "__main__":
