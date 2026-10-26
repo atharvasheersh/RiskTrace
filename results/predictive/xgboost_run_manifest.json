@@ -1,0 +1,1622 @@
+[
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2012",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "395bedaee7894a463d08",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.11987280001631007,
+    "artifact_directory": "results/cache/models/395bedaee7894a463d08",
+    "artifacts": [
+      {
+        "path": "results/cache/models/395bedaee7894a463d08/model.ubj",
+        "sha256": "b40cbb7753bca951dd3fa361f6580037072f5700327073423aecced5f0c5e06b",
+        "bytes": 67950
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2013",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "0308ed4be93c7a7ad140",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 0.07672529999399558,
+    "artifact_directory": "results/cache/models/0308ed4be93c7a7ad140",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0308ed4be93c7a7ad140/model.ubj",
+        "sha256": "250ede8c6cb57a29ed38fc3656ad20f60c69a76276e42f514a6504805eba7211",
+        "bytes": 69037
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2014",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "95d0beaa49e5d92d279a",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 0.07506860001012683,
+    "artifact_directory": "results/cache/models/95d0beaa49e5d92d279a",
+    "artifacts": [
+      {
+        "path": "results/cache/models/95d0beaa49e5d92d279a/model.ubj",
+        "sha256": "ec8dfd3418e7446eff29870b9841b3fe2f886b2958bb033ccf62ba89bb4fdfa9",
+        "bytes": 68766
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2015",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "59f1a1e110c0b5b2341a",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 0.08845360000850633,
+    "artifact_directory": "results/cache/models/59f1a1e110c0b5b2341a",
+    "artifacts": [
+      {
+        "path": "results/cache/models/59f1a1e110c0b5b2341a/model.ubj",
+        "sha256": "3bfe09982064cb2390d6d27dd08377483fc2ad3a039368cbe5d4d1161658656b",
+        "bytes": 69106
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2016",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "d8f9fb2fa398db227efc",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 0.11852989997714758,
+    "artifact_directory": "results/cache/models/d8f9fb2fa398db227efc",
+    "artifacts": [
+      {
+        "path": "results/cache/models/d8f9fb2fa398db227efc/model.ubj",
+        "sha256": "d7ac691799698d1844dcf20a0a15fcdebad8604f2e5608e48297d8c5471e3e50",
+        "bytes": 69446
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2017",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "0fba013a4eab7a7e1aed",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 0.11022879998199642,
+    "artifact_directory": "results/cache/models/0fba013a4eab7a7e1aed",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0fba013a4eab7a7e1aed/model.ubj",
+        "sha256": "f6afb068abdda378c3e5fd5949d19b8110ba86256ed579a716b49677efa1bf4a",
+        "bytes": 69309
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2018",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "ffd76fed806b9d4fa75b",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 0.12748710002051666,
+    "artifact_directory": "results/cache/models/ffd76fed806b9d4fa75b",
+    "artifacts": [
+      {
+        "path": "results/cache/models/ffd76fed806b9d4fa75b/model.ubj",
+        "sha256": "0b61dcaae04cb0ad53e055f8cb0b63f45e71265b3a84ee6548c301300e74a23a",
+        "bytes": 68902
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2019",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "30e46e6a8632acd52077",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 0.1397251000162214,
+    "artifact_directory": "results/cache/models/30e46e6a8632acd52077",
+    "artifacts": [
+      {
+        "path": "results/cache/models/30e46e6a8632acd52077/model.ubj",
+        "sha256": "c35c25314ecd03cfcc814f7c1c32940f99a5ba8c129869632ac086d224293f51",
+        "bytes": 68902
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2020",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "aea0f2e72aca51028003",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 0.14932329999282956,
+    "artifact_directory": "results/cache/models/aea0f2e72aca51028003",
+    "artifacts": [
+      {
+        "path": "results/cache/models/aea0f2e72aca51028003/model.ubj",
+        "sha256": "8187f11db72dd6f06a87b671c3c7f4324314b85278a00ca314a96c5b479c77ab",
+        "bytes": 68698
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2012",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "ed37305df6065e7c2bad",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.058937599998898804,
+    "artifact_directory": "results/cache/models/ed37305df6065e7c2bad",
+    "artifacts": [
+      {
+        "path": "results/cache/models/ed37305df6065e7c2bad/model.ubj",
+        "sha256": "2b64fdf5d72e979eb3075de1c08832f572c4c16d7e9f659ba63b5c3d0a679611",
+        "bytes": 68086
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2013",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "75dacfd3f12cd60a9dab",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 0.06542409997200593,
+    "artifact_directory": "results/cache/models/75dacfd3f12cd60a9dab",
+    "artifacts": [
+      {
+        "path": "results/cache/models/75dacfd3f12cd60a9dab/model.ubj",
+        "sha256": "eb72690339e79972d9057b95a69737c25867369e6ad91e544781e526e57033c9",
+        "bytes": 68697
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2014",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "36ae477b0fc0b6978311",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 0.09050970000680536,
+    "artifact_directory": "results/cache/models/36ae477b0fc0b6978311",
+    "artifacts": [
+      {
+        "path": "results/cache/models/36ae477b0fc0b6978311/model.ubj",
+        "sha256": "3cde7bd0272c1255b690f79fcad7fbae31c56101ce05424210429eb67e06f764",
+        "bytes": 68834
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2015",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "2ca1b7aa1b55c03bee1a",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 0.10648880002554506,
+    "artifact_directory": "results/cache/models/2ca1b7aa1b55c03bee1a",
+    "artifacts": [
+      {
+        "path": "results/cache/models/2ca1b7aa1b55c03bee1a/model.ubj",
+        "sha256": "a2e22944bf253c221642cfd583113fbdd1c550c608c9e5a9752e22b21aee9317",
+        "bytes": 68902
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2016",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "8361ea240cd88e66516f",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 0.09551500005181879,
+    "artifact_directory": "results/cache/models/8361ea240cd88e66516f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/8361ea240cd88e66516f/model.ubj",
+        "sha256": "46909b9fe02e51bf89d2b5f24238b1a8f3ac1eba1c1648be21fc51c7b24458bd",
+        "bytes": 69038
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2017",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "7e42431bf27fe826820f",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 0.10555049998220056,
+    "artifact_directory": "results/cache/models/7e42431bf27fe826820f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/7e42431bf27fe826820f/model.ubj",
+        "sha256": "14032bf14cdab281f9eb7e68d5d08755c9b624c7a54dfd050687401fb75065ce",
+        "bytes": 68969
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2018",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "0334467a5ee654c63cb5",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 0.12625700002536178,
+    "artifact_directory": "results/cache/models/0334467a5ee654c63cb5",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0334467a5ee654c63cb5/model.ubj",
+        "sha256": "747af4ff7ef663dd80766297940019b3fdd7f3795d22c0b6e78b827cc24f7fc8",
+        "bytes": 69242
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2019",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "a1051d69651d3c6a2e45",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 0.14050800004042685,
+    "artifact_directory": "results/cache/models/a1051d69651d3c6a2e45",
+    "artifacts": [
+      {
+        "path": "results/cache/models/a1051d69651d3c6a2e45/model.ubj",
+        "sha256": "ec4c10e8787e67eb58592239602c117be03a9876ac777b1bedb1aecf621ea1a3",
+        "bytes": 68970
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2020",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "ab2fef17d675d0c089da",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 0.1398922000080347,
+    "artifact_directory": "results/cache/models/ab2fef17d675d0c089da",
+    "artifacts": [
+      {
+        "path": "results/cache/models/ab2fef17d675d0c089da/model.ubj",
+        "sha256": "2f516c647716a4c7ffa07c8a761774e41abff3bce7d672935ff3968d10acbba9",
+        "bytes": 68902
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2012",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "24daf406ef2419d06f11",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.0541790000279434,
+    "artifact_directory": "results/cache/models/24daf406ef2419d06f11",
+    "artifacts": [
+      {
+        "path": "results/cache/models/24daf406ef2419d06f11/model.ubj",
+        "sha256": "47c69f2b2abdcc451351c297dc57e2c0fb343a1a8c494b5334a493b6ccf79251",
+        "bytes": 68222
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2013",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "dc88c88bb49530ebe156",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 0.069462800049223,
+    "artifact_directory": "results/cache/models/dc88c88bb49530ebe156",
+    "artifacts": [
+      {
+        "path": "results/cache/models/dc88c88bb49530ebe156/model.ubj",
+        "sha256": "d868f20af215098e5aa0f141b3bd759c4b28236792891b57c8084e2052501498",
+        "bytes": 68357
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2014",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "7873b655936330ccc0fe",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 0.09294949995819479,
+    "artifact_directory": "results/cache/models/7873b655936330ccc0fe",
+    "artifacts": [
+      {
+        "path": "results/cache/models/7873b655936330ccc0fe/model.ubj",
+        "sha256": "90691a34e6892d51a0d87444d91b4f0c89d3ca95c17bcfb01f6bb0c205e9130a",
+        "bytes": 68630
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2015",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "be8659747f0fc4f8a7bc",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 0.0866332000005059,
+    "artifact_directory": "results/cache/models/be8659747f0fc4f8a7bc",
+    "artifacts": [
+      {
+        "path": "results/cache/models/be8659747f0fc4f8a7bc/model.ubj",
+        "sha256": "5b3885adf158fd1ad340a3d3cd222c6c12890058871c7e88c55fba971f5af17d",
+        "bytes": 68834
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2016",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "b0a551fe818e92b1f4b7",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 0.10623520001536235,
+    "artifact_directory": "results/cache/models/b0a551fe818e92b1f4b7",
+    "artifacts": [
+      {
+        "path": "results/cache/models/b0a551fe818e92b1f4b7/model.ubj",
+        "sha256": "b8b02de9799b2a8ac8780b4d2c7045107c67af833f066a726b9797d5e267fd74",
+        "bytes": 68970
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2017",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "84648c5425487a658374",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 0.11156109999865294,
+    "artifact_directory": "results/cache/models/84648c5425487a658374",
+    "artifacts": [
+      {
+        "path": "results/cache/models/84648c5425487a658374/model.ubj",
+        "sha256": "963832cc2c84d323e7e26f6e503b7d7c2faeccfd24dad39a122f8b72b7d64129",
+        "bytes": 69037
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2018",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "ae194f656443882bb9a8",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 0.14679640001850203,
+    "artifact_directory": "results/cache/models/ae194f656443882bb9a8",
+    "artifacts": [
+      {
+        "path": "results/cache/models/ae194f656443882bb9a8/model.ubj",
+        "sha256": "7938ea46c27864195bfb9338985d82bf7c75dc9661b27638105e04971d1b5402",
+        "bytes": 68970
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2019",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "ba4ef425f8bd513c99d9",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 0.13809359999140725,
+    "artifact_directory": "results/cache/models/ba4ef425f8bd513c99d9",
+    "artifacts": [
+      {
+        "path": "results/cache/models/ba4ef425f8bd513c99d9/model.ubj",
+        "sha256": "088c4ac04c1210bc7e93ef2b3427843db224f18b13b4f8554f9558f33e3b5cbf",
+        "bytes": 68970
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2020",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "da2c9228a5cd06a51979",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 0.16441850003320724,
+    "artifact_directory": "results/cache/models/da2c9228a5cd06a51979",
+    "artifacts": [
+      {
+        "path": "results/cache/models/da2c9228a5cd06a51979/model.ubj",
+        "sha256": "acf6b9c2634ce9e40a7dd0b8da987d1eb27b55f102700147c0cbd71721cd40a3",
+        "bytes": 68766
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2012",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "3ad00f2816bd100de07f",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.05974080000305548,
+    "artifact_directory": "results/cache/models/3ad00f2816bd100de07f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/3ad00f2816bd100de07f/model.ubj",
+        "sha256": "082e1877047bd48c709a8e5e5b2e3ca3812c96cf7f57bcb7cb2de9795849bbee",
+        "bytes": 73937
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2013",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "1cdba29986f20f8c1578",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 0.07779050001408905,
+    "artifact_directory": "results/cache/models/1cdba29986f20f8c1578",
+    "artifacts": [
+      {
+        "path": "results/cache/models/1cdba29986f20f8c1578/model.ubj",
+        "sha256": "809bf224f373f85bec1b7dcf4770c6de07a4960201032bdb4b1cd4f6effaae25",
+        "bytes": 75915
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2014",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "0a1cde5f6654b7426fa5",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 0.08474249998107553,
+    "artifact_directory": "results/cache/models/0a1cde5f6654b7426fa5",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0a1cde5f6654b7426fa5/model.ubj",
+        "sha256": "e607bccc1e4744381917ff09cfdd109aef945edfde9dc6886d29a194726a85cc",
+        "bytes": 77144
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2015",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "93a71bc10d6249d657c3",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 0.09317429998191074,
+    "artifact_directory": "results/cache/models/93a71bc10d6249d657c3",
+    "artifacts": [
+      {
+        "path": "results/cache/models/93a71bc10d6249d657c3/model.ubj",
+        "sha256": "e125e5992c7cee9316d0375ec354e8a3ba1847855911c9416f2b8d2176617d90",
+        "bytes": 76810
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2016",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "125ff394085d3674f254",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 0.10502990003442392,
+    "artifact_directory": "results/cache/models/125ff394085d3674f254",
+    "artifacts": [
+      {
+        "path": "results/cache/models/125ff394085d3674f254/model.ubj",
+        "sha256": "da5b11f2a0ebf0fd6aa315f7a80f0da320efc6cafd68c0f1bf92612f7cd5181c",
+        "bytes": 77222
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2017",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "0a611d81d6285cef1d3a",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 0.11857869999948889,
+    "artifact_directory": "results/cache/models/0a611d81d6285cef1d3a",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0a611d81d6285cef1d3a/model.ubj",
+        "sha256": "70e8360c996ddc5130cb17a94e25f04a6603bbb029d5a52f51b381e8aab08292",
+        "bytes": 76946
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2018",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "464bca06b79b994da9bc",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 0.12860160000855103,
+    "artifact_directory": "results/cache/models/464bca06b79b994da9bc",
+    "artifacts": [
+      {
+        "path": "results/cache/models/464bca06b79b994da9bc/model.ubj",
+        "sha256": "93823ef649c970902267abde7561d5d48148313073438e41e33148190f7779d8",
+        "bytes": 77284
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2019",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "bd38d6c2473eea46f688",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 0.13870850001694635,
+    "artifact_directory": "results/cache/models/bd38d6c2473eea46f688",
+    "artifacts": [
+      {
+        "path": "results/cache/models/bd38d6c2473eea46f688/model.ubj",
+        "sha256": "aea44095c7aed69c6f527341db499a98c019e0da98a5663f042fe701935dc784",
+        "bytes": 77150
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "annual_2020",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "7ef1479959e881438126",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 0.15469070000108331,
+    "artifact_directory": "results/cache/models/7ef1479959e881438126",
+    "artifacts": [
+      {
+        "path": "results/cache/models/7ef1479959e881438126/model.ubj",
+        "sha256": "38a9d6ee6e9c210ef8ec002a8c9c12fc0eee9b22bf9d1792134489be91bb9d8a",
+        "bytes": 76466
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2012",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "009fb877b4dbb3073c00",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.0671592999715358,
+    "artifact_directory": "results/cache/models/009fb877b4dbb3073c00",
+    "artifacts": [
+      {
+        "path": "results/cache/models/009fb877b4dbb3073c00/model.ubj",
+        "sha256": "32992a0e193b23d8a7ea78cb4c8b563f9b2dfe446ffe117b3c8153e880cbfc40",
+        "bytes": 73665
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2013",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "3e0a10e49e1f097c0d6f",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 0.09211580001283437,
+    "artifact_directory": "results/cache/models/3e0a10e49e1f097c0d6f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/3e0a10e49e1f097c0d6f/model.ubj",
+        "sha256": "e0c2491f383540ac539203b007de4fb8b8fc5bb458b6a43a393e19b10b2daa02",
+        "bytes": 75576
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2014",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "e98d47a0fd5682ae442f",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 0.08252350002294406,
+    "artifact_directory": "results/cache/models/e98d47a0fd5682ae442f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/e98d47a0fd5682ae442f/model.ubj",
+        "sha256": "ecf405cacc0d7ca63b95d24bf496a2d0a435d3dcd49e51f7bfd0291dfafa10b9",
+        "bytes": 76125
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2015",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "d2237ccd27b3348aafa7",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 0.10277779999887571,
+    "artifact_directory": "results/cache/models/d2237ccd27b3348aafa7",
+    "artifacts": [
+      {
+        "path": "results/cache/models/d2237ccd27b3348aafa7/model.ubj",
+        "sha256": "0d0b53e0ca3e8be67a9a2e9e39709b9372a2117d57a8ace8f81a03db44ffaf12",
+        "bytes": 76943
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2016",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "de9d4be8806f613cface",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 0.11362750001717359,
+    "artifact_directory": "results/cache/models/de9d4be8806f613cface",
+    "artifacts": [
+      {
+        "path": "results/cache/models/de9d4be8806f613cface/model.ubj",
+        "sha256": "81673dc847087ef8ead5b74f4e6dd4db0ccc0d8d6a4ab96f641bd61e1baf046c",
+        "bytes": 76740
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2017",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "6a49f5bf031c2d3787b5",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 0.12176489998819306,
+    "artifact_directory": "results/cache/models/6a49f5bf031c2d3787b5",
+    "artifacts": [
+      {
+        "path": "results/cache/models/6a49f5bf031c2d3787b5/model.ubj",
+        "sha256": "12ef5207aec6032a7c15456ed9a07ed504597336815746dcf071dd540a961845",
+        "bytes": 76256
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2018",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "b82267d2dca797da874e",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 0.12138020002748817,
+    "artifact_directory": "results/cache/models/b82267d2dca797da874e",
+    "artifacts": [
+      {
+        "path": "results/cache/models/b82267d2dca797da874e/model.ubj",
+        "sha256": "8a726484cb44f7c240d7171f8ab121433b8228b3e77c30918df174828e74211b",
+        "bytes": 77355
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2019",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "956d6e0beacb5634968b",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 0.1352760000154376,
+    "artifact_directory": "results/cache/models/956d6e0beacb5634968b",
+    "artifacts": [
+      {
+        "path": "results/cache/models/956d6e0beacb5634968b/model.ubj",
+        "sha256": "2e38b6170d161fd04211dd3191ce1b0f36096f68235e1e955bb63bdf1e8282a8",
+        "bytes": 76467
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "annual_2020",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "4447e718d32d49656e95",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 0.17226429999573156,
+    "artifact_directory": "results/cache/models/4447e718d32d49656e95",
+    "artifacts": [
+      {
+        "path": "results/cache/models/4447e718d32d49656e95/model.ubj",
+        "sha256": "499480305b5f7c3107699486b180e7a8cb8d33a96fc68b6d035b5d28df6e50d8",
+        "bytes": 77012
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2012",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "621cde790574d95d059d",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.06777389999479055,
+    "artifact_directory": "results/cache/models/621cde790574d95d059d",
+    "artifacts": [
+      {
+        "path": "results/cache/models/621cde790574d95d059d/model.ubj",
+        "sha256": "eebd4af4df799c2bff9f2994b689d360ff3dc71d9def2b19ded4252a8929b27c",
+        "bytes": 73596
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2013",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "33e4e0640e7b0670a346",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 0.0818174000014551,
+    "artifact_directory": "results/cache/models/33e4e0640e7b0670a346",
+    "artifacts": [
+      {
+        "path": "results/cache/models/33e4e0640e7b0670a346/model.ubj",
+        "sha256": "df5233e540d514b8cc0c5d3fe51c3e1521fe52ccd5621fc103b828d2b5a84f00",
+        "bytes": 75642
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2014",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "5822573e8e4fde06a1c3",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 0.08680329995695502,
+    "artifact_directory": "results/cache/models/5822573e8e4fde06a1c3",
+    "artifacts": [
+      {
+        "path": "results/cache/models/5822573e8e4fde06a1c3/model.ubj",
+        "sha256": "9169219dcfd6424b5bb545f49fef821ea93192256f1161cbb08aa220248788e3",
+        "bytes": 76534
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2015",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "b6d87c7dd1c893821d24",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 0.10029390000272542,
+    "artifact_directory": "results/cache/models/b6d87c7dd1c893821d24",
+    "artifacts": [
+      {
+        "path": "results/cache/models/b6d87c7dd1c893821d24/model.ubj",
+        "sha256": "f5377d7fd4b25278e999124eca5409c709173d646f5375dca2bbfde5ca4f4b0d",
+        "bytes": 76668
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2016",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "0130497da23217dc68ba",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 0.11514149996219203,
+    "artifact_directory": "results/cache/models/0130497da23217dc68ba",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0130497da23217dc68ba/model.ubj",
+        "sha256": "883b82c847a454797c5015ee080b332b254d4bf44e8a1e51377a590b53ad3808",
+        "bytes": 76876
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2017",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "0931af726ad22ea3c676",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 0.11581170000135899,
+    "artifact_directory": "results/cache/models/0931af726ad22ea3c676",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0931af726ad22ea3c676/model.ubj",
+        "sha256": "3011034f38d38b8358166c744cedc05d9974fbfd460a3ee5c3e3b3ea20fc902c",
+        "bytes": 76874
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2018",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "3606c815073f79d2dbee",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 0.1455265000113286,
+    "artifact_directory": "results/cache/models/3606c815073f79d2dbee",
+    "artifacts": [
+      {
+        "path": "results/cache/models/3606c815073f79d2dbee/model.ubj",
+        "sha256": "636790840c8019b9abf011a321c320165fafd3dab3eb2c78d86068d7d3f40db4",
+        "bytes": 77149
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2019",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "38c15a7de04919f10816",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 0.1559906000038609,
+    "artifact_directory": "results/cache/models/38c15a7de04919f10816",
+    "artifacts": [
+      {
+        "path": "results/cache/models/38c15a7de04919f10816/model.ubj",
+        "sha256": "1f8157c1f697c45c0ca7f9afac75c14c63b4cf3254fae74b4eb901593621ecd3",
+        "bytes": 76946
+      }
+    ]
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth3",
+      "max_depth": 3,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "annual_2020",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "8599ae8e93044346d6caeb52c7f2e4ade3d819e11873183cbd58ee25b54daa12",
+    "run_id": "02d2594fdfe7dc042175",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 0.1588606999721378,
+    "artifact_directory": "results/cache/models/02d2594fdfe7dc042175",
+    "artifacts": [
+      {
+        "path": "results/cache/models/02d2594fdfe7dc042175/model.ubj",
+        "sha256": "92fd2dd7de7c062a63274833faa1fc945fbf347aa64577f5fb18ac59bd7457ec",
+        "bytes": 76946
+      }
+    ]
+  }
+]

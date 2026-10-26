@@ -26,9 +26,9 @@ model's historical label-maturity cutoff. Add explicit forecast-origin contracts
 |---:|---|---|---|
 | 1 | Atharva: verify checkout, source hashes, counts, existing tests, attribution and remote | Existing source snapshot reproduced; no unrelated work altered | Verified |
 | 2 | Atharva: quantify development-only protocol alternatives; authors choose | docs/evaluation_protocol_revision.md plus recorded decision | User approved annual 2012--2020 rolling validation |
-| 3 | Atharva: rebuild canonical data directly from official snapshots; reconcile any collaborator file field by field | Source lineage, conflict/exclusion logs, identifier/missingness/unit checks | In progress; Ayush submission absent |
-| 4 | Atharva: implement the approved maturity-aware chronological folds and training-only preprocessing; Ayush: finance/source review | Versioned analysis dataset, fixed split keys, leakage audit, decision/config hashes | Dependent on order 2; do not mark frozen yet |
-| 5 | Atharva: train prevalence reference, logistic regression, XGBoost, then GRU | Development baseline table, calibration/Brier/AP, false-alarm thresholds and event warnings | Not started |
+| 3 | Atharva: rebuild canonical data directly from official snapshots; reconcile any collaborator file field by field | Source lineage, conflict/exclusion logs, identifier/missingness/unit checks | Canonical rebuild verified; Ayush submission absent |
+| 4 | Atharva: implement the approved maturity-aware chronological folds and training-only preprocessing; Ayush: finance/source review | Versioned analysis dataset, fixed split keys, leakage audit, decision/config hashes | Computational freeze complete; finance/vintage limitations retained |
+| 5 | Atharva: train prevalence reference, logistic regression, XGBoost, then GRU | Development baseline table, calibration/Brier/AP, false-alarm thresholds and event warnings | Completed 135 development fits; no test performance opened |
 | 6 | Atharva: bounded static GAT and temporal GAT+GRU; matched no-graph/shuffled/exogenous controls | Trained checkpoints and development evidence of graph value or its absence | Not started |
 | 7 | Atharva and authors: lock models, thresholds, explanation settings, robustness analyses and primary claims | Signed/recorded analysis plan; immutable version/run identifiers | Not started; precedes any test-performance inspection |
 | 8 | Atharva: run the fixed final predictive evaluation and attention/established-explainer/random comparisons | Final predictions and equal-budget explanation outputs | Not started |

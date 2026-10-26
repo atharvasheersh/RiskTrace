@@ -1,0 +1,133 @@
+{
+  "prevalence": {
+    "candidate": {
+      "name": "constant"
+    },
+    "threshold": 0.013803680981595092,
+    "metrics": {
+      "family": "prevalence",
+      "candidate": "constant",
+      "rows": 26104,
+      "positive_quarters": 17,
+      "distinct_positive_banks": 6,
+      "prevalence": 0.0006512411890897947,
+      "average_precision": 0.0013473826424512953,
+      "auroc": 0.7402143055251771,
+      "brier": 0.0006822790034882444,
+      "threshold": 0.013803680981595092,
+      "false_alarm_rate": 0.0,
+      "quarter_recall": 0.0,
+      "event_recall": 0.0,
+      "detected_events": 0,
+      "missed_events": 6,
+      "median_warning_days_detected": null
+    },
+    "seeds": [
+      11
+    ],
+    "dataset_id": "analysis-v1-15e5448d4a96",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "calibration": "identity_for_tabular; analytic_prior_correction_for_weighted_neural"
+  },
+  "logistic": {
+    "candidate": {
+      "name": "C1",
+      "C": 1.0
+    },
+    "threshold": 0.011837809031347133,
+    "metrics": {
+      "family": "logistic",
+      "candidate": "C1",
+      "rows": 26104,
+      "positive_quarters": 17,
+      "distinct_positive_banks": 6,
+      "prevalence": 0.0006512411890897947,
+      "average_precision": 0.19670242814503439,
+      "auroc": 0.9831265967497897,
+      "brier": 0.0007285231634971462,
+      "threshold": 0.011837809031347133,
+      "false_alarm_rate": 0.00996665005558324,
+      "quarter_recall": 0.8235294117647058,
+      "event_recall": 1.0,
+      "detected_events": 6,
+      "missed_events": 0,
+      "median_warning_days_detected": 308.5
+    },
+    "seeds": [
+      11
+    ],
+    "dataset_id": "analysis-v1-15e5448d4a96",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "calibration": "identity_for_tabular; analytic_prior_correction_for_weighted_neural"
+  },
+  "xgboost": {
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "threshold": 0.007936892099678516,
+    "metrics": {
+      "family": "xgboost",
+      "candidate": "depth2",
+      "rows": 26104,
+      "positive_quarters": 17,
+      "distinct_positive_banks": 6,
+      "prevalence": 0.0006512411890897947,
+      "average_precision": 0.20422977094517752,
+      "auroc": 0.9788783685360524,
+      "brier": 0.0006598494386302128,
+      "threshold": 0.007936892099678516,
+      "false_alarm_rate": 0.00996665005558324,
+      "quarter_recall": 0.7058823529411765,
+      "event_recall": 1.0,
+      "detected_events": 6,
+      "missed_events": 0,
+      "median_warning_days_detected": 235.0
+    },
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "dataset_id": "analysis-v1-15e5448d4a96",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "calibration": "identity_for_tabular; analytic_prior_correction_for_weighted_neural"
+  },
+  "gru": {
+    "candidate": {
+      "name": "hidden8",
+      "hidden": 8,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "threshold": 0.02376624383032322,
+    "metrics": {
+      "family": "gru",
+      "candidate": "hidden8",
+      "rows": 26104,
+      "positive_quarters": 17,
+      "distinct_positive_banks": 6,
+      "prevalence": 0.0006512411890897947,
+      "average_precision": 0.051659805377736526,
+      "auroc": 0.9523449813858154,
+      "brier": 0.0006732508932314598,
+      "threshold": 0.02376624383032322,
+      "false_alarm_rate": 0.00996665005558324,
+      "quarter_recall": 0.7647058823529411,
+      "event_recall": 0.8333333333333334,
+      "detected_events": 5,
+      "missed_events": 1,
+      "median_warning_days_detected": 329.0
+    },
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "dataset_id": "analysis-v1-15e5448d4a96",
+    "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
+    "calibration": "identity_for_tabular; analytic_prior_correction_for_weighted_neural"
+  }
+}
