@@ -1,0 +1,35 @@
+{
+  "checked_on": "2026-10-27",
+  "scope": "Targeted scoping review, not an exhaustive systematic review",
+  "queries": [
+    "graph construction explanation recomputed banking",
+    "GNN faithfulness derived features graph construction",
+    "graph construction explanation financial dependencies",
+    "GInX-Eval github",
+    "CF3 Huaming github",
+    "Deconfounding to Explanation Evaluation github"
+  ],
+  "code_inspections": [
+    {
+      "url": "https://github.com/k-amara/GInX-Eval/blob/main/src/finetune_hard.py",
+      "git_blob_sha": "e5628a310d39245b19d1b74cce5117065c89cf91",
+      "finding": "Filters ranked edge masks then calls trainer.train for degraded datasets."
+    },
+    {
+      "url": "https://github.com/k-amara/GInX-Eval/blob/main/src/evaluation/fidelity.py",
+      "git_blob_sha": "17cc056af29f014d6e470d070433f888e8d4a798",
+      "finding": "Computes class-probability differences between origin, maskout, and masked predictions."
+    },
+    {
+      "url": "https://github.com/AslanDing/Robust-Fidelity/blob/6e1e0782140f24457ea9b13f4643105f00c78a94/tools/fidelity.py",
+      "git_blob_sha": "400de385e9b17fbd03c916e900717036fe1ae18a",
+      "finding": "Accepts supplied nodes/edges and samples edge-weight edits; no bank raw-record dependency builder in inspected file."
+    }
+  ],
+  "limits": [
+    "Selected implementation files were read, not run.",
+    "Absence of a bank-specific builder in selected files does not prove absence in all prior work.",
+    "CF3 code could not be reliably identified from the inspected author version.",
+    "Bibliography entries are verified title/year/URL records; author and final publication metadata need completion before manuscript submission."
+  ]
+}
