@@ -5,7 +5,7 @@ from .core import config, report_dates
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["check-config", "pilot-data"])
+    parser.add_argument("command", choices=["check-config", "pilot-data", "audit"])
     args = parser.parse_args()
     spec = config()
     if args.command == "check-config":
@@ -16,6 +16,9 @@ def main():
         from .data import collect
         summary = collect("pilot")
         print({k: summary[k] for k in ["rows", "banks", "distinct_positive_banks", "label_cutoff"]})
+    elif args.command == "audit":
+        from .audit import run_audit
+        print(run_audit().to_string(index=False))
 
 
 if __name__ == "__main__":

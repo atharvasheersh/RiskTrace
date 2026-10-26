@@ -1,0 +1,26 @@
+{
+  "model": "standardized raw ratios; directed feature-kNN neighbor mean; exponential-memory state; logistic readout",
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "predictor_fit": "periods 0-3 only, bank bootstrap, balanced logistic readout",
+  "embargo": "periods 4-7; replay states but do not use labels for fitting",
+  "evaluation": "periods 8-11; edit period 8 or 11 and predict period 11",
+  "explanation": "absolute leave-one-group-out response; equal top-one group budget; three prespecified groups",
+  "necessity": "p(original)-p(replace selected group)",
+  "sufficiency_gap": "p(original)-p(keep selected group and replace others)",
+  "sufficiency_gain": "p(keep selected group)-p(replace all groups)",
+  "invalid": "count every attempted group subset; reject invalid without resampling; whole-case comparisons require seven valid subsets",
+  "limitations": [
+    "Not a full temporal GNN",
+    "No point-in-time data vintages",
+    "Donors and graph rebuild do not ensure in-distribution or causal validity",
+    "Development bank subset is case-enriched; scores cannot estimate population performance",
+    "Seeds vary bank bootstrap, donor choice and random control; effects are not isolated training-seed uncertainty",
+    "No human explanation ground truth, significance test or financial materiality threshold established"
+  ],
+  "no_graph_and_exogenous_zero_gap_verified": true,
+  "frozen_parameters_all_runs": true
+}

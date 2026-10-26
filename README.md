@@ -31,6 +31,14 @@ responses against checksums, checks source counts, joins failure outcomes and
 writes data/processed/pilot_panel.csv plus results/pilot_data_summary.json.
 The failure source index date conservatively bounds the labeling cutoff.
 
+```powershell
+uv run --locked risktrace audit
+```
+
+Runs the synthetic demonstration and limited development-bank paired audit. See
+docs/audit_methods.md and docs/novelty_pilot_decision.md before interpreting results.
+The pilot uses a small graph-aggregation/memory/logistic model, not a full TGNN.
+
 Atharva Sheersh Pandey owns half the banks and all technical/ML work. Ayush Sinha
 owns the other half, finance literature, documentation and cases, with no ML tasks.
 The bank allocation is separate from the chronological model-evaluation split.
