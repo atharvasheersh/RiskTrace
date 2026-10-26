@@ -1,0 +1,35 @@
+{
+  "eligible_banks": 1614,
+  "total_eligible_bank_quarters": 51339,
+  "quarters": 64,
+  "allocation_rule": "SHA256('RiskTrace-v1:' + canonical CERT), ascending, alternating Atharva then Ayush; odd extra to Atharva",
+  "expected_definition": "all official returned eligible CERT/quarter records after count/uniqueness checks, not 64 rows for every bank",
+  "label_cutoff": "2026-08-25",
+  "owners": [
+    {
+      "owner": "Atharva Sheersh Pandey",
+      "assigned_banks": 807,
+      "expected_eligible_bank_quarters": 25517,
+      "collected_eligible_bank_quarters": 25517,
+      "missing_eligible_records": 0,
+      "unusable_financial_records": 123,
+      "usable_labeled_records": 23852,
+      "potential_interruption_quarters": 579,
+      "unresolved_interruption_quarters": 0,
+      "status": "validated against bulk source totals; interruption resolutions recorded separately"
+    },
+    {
+      "owner": "Ayush Sinha",
+      "assigned_banks": 807,
+      "expected_eligible_bank_quarters": 25822,
+      "collected_eligible_bank_quarters": null,
+      "missing_eligible_records": null,
+      "unusable_financial_records": null,
+      "usable_labeled_records": null,
+      "potential_interruption_quarters": 554,
+      "unresolved_interruption_quarters": 0,
+      "status": "submission not received or checked; no completion claim"
+    }
+  ],
+  "scope_limit": "No independent historical roster reconciliation or point-in-time publication vintages; merger/competing-risk analysis remains incomplete"
+}

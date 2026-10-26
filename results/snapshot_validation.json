@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "unique_source_snapshots": 85,
+  "processed_hashes_verified": 3,
+  "full_bank_quarters": 51339,
+  "eligible_banks": 1614,
+  "atharva_banks": 807,
+  "atharva_bank_quarters": 25517,
+  "all_financial_features_labels_and_flags_recomputed": true,
+  "allocation_recomputed": true,
+  "audit_parameter_fingerprints_verified": 30,
+  "audit_cases_verified": 1660,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "PyYAML": "6.0.2"
+  },
+  "caveat": "Internal snapshot/provenance consistency only; not independent certification of source accuracy or publication novelty"
+}

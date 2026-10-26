@@ -109,5 +109,5 @@ def label_panel(frame, failures, spec):
     for split, boundary in [("train", spec["train_end"]), ("validation", spec["validation_end"])]:
         next_report = pd.Timestamp(boundary) + pd.offsets.QuarterEnd()
         next_available = next_report + pd.Timedelta(days=spec["availability_lag_days"])
-        out.loc[out.split.eq(split) & (out.availability_date + pd.DateOffset(months=12)).ge(next_available), "purged"] = True
+        out.loc[out.split.eq(split) & (out.availability_date + pd.DateOffset(months=spec["horizon_months"])).ge(next_available), "purged"] = True
     return out

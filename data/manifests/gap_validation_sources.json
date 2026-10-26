@@ -1,0 +1,140 @@
+[
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=CERT%3A%2810146+OR+10307+OR+11459+OR+11666+OR+11807+OR+12204+OR+12769+OR+12969+OR+12978+OR+13055+OR+13060+OR+13063+OR+13109+OR+13397+OR+13622+OR+1365+OR+14+OR+14065+OR+14816+OR+15032+OR+1520+OR+15229+OR+15511+OR+15562+OR+15912+OR+15932+OR+16216+OR+16402+OR+16553+OR+16571+OR+16636+OR+16664+OR+1678+OR+16849+OR+17093+OR+17180+OR+17233+OR+17614+OR+17658+OR+17741%29+AND+REPDTE%3A%5B20100331+TO+20251231%5D&fields=CERT%2CREPDTE%2CASSET%2CBKCLASS&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "CERT:(10146 OR 10307 OR 11459 OR 11666 OR 11807 OR 12204 OR 12769 OR 12969 OR 12978 OR 13055 OR 13060 OR 13063 OR 13109 OR 13397 OR 13622 OR 1365 OR 14 OR 14065 OR 14816 OR 15032 OR 1520 OR 15229 OR 15511 OR 15562 OR 15912 OR 15932 OR 16216 OR 16402 OR 16553 OR 16571 OR 16636 OR 16664 OR 1678 OR 16849 OR 17093 OR 17180 OR 17233 OR 17614 OR 17658 OR 17741) AND REPDTE:[20100331 TO 20251231]",
+      "fields": "CERT,REPDTE,ASSET,BKCLASS",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:45:48.508833+00:00",
+    "path": "data/raw/financials_cd47a182a6dc8adaaad2b949.json",
+    "sha256": "c9f1350bb350d42b02c53f557261ce3926400e651ec6fbe2bea085a86bec281f",
+    "bytes": 256600,
+    "total": 2412,
+    "returned": 2412,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=CERT%3A%2817809+OR+18013+OR+18100+OR+18199+OR+1874+OR+18983+OR+19184+OR+19459+OR+19772+OR+20015+OR+20099+OR+20156+OR+20161+OR+20164+OR+20225+OR+20280+OR+20624+OR+20727+OR+2102+OR+21606+OR+21868+OR+22346+OR+22537+OR+22559+OR+22653+OR+2315+OR+23415+OR+24229+OR+24540+OR+24897+OR+24920+OR+25247+OR+25679+OR+26218+OR+26247+OR+26323+OR+26451+OR+26960+OR+27044+OR+27089%29+AND+REPDTE%3A%5B20100331+TO+20251231%5D&fields=CERT%2CREPDTE%2CASSET%2CBKCLASS&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "CERT:(17809 OR 18013 OR 18100 OR 18199 OR 1874 OR 18983 OR 19184 OR 19459 OR 19772 OR 20015 OR 20099 OR 20156 OR 20161 OR 20164 OR 20225 OR 20280 OR 20624 OR 20727 OR 2102 OR 21606 OR 21868 OR 22346 OR 22537 OR 22559 OR 22653 OR 2315 OR 23415 OR 24229 OR 24540 OR 24897 OR 24920 OR 25247 OR 25679 OR 26218 OR 26247 OR 26323 OR 26451 OR 26960 OR 27044 OR 27089) AND REPDTE:[20100331 TO 20251231]",
+      "fields": "CERT,REPDTE,ASSET,BKCLASS",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:45:51.768274+00:00",
+    "path": "data/raw/financials_ada8ac9302941dd3282ffc0b.json",
+    "sha256": "ca6cfbef54e82b821e70ea136b1c7a385e77a2ee0a5a9724a5644b9e9726edca",
+    "bytes": 237714,
+    "total": 2235,
+    "returned": 2235,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=CERT%3A%2827132+OR+27332+OR+27381+OR+2740+OR+27552+OR+27572+OR+27872+OR+27943+OR+27998+OR+28258+OR+28316+OR+2832+OR+28380+OR+28533+OR+28798+OR+29042+OR+29058+OR+29147+OR+29520+OR+29657+OR+29782+OR+30003+OR+30039+OR+30273+OR+30401+OR+30704+OR+30720+OR+3116+OR+31313+OR+31361+OR+31445+OR+31953+OR+3210+OR+32242+OR+32266+OR+32282+OR+32363+OR+32718+OR+3285+OR+32974%29+AND+REPDTE%3A%5B20100331+TO+20251231%5D&fields=CERT%2CREPDTE%2CASSET%2CBKCLASS&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "CERT:(27132 OR 27332 OR 27381 OR 2740 OR 27552 OR 27572 OR 27872 OR 27943 OR 27998 OR 28258 OR 28316 OR 2832 OR 28380 OR 28533 OR 28798 OR 29042 OR 29058 OR 29147 OR 29520 OR 29657 OR 29782 OR 30003 OR 30039 OR 30273 OR 30401 OR 30704 OR 30720 OR 3116 OR 31313 OR 31361 OR 31445 OR 31953 OR 3210 OR 32242 OR 32266 OR 32282 OR 32363 OR 32718 OR 3285 OR 32974) AND REPDTE:[20100331 TO 20251231]",
+      "fields": "CERT,REPDTE,ASSET,BKCLASS",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:45:55.068643+00:00",
+    "path": "data/raw/financials_92df04df156d3b1aa800981c.json",
+    "sha256": "b00e281738e37a01b4290aa07b565b346a1309a365fb707e81b6f4f7d4e4f6b1",
+    "bytes": 234989,
+    "total": 2211,
+    "returned": 2211,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=CERT%3A%2833188+OR+33457+OR+33492+OR+33708+OR+33758+OR+33867+OR+3387+OR+33928+OR+34010+OR+34011+OR+34210+OR+34211+OR+34252+OR+34401+OR+34726+OR+34728+OR+34803+OR+34934+OR+34940+OR+34997+OR+35+OR+35006+OR+35100+OR+35123+OR+35412+OR+35518+OR+35525+OR+3744+OR+384+OR+3869+OR+4016+OR+4062+OR+4147+OR+4190+OR+4297+OR+4433+OR+4506+OR+4533+OR+4972+OR+5058%29+AND+REPDTE%3A%5B20100331+TO+20251231%5D&fields=CERT%2CREPDTE%2CASSET%2CBKCLASS&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "CERT:(33188 OR 33457 OR 33492 OR 33708 OR 33758 OR 33867 OR 3387 OR 33928 OR 34010 OR 34011 OR 34210 OR 34211 OR 34252 OR 34401 OR 34726 OR 34728 OR 34803 OR 34934 OR 34940 OR 34997 OR 35 OR 35006 OR 35100 OR 35123 OR 35412 OR 35518 OR 35525 OR 3744 OR 384 OR 3869 OR 4016 OR 4062 OR 4147 OR 4190 OR 4297 OR 4433 OR 4506 OR 4533 OR 4972 OR 5058) AND REPDTE:[20100331 TO 20251231]",
+      "fields": "CERT,REPDTE,ASSET,BKCLASS",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:45:58.300062+00:00",
+    "path": "data/raw/financials_2c7181c181412cd6d606fc4a.json",
+    "sha256": "8fab450871b5050a99f526ca68a12cdf2c3c360e470dcccec61b2156395ae11f",
+    "bytes": 247907,
+    "total": 2348,
+    "returned": 2348,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=CERT%3A%285093+OR+5123+OR+5304+OR+5415+OR+5529+OR+5575+OR+5615+OR+57061+OR+57197+OR+57369+OR+57415+OR+57450+OR+57451+OR+57483+OR+57522+OR+57614+OR+57825+OR+58+OR+58013+OR+58054+OR+58115+OR+58119+OR+58188+OR+58194+OR+5826+OR+58267+OR+58303+OR+58479+OR+58485+OR+58492+OR+58590+OR+58595+OR+58632+OR+58739+OR+58752+OR+58935+OR+59205+OR+597+OR+6271+OR+639%29+AND+REPDTE%3A%5B20100331+TO+20251231%5D&fields=CERT%2CREPDTE%2CASSET%2CBKCLASS&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "CERT:(5093 OR 5123 OR 5304 OR 5415 OR 5529 OR 5575 OR 5615 OR 57061 OR 57197 OR 57369 OR 57415 OR 57450 OR 57451 OR 57483 OR 57522 OR 57614 OR 57825 OR 58 OR 58013 OR 58054 OR 58115 OR 58119 OR 58188 OR 58194 OR 5826 OR 58267 OR 58303 OR 58479 OR 58485 OR 58492 OR 58590 OR 58595 OR 58632 OR 58739 OR 58752 OR 58935 OR 59205 OR 597 OR 6271 OR 639) AND REPDTE:[20100331 TO 20251231]",
+      "fields": "CERT,REPDTE,ASSET,BKCLASS",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:46:01.543861+00:00",
+    "path": "data/raw/financials_5d5e4ba65df3a42d0cdb3f03.json",
+    "sha256": "31b595e517617ab4f54fbfe844d078f3f771ef63bc1c8b1fc3af678bf19a0b9a",
+    "bytes": 251537,
+    "total": 2385,
+    "returned": 2385,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=CERT%3A%286540+OR+660+OR+6811+OR+6861+OR+7151+OR+7404+OR+7461+OR+7472+OR+7506+OR+7675+OR+7714+OR+8056+OR+8405+OR+8668+OR+8888+OR+8892+OR+90203+OR+90235+OR+90253+OR+903+OR+90303+OR+9314+OR+9457+OR+9678+OR+9978%29+AND+REPDTE%3A%5B20100331+TO+20251231%5D&fields=CERT%2CREPDTE%2CASSET%2CBKCLASS&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "CERT:(6540 OR 660 OR 6811 OR 6861 OR 7151 OR 7404 OR 7461 OR 7472 OR 7506 OR 7675 OR 7714 OR 8056 OR 8405 OR 8668 OR 8888 OR 8892 OR 90203 OR 90235 OR 90253 OR 903 OR 90303 OR 9314 OR 9457 OR 9678 OR 9978) AND REPDTE:[20100331 TO 20251231]",
+      "fields": "CERT,REPDTE,ASSET,BKCLASS",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:46:04.140228+00:00",
+    "path": "data/raw/financials_11b774cb3820daba83e8fc5d.json",
+    "sha256": "7a21cc4fce91bcf72ad2075fb6a7eccde4def1cd841577e11be8d7e050879583",
+    "bytes": 164512,
+    "total": 1570,
+    "returned": 1570,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  }
+]

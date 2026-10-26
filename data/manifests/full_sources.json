@@ -1,0 +1,1497 @@
+[
+  {
+    "url": "https://api.fdic.gov/banks/failures?filters=FAILDATE%3A%5B2010-01-01+TO+2026-10-27%5D&fields=CERT%2CNAME%2CFAILDATE%2CRESTYPE1%2CFIN&limit=10000&offset=0&sort_by=FAILDATE&sort_order=ASC&format=json",
+    "endpoint": "failures",
+    "parameters": {
+      "filters": "FAILDATE:[2010-01-01 TO 2026-10-27]",
+      "fields": "CERT,NAME,FAILDATE,RESTYPE1,FIN",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "FAILDATE",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:28:28.738949+00:00",
+    "path": "data/raw/failures_035ac60466f9ea14b08e490f.json",
+    "sha256": "6b0603d5eba830ed303d3ed06983a8ed2f5891e8be3dc0df854bc109b5bfc2c6",
+    "bytes": 50286,
+    "total": 384,
+    "returned": 384,
+    "source_index": {
+      "name": "failures_1787667198788",
+      "createTimestamp": "2026-08-25T14:13:18Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20100331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20100331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:11.652041+00:00",
+    "path": "data/raw/financials_eb15fcda58987cb5834c988e.json",
+    "sha256": "2cebaaaf46d7a31d4931c9ad6b4c326c50a2fe9b3252695361c6134b3a1327fb",
+    "bytes": 265735,
+    "total": 674,
+    "returned": 674,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20100630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20100630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:14.373021+00:00",
+    "path": "data/raw/financials_fd0382ac4acf2519f56d3ec9.json",
+    "sha256": "bd911c194abccb029e2fdcc5b56ae6c28e4e9ea7ec6a8ff03b545f61fcbea080",
+    "bytes": 258168,
+    "total": 654,
+    "returned": 654,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20100930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20100930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:16.868574+00:00",
+    "path": "data/raw/financials_1d766d96f8c49e2d50bdc3c1.json",
+    "sha256": "942227675d186d54688752e1f50e27275b6a66a71debf8f21c8535875b397aea",
+    "bytes": 260247,
+    "total": 659,
+    "returned": 659,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20101231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20101231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:19.443685+00:00",
+    "path": "data/raw/financials_309665d57cdc27ec1226a2cd.json",
+    "sha256": "457fb47f505c2b8e3450a4a69ce0b8503d0e64a510c5f26947e1eb7d33ae5123",
+    "bytes": 260781,
+    "total": 660,
+    "returned": 660,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20110331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20110331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:22.040545+00:00",
+    "path": "data/raw/financials_93baa3c1a152d1fe5e456d46.json",
+    "sha256": "21fb1f9d70ce9bfe86478c61158f593470433ffef727cb2e9bf174d8c66a29df",
+    "bytes": 261872,
+    "total": 664,
+    "returned": 664,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20110630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20110630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:24.573045+00:00",
+    "path": "data/raw/financials_29902bee04a0f7d63b9fac67.json",
+    "sha256": "96b04534a6489a7ee344c951130fa009ffb54720864525ab4c26a5b54b40a87a",
+    "bytes": 260850,
+    "total": 661,
+    "returned": 661,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20110930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20110930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:27.173298+00:00",
+    "path": "data/raw/financials_425c6c4deed34c79f1de135c.json",
+    "sha256": "fae89873027b3af2b1c3b8da627b1c86b812c1728a992f3499c2cebd93446b1a",
+    "bytes": 260563,
+    "total": 660,
+    "returned": 660,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20111231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20111231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:29.679052+00:00",
+    "path": "data/raw/financials_20b9a09d7d5a3307f3821d1f.json",
+    "sha256": "31320e4643083409463cd523914d71634553af94de4fe875d81f044bae65acc6",
+    "bytes": 257277,
+    "total": 651,
+    "returned": 651,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20120331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20120331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:32.258711+00:00",
+    "path": "data/raw/financials_89335532adfade2c12cceeee.json",
+    "sha256": "90325ae7d4c2722aa63595c3a7fe858fcde77b7fac07302b937c1093928c1498",
+    "bytes": 259652,
+    "total": 658,
+    "returned": 658,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20120630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20120630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:34.770498+00:00",
+    "path": "data/raw/financials_7ecf4dc4babf27cc8930ca9c.json",
+    "sha256": "c563636aeba9d1582ee5b30138e14a0951e54c03e3e53690a82c41e8dd7f2e81",
+    "bytes": 257798,
+    "total": 653,
+    "returned": 653,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20120930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20120930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:37.408739+00:00",
+    "path": "data/raw/financials_8f69cfa357accc560dea48d8.json",
+    "sha256": "bc33e4cb1ae673949ebd7c38de52e1c1ebb1db14738a7418b33e40194112e27b",
+    "bytes": 257546,
+    "total": 652,
+    "returned": 652,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20121231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20121231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:30:39.960861+00:00",
+    "path": "data/raw/financials_34ae9a05a42511d65894c0ed.json",
+    "sha256": "c108a53ede44697950a7c453208a8122f7e9ce6644e7b2f3dc31a2bfd816cb70",
+    "bytes": 258377,
+    "total": 654,
+    "returned": 654,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20130331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20130331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:14.180595+00:00",
+    "path": "data/raw/financials_e04dc5015c9e3b8b8f4ba961.json",
+    "sha256": "7027099c22a614d7d20060bdfc4984517bd793ab4fbe2080a2c0297b4e04bb17",
+    "bytes": 258323,
+    "total": 655,
+    "returned": 655,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20130630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20130630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:16.855310+00:00",
+    "path": "data/raw/financials_abc43b69bf3e14ccc2fa3213.json",
+    "sha256": "911148f6b89fbe2a7c4704ee3e6042dcfdfeb9d50fe5eaf1d2efc874f14af086",
+    "bytes": 254935,
+    "total": 646,
+    "returned": 646,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20130930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20130930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:19.440435+00:00",
+    "path": "data/raw/financials_b0c95716763033c51caf9293.json",
+    "sha256": "09df2e7514073dfd053ae9713dcc233686ccb6f1de22e8a51f23407ea69e7c12",
+    "bytes": 260988,
+    "total": 661,
+    "returned": 661,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20131231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20131231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:22.066091+00:00",
+    "path": "data/raw/financials_91d361ac3371048eca09660e.json",
+    "sha256": "2fcd90229d6f17466778f2c6be620bb205cab3496b425582278a611fe52907f6",
+    "bytes": 260361,
+    "total": 659,
+    "returned": 659,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20140331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20140331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:24.748940+00:00",
+    "path": "data/raw/financials_acd1e091522337b7d2a0b72f.json",
+    "sha256": "227b28afc4ff906642079e34b07759a14baef42eac94a521158145e0f0a9ea8a",
+    "bytes": 261551,
+    "total": 663,
+    "returned": 663,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20140630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20140630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:27.532934+00:00",
+    "path": "data/raw/financials_5229df63124ddd4a4e35171c.json",
+    "sha256": "141a9e8a3a8309f69afe601b53a41b89d97adb4f31fee1a47d94546503f840d9",
+    "bytes": 262850,
+    "total": 666,
+    "returned": 666,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20140930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20140930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:30.099108+00:00",
+    "path": "data/raw/financials_0e398803408520b33be06b7a.json",
+    "sha256": "7288e4ded4e83bf69e39735a53ca7b54418573f029f972bbfdf19bdfcb8430b6",
+    "bytes": 266462,
+    "total": 675,
+    "returned": 675,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20141231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20141231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:32.955328+00:00",
+    "path": "data/raw/financials_1a72a2992983cac537aa2623.json",
+    "sha256": "ebec89cdbbae3987bbb308cc42d99d27d3ce33285ec7b7c87f8a4f40a07fa53b",
+    "bytes": 265450,
+    "total": 672,
+    "returned": 672,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20150331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20150331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:35.696144+00:00",
+    "path": "data/raw/financials_ba42b43890433d475a0d7e05.json",
+    "sha256": "f2b8608772c9effa8864d3189af02c8155dd33aba989597b2e51ef2f6c5912b2",
+    "bytes": 270095,
+    "total": 685,
+    "returned": 685,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20150630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20150630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:38.306579+00:00",
+    "path": "data/raw/financials_f26194b377ae6888b802da2d.json",
+    "sha256": "f4577eb27403982a0b8c8239b2a82f7ce4859df471040d33ed3cff33d31e5830",
+    "bytes": 273405,
+    "total": 693,
+    "returned": 693,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20150930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20150930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:40.937363+00:00",
+    "path": "data/raw/financials_d5d65771e239f4e4966f19a4.json",
+    "sha256": "7107e04fc9399de12ce0cbdc746285ad40611354fd2704136a95e7c38047771b",
+    "bytes": 275600,
+    "total": 698,
+    "returned": 698,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20151231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20151231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:43.785919+00:00",
+    "path": "data/raw/financials_fdc8c03a8b940de93da3bfc3.json",
+    "sha256": "644222f229effed8da3cf928b760fc60489df48ec8289db66dea133470b7e3f1",
+    "bytes": 274144,
+    "total": 694,
+    "returned": 694,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20160331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20160331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:46.251054+00:00",
+    "path": "data/raw/financials_c120a86bae91ffda210a5928.json",
+    "sha256": "063d37aedc591b807bc80ade7b6166935c9d5c6943333492bd1c02397a088426",
+    "bytes": 282226,
+    "total": 716,
+    "returned": 716,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20160630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20160630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:48.955455+00:00",
+    "path": "data/raw/financials_00e2438731936c932bf06cfe.json",
+    "sha256": "2d2bffbed558c37a9220fad3712757eb346f2ed1460b01e5914deced4048bcfe",
+    "bytes": 284438,
+    "total": 721,
+    "returned": 721,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20160930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20160930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:51.608064+00:00",
+    "path": "data/raw/financials_d11e610790a69e1d9473a675.json",
+    "sha256": "20d4cb1694f7a44cdbe2cacb948f4630d470d8c975ae5f6e8bf226836f80b25f",
+    "bytes": 286230,
+    "total": 725,
+    "returned": 725,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20161231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20161231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:54.190053+00:00",
+    "path": "data/raw/financials_078620bbd7daa5b04dbae430.json",
+    "sha256": "ce03719827e8d12eebcc80b1ff5ce8a083eb8d4e6cfe83dca2235aee590527a9",
+    "bytes": 286794,
+    "total": 726,
+    "returned": 726,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20170331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20170331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:56.916294+00:00",
+    "path": "data/raw/financials_35155a8ca505e68ca5d171cd.json",
+    "sha256": "8d462ee6bfc81a60bc9dcb7d5019ac002103b3566b4f54f63bf6bc262d162f1c",
+    "bytes": 292208,
+    "total": 741,
+    "returned": 741,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20170630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20170630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:40:59.514244+00:00",
+    "path": "data/raw/financials_a343ec385dfaaf15573e5453.json",
+    "sha256": "54e7d259386b538bdae2b9398efc54599b07c6bc0847a36d97ca3b835d68c879",
+    "bytes": 293175,
+    "total": 743,
+    "returned": 743,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20170930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20170930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:02.135989+00:00",
+    "path": "data/raw/financials_e9b77621c29e33e84dfdbd5b.json",
+    "sha256": "788479560ec2bff19728083552e02a3f170eb4f33aba115836b30cd6568f6ad6",
+    "bytes": 294978,
+    "total": 747,
+    "returned": 747,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20171231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20171231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:04.619921+00:00",
+    "path": "data/raw/financials_63134c9724cb56fbf1696a8e.json",
+    "sha256": "4d0fd564ebf81fe6ba47901d0de8fe559ff1e0b85f0d970964b115e4eecd2fa3",
+    "bytes": 292701,
+    "total": 741,
+    "returned": 741,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20180331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20180331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:07.165224+00:00",
+    "path": "data/raw/financials_055c4fa091f396d3a640480f.json",
+    "sha256": "b99f651ba930b8c57ae4f88aab08f6ce19ee5c5fbd45e83115b73dc32c246b65",
+    "bytes": 296247,
+    "total": 751,
+    "returned": 751,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20180630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20180630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:09.736854+00:00",
+    "path": "data/raw/financials_2d4c2250a6f471255eaeb858.json",
+    "sha256": "f6f902edf49bcd5e2dfe7bc1360f18a50f8bb28cc6ca7bced0ce0c18fcf3d414",
+    "bytes": 300679,
+    "total": 762,
+    "returned": 762,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20180930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20180930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:13.052122+00:00",
+    "path": "data/raw/financials_c8789a6cd69c32e1fa07bfac.json",
+    "sha256": "7c281a18bdfd0545513251069b51910f0440db786725605319ed08b1e4f3dacc",
+    "bytes": 301705,
+    "total": 764,
+    "returned": 764,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20181231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20181231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:15.617139+00:00",
+    "path": "data/raw/financials_bf99ca607abfac946d6474b5.json",
+    "sha256": "8d25a8aa2f0380030fb3dfa802c6e4849e042481992e19980ac4c78dbf66f46c",
+    "bytes": 302658,
+    "total": 766,
+    "returned": 766,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20190331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20190331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:18.180695+00:00",
+    "path": "data/raw/financials_dc535551cf3c46f59a12504b.json",
+    "sha256": "5aa02c80acef064396dafdfc0375f9a3dc6b04ec90e17f9a4cc96fcd3c82f3d7",
+    "bytes": 307590,
+    "total": 780,
+    "returned": 780,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20190630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20190630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:20.648108+00:00",
+    "path": "data/raw/financials_47186e07bcac9ccf875d0335.json",
+    "sha256": "3f956b425fc50515d2851f389ef6625b04929532d55e11f14a93103439886768",
+    "bytes": 309048,
+    "total": 783,
+    "returned": 783,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20190930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20190930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:23.256076+00:00",
+    "path": "data/raw/financials_a9cde78f1a2fd89238cdcc8c.json",
+    "sha256": "8a4a6ffa2824386af32d25d15ccaae5bd21a9fde3607938c89626e140a75aede",
+    "bytes": 313991,
+    "total": 795,
+    "returned": 795,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20191231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20191231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:26.062282+00:00",
+    "path": "data/raw/financials_32267c066a2f1ef13f45bc63.json",
+    "sha256": "574beeeab87e0c49be5ed02d6f773597acdd9c1e4e36106da351e38cd3c77b6e",
+    "bytes": 310596,
+    "total": 786,
+    "returned": 786,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20200331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20200331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:28.694276+00:00",
+    "path": "data/raw/financials_5013d8987dc9a3cbff78baf4.json",
+    "sha256": "77c1c3c71b23400d5927f215d7c4d2e1a84df530b03dab08ba54f62b163d6d8a",
+    "bytes": 319676,
+    "total": 811,
+    "returned": 811,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20200630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20200630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:31.463568+00:00",
+    "path": "data/raw/financials_09172090c5cb52043a863d70.json",
+    "sha256": "957a806d34db357a96f041aca97723ef22e4aca2ffb9ec5df606ab064b19087f",
+    "bytes": 350930,
+    "total": 890,
+    "returned": 890,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20200930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20200930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:34.105161+00:00",
+    "path": "data/raw/financials_3b0186f089dd18d5c642bb37.json",
+    "sha256": "842119e4ce1f33ff111a16a2258fe5c80bd0de94064489088ca15b059d80f1f1",
+    "bytes": 356692,
+    "total": 904,
+    "returned": 904,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20201231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20201231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:36.792275+00:00",
+    "path": "data/raw/financials_c114d7d8a8ce415903d766e5.json",
+    "sha256": "623a648d601fda0dd88d1c836256a2c20bf95e64d6c5cae98f904b0a761639a9",
+    "bytes": 360985,
+    "total": 914,
+    "returned": 914,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20210331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20210331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:39.362353+00:00",
+    "path": "data/raw/financials_1731030611ed24aa471aa9e9.json",
+    "sha256": "e952b29e3436aa11e2c19d405658cb425aa86b6c27190dbefe4de5ebe8ec57af",
+    "bytes": 374999,
+    "total": 951,
+    "returned": 951,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20210630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20210630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:41.994110+00:00",
+    "path": "data/raw/financials_60e48be4ce36b2096a2cc2b0.json",
+    "sha256": "168e1ab1722fe229810cb76ddaa2ec142a2c1b2b62c318cd06729ce7818559cf",
+    "bytes": 380359,
+    "total": 964,
+    "returned": 964,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20210930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20210930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:44.651764+00:00",
+    "path": "data/raw/financials_b60d388be8dc8ea778023e00.json",
+    "sha256": "35e3d93e9ca1d67231339ce794dd5c48d03e4237e16d02667b3a25ee56473e4f",
+    "bytes": 387651,
+    "total": 982,
+    "returned": 982,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20211231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20211231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:47.732678+00:00",
+    "path": "data/raw/financials_febd8df75948c6ca42b423cc.json",
+    "sha256": "7e68794c6cb7b775a3d4c14cf5f5fcaba28507e2e6417cd48b8f928204ed2520",
+    "bytes": 379233,
+    "total": 960,
+    "returned": 960,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20220331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20220331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:51.148510+00:00",
+    "path": "data/raw/financials_9a0fa890e23c1ad0f822a750.json",
+    "sha256": "3015f00a3e0316ba21532502dd3c6fdd5cd1ac967baf866a6b411de3513b6b11",
+    "bytes": 382908,
+    "total": 972,
+    "returned": 972,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20220630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20220630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:54.017334+00:00",
+    "path": "data/raw/financials_b556f3fd3bb36d852f16b5a5.json",
+    "sha256": "fd2ba735c68e7414363365c7bda87c9e0c7cd119654775fd3675ee57080519c4",
+    "bytes": 379531,
+    "total": 963,
+    "returned": 963,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20220930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20220930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:57.230511+00:00",
+    "path": "data/raw/financials_e3b63c4dea02f4c774519cc4.json",
+    "sha256": "e70b10e447dc8997863bc4844ec2cfad1b32dae0df4b7a7a2ac7d325f603adf9",
+    "bytes": 383912,
+    "total": 974,
+    "returned": 974,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20221231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20221231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:41:59.894517+00:00",
+    "path": "data/raw/financials_418cfde45466d92c06a1adc1.json",
+    "sha256": "f328db47fadbcf921bb9a6261acf2f508a8983388e836552964ca0d4cd27f1a1",
+    "bytes": 381707,
+    "total": 968,
+    "returned": 968,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20230331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20230331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:02.451459+00:00",
+    "path": "data/raw/financials_cd170e486db062384512eb0c.json",
+    "sha256": "6d39cbcd79d892fdcd1ec6a529cae031209e41f381b3ac65064dcc3905a6dca7",
+    "bytes": 383710,
+    "total": 975,
+    "returned": 975,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20230630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20230630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:05.039475+00:00",
+    "path": "data/raw/financials_1df7a560d58fd5d5de7d95fb.json",
+    "sha256": "68d8a276fa658529950b44d522a961f0b2b8d4da83c11a3b24e2ff85f34f64de",
+    "bytes": 385014,
+    "total": 978,
+    "returned": 978,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20230930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20230930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:07.606790+00:00",
+    "path": "data/raw/financials_fd5d740117420f1160799b75.json",
+    "sha256": "e78bcf7d08e89a680b5769c0a76582dbf2d33e9933ce361325f1944fae3781e0",
+    "bytes": 387662,
+    "total": 984,
+    "returned": 984,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20231231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20231231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:10.238275+00:00",
+    "path": "data/raw/financials_e28df5a111e096e2c84ae4ca.json",
+    "sha256": "232e556963f0cf53138552a3848078e3cb66310afc242dac5d2c727051905072",
+    "bytes": 384563,
+    "total": 975,
+    "returned": 975,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20240331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20240331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:13.217933+00:00",
+    "path": "data/raw/financials_459fe1190910e34f99f3da8d.json",
+    "sha256": "c3a9406bee0e3b4378c682a34694770281d7948baf79369ab8a9aa60def8d79a",
+    "bytes": 396953,
+    "total": 1009,
+    "returned": 1009,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20240630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20240630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:15.832155+00:00",
+    "path": "data/raw/financials_62f2524bc9aaa4ec21e9bda3.json",
+    "sha256": "65161e8f48298858611b254de8df3f8a235f9496abfa1de6376eeed68770b81d",
+    "bytes": 396905,
+    "total": 1008,
+    "returned": 1008,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20240930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20240930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:18.625912+00:00",
+    "path": "data/raw/financials_bdb1f89ffdb6b811ae98a7a2.json",
+    "sha256": "64e2e33c28efaf140c04f21879211901a3232721bca4ba7860c7931810fb5943",
+    "bytes": 399695,
+    "total": 1014,
+    "returned": 1014,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20241231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20241231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:21.379391+00:00",
+    "path": "data/raw/financials_1747dc9994ae3be55b46e2a3.json",
+    "sha256": "4204e5e22403ae4bdf822dcd3c34e3c89e5a95b855f6f41602bdf5988b6ca68f",
+    "bytes": 395311,
+    "total": 1002,
+    "returned": 1002,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20250331+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20250331 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:24.023288+00:00",
+    "path": "data/raw/financials_09801e9ba8ebad250a141f93.json",
+    "sha256": "ed77f77070e79b6c620a597f0d0c27e81cc63d55d157764cef34872f410f0acb",
+    "bytes": 402831,
+    "total": 1023,
+    "returned": 1023,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20250630+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20250630 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:27.178508+00:00",
+    "path": "data/raw/financials_f071fd1321e666d7b78bf2ee.json",
+    "sha256": "59a8a72d4313f8c0df183ef12812bd721704ab8f511ba430814199c594d7b04a",
+    "bytes": 406201,
+    "total": 1031,
+    "returned": 1031,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20250930+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20250930 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:30.306852+00:00",
+    "path": "data/raw/financials_815007f602b0e5392e2536ca.json",
+    "sha256": "dbef0f162c517046e5eec85f61ba60a311000b243e075d4f6721448795858c28",
+    "bytes": 408823,
+    "total": 1037,
+    "returned": 1037,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  },
+  {
+    "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20251231+AND+ASSET%3A%5B1000000+TO+249999999%5D+AND+BKCLASS%3A%28N+OR+NM+OR+SM+OR+SB+OR+SI+OR+SL%29&fields=CERT%2CREPDTE%2CNAME%2CRSSDID%2CSTALP%2CBKCLASS%2CINSAGNT1%2CASSET%2CLIAB%2CEQ%2CEQTOT%2CDEP%2CDEPDOM%2CDEPUNINS%2CDEPINS%2CCHBAL%2CLNLSNET%2CLNLSGR%2CNCLNLS%2CSC%2CSCAF%2CNETINC&limit=10000&offset=0&sort_by=CERT&sort_order=ASC&format=json",
+    "endpoint": "financials",
+    "parameters": {
+      "filters": "REPDTE:20251231 AND ASSET:[1000000 TO 249999999] AND BKCLASS:(N OR NM OR SM OR SB OR SI OR SL)",
+      "fields": "CERT,REPDTE,NAME,RSSDID,STALP,BKCLASS,INSAGNT1,ASSET,LIAB,EQ,EQTOT,DEP,DEPDOM,DEPUNINS,DEPINS,CHBAL,LNLSNET,LNLSGR,NCLNLS,SC,SCAF,NETINC",
+      "limit": 10000,
+      "offset": 0,
+      "sort_by": "CERT",
+      "sort_order": "ASC",
+      "format": "json"
+    },
+    "retrieved_utc": "2026-10-26T21:42:33.260104+00:00",
+    "path": "data/raw/financials_adae7d594ba9f53da4cd713f.json",
+    "sha256": "02755f757a10962b31e24b73b8f9880c67590b1e0aa70c5e6a2191f8459dbe09",
+    "bytes": 408521,
+    "total": 1036,
+    "returned": 1036,
+    "source_index": {
+      "name": "risview_20260819185831",
+      "createTimestamp": "2026-08-19T18:58:33Z"
+    }
+  }
+]

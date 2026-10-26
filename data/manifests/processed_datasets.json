@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "path": "data/processed/full_panel.csv",
+      "sha256": "a8d20e27d82fb096cdfd0eeb1ab23d820db45cf4ba921dbbc32478e1707574a4",
+      "bytes": 18746175,
+      "generated_utc": "2026-10-26T21:47:44.719410+00:00"
+    },
+    {
+      "path": "data/processed/atharva_bank_panel.csv",
+      "sha256": "90c8b533cc5448eda51b6a29af87fd1247694282912ebd73574353f0fc25ac2c",
+      "bytes": 9904015,
+      "generated_utc": "2026-10-26T21:47:44.750694+00:00"
+    },
+    {
+      "path": "data/processed/failures.csv",
+      "sha256": "ba25dd7de7f05ea35752ad13f4383073dbc57fe7ca6fa5bb34af093a974f9b9d",
+      "bytes": 20522,
+      "generated_utc": "2026-10-26T21:47:44.769317+00:00"
+    }
+  ],
+  "config_sha256": "8e1b6692f1181ce05ae780d8c295d92daf5baee54418ee25ee8b685b03839acd",
+  "label_cutoff": "2026-08-25",
+  "source_manifest": "data/manifests/full_sources.json",
+  "transform": "risktrace.core.normalize/label_panel; risktrace.data.finalize_collection"
+}

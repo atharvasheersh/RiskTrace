@@ -1,0 +1,876 @@
+{
+  "rows": 51339,
+  "banks": 1614,
+  "quarters": 64,
+  "eligible_rows": 51339,
+  "financial_usable_rows": 51054,
+  "usable_labeled_rows": 47940,
+  "positive_quarters": 80,
+  "distinct_positive_banks": 26,
+  "already_failed_rows": 22,
+  "censored_rows": 3104,
+  "failure_source_records": 384,
+  "missing_fields": {
+    "CERT": 0,
+    "REPDTE": 0,
+    "NAME": 0,
+    "RSSDID": 0,
+    "STALP": 0,
+    "BKCLASS": 0,
+    "INSAGNT1": 0,
+    "ASSET": 0,
+    "LIAB": 0,
+    "EQ": 0,
+    "EQTOT": 0,
+    "DEP": 0,
+    "DEPDOM": 0,
+    "DEPUNINS": 0,
+    "DEPINS": 0,
+    "CHBAL": 0,
+    "LNLSNET": 0,
+    "LNLSGR": 0,
+    "NCLNLS": 0,
+    "SC": 0,
+    "SCAF": 0,
+    "NETINC": 0
+  },
+  "quarter_coverage": [
+    {
+      "report_date": "2010-03-31",
+      "rows": 674,
+      "banks": 674,
+      "usable": 659,
+      "positive_quarters": 9,
+      "invalid_accounting": 0,
+      "invalid_ranges": 1
+    },
+    {
+      "report_date": "2010-06-30",
+      "rows": 654,
+      "banks": 654,
+      "usable": 646,
+      "positive_quarters": 10,
+      "invalid_accounting": 0,
+      "invalid_ranges": 1
+    },
+    {
+      "report_date": "2010-09-30",
+      "rows": 659,
+      "banks": 659,
+      "usable": 651,
+      "positive_quarters": 10,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2010-12-31",
+      "rows": 660,
+      "banks": 660,
+      "usable": 652,
+      "positive_quarters": 7,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2011-03-31",
+      "rows": 664,
+      "banks": 664,
+      "usable": 657,
+      "positive_quarters": 6,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2011-06-30",
+      "rows": 661,
+      "banks": 661,
+      "usable": 653,
+      "positive_quarters": 2,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2011-09-30",
+      "rows": 660,
+      "banks": 660,
+      "usable": 653,
+      "positive_quarters": 2,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2011-12-31",
+      "rows": 651,
+      "banks": 651,
+      "usable": 644,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2012-03-31",
+      "rows": 658,
+      "banks": 658,
+      "usable": 652,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2012-06-30",
+      "rows": 653,
+      "banks": 653,
+      "usable": 649,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2012-09-30",
+      "rows": 652,
+      "banks": 652,
+      "usable": 646,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2012-12-31",
+      "rows": 654,
+      "banks": 654,
+      "usable": 650,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2013-03-31",
+      "rows": 655,
+      "banks": 655,
+      "usable": 651,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2013-06-30",
+      "rows": 646,
+      "banks": 646,
+      "usable": 643,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2013-09-30",
+      "rows": 661,
+      "banks": 661,
+      "usable": 658,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2013-12-31",
+      "rows": 659,
+      "banks": 659,
+      "usable": 655,
+      "positive_quarters": 2,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2014-03-31",
+      "rows": 663,
+      "banks": 663,
+      "usable": 659,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2014-06-30",
+      "rows": 666,
+      "banks": 666,
+      "usable": 662,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2014-09-30",
+      "rows": 675,
+      "banks": 675,
+      "usable": 671,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2014-12-31",
+      "rows": 672,
+      "banks": 672,
+      "usable": 668,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2015-03-31",
+      "rows": 685,
+      "banks": 685,
+      "usable": 681,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2015-06-30",
+      "rows": 693,
+      "banks": 693,
+      "usable": 690,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2015-09-30",
+      "rows": 698,
+      "banks": 698,
+      "usable": 696,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2015-12-31",
+      "rows": 694,
+      "banks": 694,
+      "usable": 690,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2016-03-31",
+      "rows": 716,
+      "banks": 716,
+      "usable": 713,
+      "positive_quarters": 2,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2016-06-30",
+      "rows": 721,
+      "banks": 721,
+      "usable": 718,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2016-09-30",
+      "rows": 725,
+      "banks": 725,
+      "usable": 722,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2016-12-31",
+      "rows": 726,
+      "banks": 726,
+      "usable": 723,
+      "positive_quarters": 2,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2017-03-31",
+      "rows": 741,
+      "banks": 741,
+      "usable": 736,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2017-06-30",
+      "rows": 743,
+      "banks": 743,
+      "usable": 740,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2017-09-30",
+      "rows": 747,
+      "banks": 747,
+      "usable": 744,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2017-12-31",
+      "rows": 741,
+      "banks": 741,
+      "usable": 738,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2018-03-31",
+      "rows": 751,
+      "banks": 751,
+      "usable": 747,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2018-06-30",
+      "rows": 762,
+      "banks": 762,
+      "usable": 759,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2018-09-30",
+      "rows": 764,
+      "banks": 764,
+      "usable": 760,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2018-12-31",
+      "rows": 766,
+      "banks": 766,
+      "usable": 762,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2019-03-31",
+      "rows": 780,
+      "banks": 780,
+      "usable": 776,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2019-06-30",
+      "rows": 783,
+      "banks": 783,
+      "usable": 778,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2019-09-30",
+      "rows": 795,
+      "banks": 795,
+      "usable": 790,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2019-12-31",
+      "rows": 786,
+      "banks": 786,
+      "usable": 781,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2020-03-31",
+      "rows": 811,
+      "banks": 811,
+      "usable": 805,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 1
+    },
+    {
+      "report_date": "2020-06-30",
+      "rows": 890,
+      "banks": 890,
+      "usable": 884,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 1
+    },
+    {
+      "report_date": "2020-09-30",
+      "rows": 904,
+      "banks": 904,
+      "usable": 898,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 1
+    },
+    {
+      "report_date": "2020-12-31",
+      "rows": 914,
+      "banks": 914,
+      "usable": 909,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2021-03-31",
+      "rows": 951,
+      "banks": 951,
+      "usable": 946,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2021-06-30",
+      "rows": 964,
+      "banks": 964,
+      "usable": 959,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2021-09-30",
+      "rows": 982,
+      "banks": 982,
+      "usable": 978,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2021-12-31",
+      "rows": 960,
+      "banks": 960,
+      "usable": 955,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2022-03-31",
+      "rows": 972,
+      "banks": 972,
+      "usable": 967,
+      "positive_quarters": 3,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2022-06-30",
+      "rows": 963,
+      "banks": 963,
+      "usable": 958,
+      "positive_quarters": 3,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2022-09-30",
+      "rows": 974,
+      "banks": 974,
+      "usable": 969,
+      "positive_quarters": 3,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2022-12-31",
+      "rows": 968,
+      "banks": 968,
+      "usable": 963,
+      "positive_quarters": 3,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2023-03-31",
+      "rows": 975,
+      "banks": 975,
+      "usable": 969,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2023-06-30",
+      "rows": 978,
+      "banks": 978,
+      "usable": 973,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2023-09-30",
+      "rows": 984,
+      "banks": 984,
+      "usable": 979,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2023-12-31",
+      "rows": 975,
+      "banks": 975,
+      "usable": 970,
+      "positive_quarters": 1,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2024-03-31",
+      "rows": 1009,
+      "banks": 1009,
+      "usable": 1004,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2024-06-30",
+      "rows": 1008,
+      "banks": 1008,
+      "usable": 1004,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2024-09-30",
+      "rows": 1014,
+      "banks": 1014,
+      "usable": 1010,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2024-12-31",
+      "rows": 1002,
+      "banks": 1002,
+      "usable": 998,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2025-03-31",
+      "rows": 1023,
+      "banks": 1023,
+      "usable": 1019,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2025-06-30",
+      "rows": 1031,
+      "banks": 1031,
+      "usable": 0,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2025-09-30",
+      "rows": 1037,
+      "banks": 1037,
+      "usable": 0,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    },
+    {
+      "report_date": "2025-12-31",
+      "rows": 1036,
+      "banks": 1036,
+      "usable": 0,
+      "positive_quarters": 0,
+      "invalid_accounting": 0,
+      "invalid_ranges": 0
+    }
+  ],
+  "label_cutoff": "2026-08-25",
+  "source_quarter_counts": [
+    {
+      "report_date": "20100331",
+      "source_count": 674
+    },
+    {
+      "report_date": "20100630",
+      "source_count": 654
+    },
+    {
+      "report_date": "20100930",
+      "source_count": 659
+    },
+    {
+      "report_date": "20101231",
+      "source_count": 660
+    },
+    {
+      "report_date": "20110331",
+      "source_count": 664
+    },
+    {
+      "report_date": "20110630",
+      "source_count": 661
+    },
+    {
+      "report_date": "20110930",
+      "source_count": 660
+    },
+    {
+      "report_date": "20111231",
+      "source_count": 651
+    },
+    {
+      "report_date": "20120331",
+      "source_count": 658
+    },
+    {
+      "report_date": "20120630",
+      "source_count": 653
+    },
+    {
+      "report_date": "20120930",
+      "source_count": 652
+    },
+    {
+      "report_date": "20121231",
+      "source_count": 654
+    },
+    {
+      "report_date": "20130331",
+      "source_count": 655
+    },
+    {
+      "report_date": "20130630",
+      "source_count": 646
+    },
+    {
+      "report_date": "20130930",
+      "source_count": 661
+    },
+    {
+      "report_date": "20131231",
+      "source_count": 659
+    },
+    {
+      "report_date": "20140331",
+      "source_count": 663
+    },
+    {
+      "report_date": "20140630",
+      "source_count": 666
+    },
+    {
+      "report_date": "20140930",
+      "source_count": 675
+    },
+    {
+      "report_date": "20141231",
+      "source_count": 672
+    },
+    {
+      "report_date": "20150331",
+      "source_count": 685
+    },
+    {
+      "report_date": "20150630",
+      "source_count": 693
+    },
+    {
+      "report_date": "20150930",
+      "source_count": 698
+    },
+    {
+      "report_date": "20151231",
+      "source_count": 694
+    },
+    {
+      "report_date": "20160331",
+      "source_count": 716
+    },
+    {
+      "report_date": "20160630",
+      "source_count": 721
+    },
+    {
+      "report_date": "20160930",
+      "source_count": 725
+    },
+    {
+      "report_date": "20161231",
+      "source_count": 726
+    },
+    {
+      "report_date": "20170331",
+      "source_count": 741
+    },
+    {
+      "report_date": "20170630",
+      "source_count": 743
+    },
+    {
+      "report_date": "20170930",
+      "source_count": 747
+    },
+    {
+      "report_date": "20171231",
+      "source_count": 741
+    },
+    {
+      "report_date": "20180331",
+      "source_count": 751
+    },
+    {
+      "report_date": "20180630",
+      "source_count": 762
+    },
+    {
+      "report_date": "20180930",
+      "source_count": 764
+    },
+    {
+      "report_date": "20181231",
+      "source_count": 766
+    },
+    {
+      "report_date": "20190331",
+      "source_count": 780
+    },
+    {
+      "report_date": "20190630",
+      "source_count": 783
+    },
+    {
+      "report_date": "20190930",
+      "source_count": 795
+    },
+    {
+      "report_date": "20191231",
+      "source_count": 786
+    },
+    {
+      "report_date": "20200331",
+      "source_count": 811
+    },
+    {
+      "report_date": "20200630",
+      "source_count": 890
+    },
+    {
+      "report_date": "20200930",
+      "source_count": 904
+    },
+    {
+      "report_date": "20201231",
+      "source_count": 914
+    },
+    {
+      "report_date": "20210331",
+      "source_count": 951
+    },
+    {
+      "report_date": "20210630",
+      "source_count": 964
+    },
+    {
+      "report_date": "20210930",
+      "source_count": 982
+    },
+    {
+      "report_date": "20211231",
+      "source_count": 960
+    },
+    {
+      "report_date": "20220331",
+      "source_count": 972
+    },
+    {
+      "report_date": "20220630",
+      "source_count": 963
+    },
+    {
+      "report_date": "20220930",
+      "source_count": 974
+    },
+    {
+      "report_date": "20221231",
+      "source_count": 968
+    },
+    {
+      "report_date": "20230331",
+      "source_count": 975
+    },
+    {
+      "report_date": "20230630",
+      "source_count": 978
+    },
+    {
+      "report_date": "20230930",
+      "source_count": 984
+    },
+    {
+      "report_date": "20231231",
+      "source_count": 975
+    },
+    {
+      "report_date": "20240331",
+      "source_count": 1009
+    },
+    {
+      "report_date": "20240630",
+      "source_count": 1008
+    },
+    {
+      "report_date": "20240930",
+      "source_count": 1014
+    },
+    {
+      "report_date": "20241231",
+      "source_count": 1002
+    },
+    {
+      "report_date": "20250331",
+      "source_count": 1023
+    },
+    {
+      "report_date": "20250630",
+      "source_count": 1031
+    },
+    {
+      "report_date": "20250930",
+      "source_count": 1037
+    },
+    {
+      "report_date": "20251231",
+      "source_count": 1036
+    }
+  ],
+  "config_sha256": "8e1b6692f1181ce05ae780d8c295d92daf5baee54418ee25ee8b685b03839acd",
+  "panel_sha256": "a8d20e27d82fb096cdfd0eeb1ab23d820db45cf4ba921dbbc32478e1707574a4"
+}

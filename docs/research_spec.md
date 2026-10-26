@@ -2,6 +2,11 @@
 
 Version 0.1, 27 October 2026. Step 1 is a proposed protocol, not an empirical result.
 
+Implementation amendments are recorded in population_and_labels.md (v1.1): use
+EQTOT for total-equity accounting/ratios, and conservatively bound outcome censoring
+by the failure-source index date. Those checked source definitions supersede the
+initial financial-field proposals below.
+
 ## Problem and intended use
 
 Study the reliability of explanations of bank-level distress forecasts when a

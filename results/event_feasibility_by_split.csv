@@ -1,0 +1,4 @@
+split,raw_rows,usable_unpurged_rows,positive_bank_quarters,distinct_positive_banks,note
+test,15949,12783,16,4,descriptive event sufficiency only; no final-test model fitting or tuning
+train,24870,21670,64,22,descriptive event sufficiency only; no final-test model fitting or tuning
+validation,10520,6621,0,0,descriptive event sufficiency only; no final-test model fitting or tuning

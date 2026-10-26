@@ -80,8 +80,8 @@ class FDIC:
         return all_rows
 
     def save(self, mode):
-        write_json(self.root / "data/manifests" / f"{mode}_sources.json", self.manifest)
-        write_json(self.root / "data/manifests" / f"{mode}_request_issues.json", self.issues)
+        write_json(self.root / self.spec["paths"]["manifests"] / f"{mode}_sources.json", self.manifest)
+        write_json(self.root / self.spec["paths"]["manifests"] / f"{mode}_request_issues.json", self.issues)
 
 
 def quarter_filter(date, spec):
@@ -141,7 +141,153 @@ def collect(mode="pilot"):
                    panel_sha256=hashlib.sha256((directory / f"{mode}_panel.csv").read_bytes()).hexdigest())
     write_json(ROOT / "results" / f"{mode}_data_summary.json", summary)
     if mode != "pilot":
-        raise NotImplementedError("Full allocation workflow is added after the novelty pilot")
+        return finalize_collection(panel, summary, spec)
     # Small committed excerpt is intentionally nonrepresentative and carries CERT/date keys.
     panel.sort_values(["CERT", "report_date"]).groupby("CERT").head(1).head(12).to_csv(ROOT / "results/pilot_panel_excerpt.csv", index=False)
     return summary
+
+
+def coverage_register(panel, owners):
+    """Source-backed eligible coverage, with interrupted histories kept separate."""
+    records, gaps = [], []
+    for key, g in panel.groupby("CERT", sort=True):
+        dates = set(g.report_date)
+        missing = sorted(set(pd.date_range(g.report_date.min(), g.report_date.max(), freq="QE")) - dates)
+        for date in missing:
+            gaps.append(dict(CERT=key, owner=owners[key], report_date=str(date.date()),
+                             issue="No eligible financial record; band exit, lifecycle or source omission unresolved"))
+        y = g.label_12m
+        records.append(dict(CERT=key, owner=owners[key], latest_name=g.iloc[-1]["NAME"],
+                            first_eligible=str(g.report_date.min().date()), last_eligible=str(g.report_date.max().date()),
+                            expected_eligible_records=len(g), bulk_available_records=len(g),
+                            collected_records=len(g) if owners[key].startswith("Atharva") else None,
+                            missing_eligible_records=0 if owners[key].startswith("Atharva") else None,
+                            financial_usable_records=int(g.usable_financials.sum()),
+                            usable_labeled_records=int((g.usable_financials & ~g.already_failed & y.notna()).sum()),
+                            censored_records=int((y.isna() & ~g.already_failed).sum()),
+                            already_failed_records=int(g.already_failed.sum()),
+                            potential_interruption_quarters=len(missing),
+                            collaboration_status="Atharva collection validated" if owners[key].startswith("Atharva")
+                            else "Ayush submission not received or checked; broader bulk exists"))
+    return pd.DataFrame(records), pd.DataFrame(gaps, columns=["CERT", "owner", "report_date", "issue"])
+
+
+def finalize_collection(panel, source_summary, spec):
+    owners = allocate(panel.CERT, spec["allocation_salt"])
+    register, gaps = coverage_register(panel, owners)
+    gaps = verify_gaps(gaps, spec)
+    unresolved = gaps.loc[gaps.resolution.eq("no source report returned")].groupby("CERT").size()
+    register["unresolved_interruption_quarters"] = register.CERT.map(unresolved).fillna(0).astype(int)
+    register.to_csv(ROOT / "data/bank_allocation.csv", index=False)
+    gaps.to_csv(ROOT / "results/bank_period_gaps.csv", index=False)
+    assigned = panel.loc[panel.CERT.map(owners).eq("Atharva Sheersh Pandey")].copy()
+    assigned["owner"] = "Atharva Sheersh Pandey"
+    path = ROOT / spec["paths"]["processed"] / "atharva_bank_panel.csv"
+    assigned.to_csv(path, index=False)
+    assigned.head(16).to_csv(ROOT / "results/atharva_panel_excerpt.csv", index=False)
+    coverage = []
+    for owner, banks in register.groupby("owner"):
+        subset = panel.loc[panel.CERT.isin(banks.CERT)]
+        coverage.append(dict(owner=owner, assigned_banks=len(banks),
+                             expected_eligible_bank_quarters=int(banks.expected_eligible_records.sum()),
+                             collected_eligible_bank_quarters=len(subset) if owner.startswith("Atharva") else None,
+                             missing_eligible_records=0 if owner.startswith("Atharva") else None,
+                             unusable_financial_records=int((~subset.usable_financials).sum()) if owner.startswith("Atharva") else None,
+                             usable_labeled_records=int((subset.usable_financials & ~subset.already_failed & subset.label_12m.notna()).sum()) if owner.startswith("Atharva") else None,
+                             potential_interruption_quarters=int(banks.potential_interruption_quarters.sum()),
+                             unresolved_interruption_quarters=int(banks.unresolved_interruption_quarters.sum()),
+                             status="validated against bulk source totals; interruption resolutions recorded separately" if owner.startswith("Atharva") else "submission not received or checked; no completion claim"))
+    write_json(ROOT / "results/collection_coverage.json", dict(
+        eligible_banks=len(owners), total_eligible_bank_quarters=len(panel), quarters=panel.report_date.nunique(),
+        allocation_rule="SHA256('RiskTrace-v1:' + canonical CERT), ascending, alternating Atharva then Ayush; odd extra to Atharva",
+        expected_definition="all official returned eligible CERT/quarter records after count/uniqueness checks, not 64 rows for every bank",
+        label_cutoff=source_summary["label_cutoff"], owners=coverage,
+        scope_limit="No independent historical roster reconciliation or point-in-time publication vintages; merger/competing-risk analysis remains incomplete"))
+    files = []
+    for p in [ROOT / "data/processed/full_panel.csv", path, ROOT / "data/processed/failures.csv"]:
+        files.append(dict(path=p.relative_to(ROOT).as_posix(), sha256=hashlib.sha256(p.read_bytes()).hexdigest(),
+                          bytes=p.stat().st_size, generated_utc=utcnow()))
+    write_json(ROOT / "data/manifests/processed_datasets.json", dict(
+        files=files, config_sha256=source_summary["config_sha256"], label_cutoff=source_summary["label_cutoff"],
+        source_manifest="data/manifests/full_sources.json", transform="risktrace.core.normalize/label_panel; risktrace.data.finalize_collection"))
+    missing = []
+    for date, g in assigned.groupby("report_date"):
+        for field in spec["api"]["financial_fields"]:
+            count = int(g[field].isna().sum())
+            if count:
+                missing.append(dict(report_date=str(date.date()), field=field, missing_rows=count, total_rows=len(g)))
+    pd.DataFrame(missing, columns=["report_date", "field", "missing_rows", "total_rows"]).to_csv(ROOT / "results/atharva_missing_fields.csv", index=False)
+    assigned.loc[~assigned.usable_financials | assigned.already_failed,
+                 ["CERT", "REPDTE", "accounting_valid", "range_valid", "feature_complete", "already_failed"]].to_csv(
+                     ROOT / "results/atharva_unusable_records.csv", index=False)
+    feasibility = []
+    for split, g in panel.groupby("split"):
+        eligible = g.usable_financials & ~g.already_failed & ~g.purged & g.label_12m.notna()
+        h = g.loc[eligible]
+        feasibility.append(dict(split=split, raw_rows=len(g), usable_unpurged_rows=len(h),
+                                positive_bank_quarters=int(h.label_12m.eq(1).sum()),
+                                distinct_positive_banks=h.loc[h.label_12m.eq(1), "CERT"].nunique(),
+                                note="descriptive event sufficiency only; no final-test model fitting or tuning"))
+    pd.DataFrame(feasibility).to_csv(ROOT / "results/event_feasibility_by_split.csv", index=False)
+    return source_summary
+
+
+def verify_gaps(gaps, spec):
+    """Query interrupted CERT histories without the asset/class filter."""
+    client, source = FDIC(spec), []
+    ids = sorted(set(gaps.CERT))
+    try:
+        for offset in range(0, len(ids), 40):
+            batch = ids[offset:offset + 40]
+            filters = ("CERT:(" + " OR ".join(batch) + ") AND REPDTE:["
+                       + spec["start"].replace("-", "") + " TO " + spec["end"].replace("-", "") + "]")
+            source.extend(client.fetch("financials", filters, ["CERT", "REPDTE", "ASSET", "BKCLASS"]))
+            client.save("gap_validation")
+            print(f"Validated unfiltered histories for gap banks {min(offset + 40, len(ids))}/{len(ids)}", flush=True)
+    finally:
+        client.save("gap_validation")
+    lookup = {}
+    for row in source:
+        key = (str(int(row["CERT"])), str(pd.to_datetime(str(row["REPDTE"]), format="%Y%m%d").date()))
+        if key in lookup:
+            raise ValueError("Duplicate key in gap-validation history")
+        lookup[key] = row
+    resolutions, assets, classes = [], [], []
+    for row in gaps.itertuples():
+        record = lookup.get((row.CERT, row.report_date))
+        if record is None:
+            resolutions.append("no source report returned"); assets.append(None); classes.append(None)
+        else:
+            asset = record.get("ASSET")
+            bkclass = record.get("BKCLASS")
+            if asset is not None and spec["asset_min_thousands"] <= asset < spec["asset_max_exclusive_thousands"] and bkclass in spec["bank_classes"]:
+                raise ValueError(f"Eligible report omitted from primary download: {row.CERT} {row.report_date}")
+            resolutions.append("confirmed outside asset band" if asset is not None and not
+                               spec["asset_min_thousands"] <= asset < spec["asset_max_exclusive_thousands"]
+                               else "confirmed outside bank class or unavailable eligibility field")
+            assets.append(asset); classes.append(bkclass)
+    result = gaps.copy()
+    result["resolution"], result["source_ASSET_thousands"], result["source_BKCLASS"] = resolutions, assets, classes
+    return result
+
+
+def verify_integration(path):
+    """Validate a submitted Ayush raw-schema CSV without overwriting collected data."""
+    spec = config()
+    incoming = pd.read_csv(path, dtype={"CERT": str, "REPDTE": str})
+    missing = set(spec["api"]["financial_fields"]) - set(incoming.columns)
+    if missing:
+        raise ValueError(f"Missing raw columns: {sorted(missing)}")
+    parsed = normalize(incoming.to_dict("records"), spec)
+    allocation = pd.read_csv(ROOT / "data/bank_allocation.csv", dtype={"CERT": str})
+    expected_ids = set(allocation.loc[allocation.owner.eq("Ayush Sinha"), "CERT"])
+    if not set(parsed.CERT) <= expected_ids:
+        raise ValueError("Submission includes banks outside Ayush's allocation")
+    full = pd.read_csv(ROOT / "data/processed/full_panel.csv", dtype={"CERT": str, "REPDTE": str}, low_memory=False)
+    expected = set(zip(full.loc[full.CERT.isin(expected_ids), "CERT"], full.loc[full.CERT.isin(expected_ids), "REPDTE"]))
+    observed = set(zip(parsed.CERT, parsed.REPDTE.astype(str)))
+    if observed - expected:
+        raise ValueError("Submission includes unexpected bank-quarter keys")
+    return dict(expected=len(expected), observed=len(observed), missing=len(expected - observed),
+                unusable_financials=int((~parsed.usable_financials).sum()),
+                complete=(observed == expected), note="Schema/key/QA validation only; compare source hashes and substantive field values before integration")
