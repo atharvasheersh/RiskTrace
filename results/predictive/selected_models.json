@@ -129,5 +129,149 @@
     "dataset_id": "analysis-v1-15e5448d4a96",
     "code_commit": "d4c158d9be727213ad69f12b63ccadcca72bbe73",
     "calibration": "identity_for_tabular; analytic_prior_correction_for_weighted_neural"
+  },
+  "gat": {
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "threshold": 0.020722785964608192,
+    "metrics": {
+      "family": "gat",
+      "candidate": "k3",
+      "rows": 26104,
+      "positive_quarters": 17,
+      "distinct_positive_banks": 6,
+      "prevalence": 0.0006512411890897947,
+      "average_precision": 0.06835052968726477,
+      "auroc": 0.9756628836991155,
+      "brier": 0.0006613630519759643,
+      "threshold": 0.020722785964608192,
+      "false_alarm_rate": 0.00996665005558324,
+      "quarter_recall": 0.5882352941176471,
+      "event_recall": 0.8333333333333334,
+      "detected_events": 5,
+      "missed_events": 1,
+      "median_warning_days_detected": 182.0
+    },
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "dataset_id": "analysis-v1-15e5448d4a96",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "calibration": "identity_for_tabular; analytic_prior_correction_for_weighted_neural"
+  },
+  "gat_gru": {
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "threshold": 0.012411567382514477,
+    "metrics": {
+      "family": "gat_gru",
+      "candidate": "k3",
+      "rows": 26104,
+      "positive_quarters": 17,
+      "distinct_positive_banks": 6,
+      "prevalence": 0.0006512411890897947,
+      "average_precision": 0.06011632361429964,
+      "auroc": 0.9156938660004195,
+      "brier": 0.0006548097820958368,
+      "threshold": 0.012411567382514477,
+      "false_alarm_rate": 0.00996665005558324,
+      "quarter_recall": 0.6470588235294118,
+      "event_recall": 0.6666666666666666,
+      "detected_events": 4,
+      "missed_events": 2,
+      "median_warning_days_detected": 308.5
+    },
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "dataset_id": "analysis-v1-15e5448d4a96",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "calibration": "identity_for_tabular; analytic_prior_correction_for_weighted_neural"
+  },
+  "gat_gru_random": {
+    "candidate": {
+      "name": "k3_fixed_control",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "threshold": 0.008521344512701035,
+    "metrics": {
+      "family": "gat_gru_random",
+      "candidate": "k3_fixed_control",
+      "rows": 26104,
+      "positive_quarters": 17,
+      "distinct_positive_banks": 6,
+      "prevalence": 0.0006512411890897947,
+      "average_precision": 0.027314145220886918,
+      "auroc": 0.8839448993075206,
+      "brier": 0.0006694966111722274,
+      "threshold": 0.008521344512701035,
+      "false_alarm_rate": 0.00996665005558324,
+      "quarter_recall": 0.5882352941176471,
+      "event_recall": 0.8333333333333334,
+      "detected_events": 5,
+      "missed_events": 1,
+      "median_warning_days_detected": 288.0
+    },
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "dataset_id": "analysis-v1-15e5448d4a96",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "calibration": "identity_for_tabular; analytic_prior_correction_for_weighted_neural"
+  },
+  "gat_gru_exogenous": {
+    "candidate": {
+      "name": "k3_fixed_control",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "threshold": 0.03845332935452461,
+    "metrics": {
+      "family": "gat_gru_exogenous",
+      "candidate": "k3_fixed_control",
+      "rows": 26104,
+      "positive_quarters": 17,
+      "distinct_positive_banks": 6,
+      "prevalence": 0.0006512411890897947,
+      "average_precision": 0.024304003328705814,
+      "auroc": 0.9669747609244181,
+      "brier": 0.0007659593802614173,
+      "threshold": 0.03845332935452461,
+      "false_alarm_rate": 0.00996665005558324,
+      "quarter_recall": 0.4117647058823529,
+      "event_recall": 0.8333333333333334,
+      "detected_events": 5,
+      "missed_events": 1,
+      "median_warning_days_detected": 196.0
+    },
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "dataset_id": "analysis-v1-15e5448d4a96",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "calibration": "identity_for_tabular; analytic_prior_correction_for_weighted_neural"
   }
 }

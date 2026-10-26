@@ -1,0 +1,2270 @@
+[
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2012",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "9ffdb8e0ded3c6b1d4b8",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 7.502837500011083,
+    "artifact_directory": "results/cache/models/9ffdb8e0ded3c6b1d4b8",
+    "evaluation_graph_sha256": "54dc4b91ac2712aa18564963f3a98090ea742df94aec1611367fef09d5c3b38f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/9ffdb8e0ded3c6b1d4b8/model.json",
+        "sha256": "a496132a47ff52eb0a817fede38d2da92d0868cb81bafc52fc3ea337f46fc1e2",
+        "bytes": 130
+      },
+      {
+        "path": "results/cache/models/9ffdb8e0ded3c6b1d4b8/training.json",
+        "sha256": "b5cc439250895fd613fd49fee5372af18bc79a8203c4e4cf16d264ecbab0a3ac",
+        "bytes": 1333
+      },
+      {
+        "path": "results/cache/models/9ffdb8e0ded3c6b1d4b8/weights.pt",
+        "sha256": "eb2aa1ef5ea9d2e1cb42cd3684d401778201bca25a572b2cce9cbf8ed17038a8",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2013",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "148a6708f5af8522222f",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 2.0028994000167586,
+    "artifact_directory": "results/cache/models/148a6708f5af8522222f",
+    "evaluation_graph_sha256": "582a5cac3ab3ebbe63a039701418609c1c65b2d3cdaa9e6b86850d4c6c1a285d",
+    "artifacts": [
+      {
+        "path": "results/cache/models/148a6708f5af8522222f/model.json",
+        "sha256": "5bb6d78b1321901cd8f09bc2e8829d3e209996127664f27447be74d433a3fa83",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/148a6708f5af8522222f/training.json",
+        "sha256": "6fae2f71d17a3e35bf0746312e88cbb069020ef1d90b28f8df75830c0ad2f5f6",
+        "bytes": 1322
+      },
+      {
+        "path": "results/cache/models/148a6708f5af8522222f/weights.pt",
+        "sha256": "19d7aed964cd4eae4a899a64417fb661bcb2ab19084e00ba6e33fa16bf01625e",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2014",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "57c5273dd099e67b63c0",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 2.7416813999880105,
+    "artifact_directory": "results/cache/models/57c5273dd099e67b63c0",
+    "evaluation_graph_sha256": "c43cce64a9cbf9c98123601cf085336f262b8a5ac21feaa29ab31fd223bdf0ea",
+    "artifacts": [
+      {
+        "path": "results/cache/models/57c5273dd099e67b63c0/model.json",
+        "sha256": "5bb6d78b1321901cd8f09bc2e8829d3e209996127664f27447be74d433a3fa83",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/57c5273dd099e67b63c0/training.json",
+        "sha256": "47c0e532ca07f92d8eadb12a56c56bf995ce66aa87359d871d13f1367c2816ca",
+        "bytes": 1321
+      },
+      {
+        "path": "results/cache/models/57c5273dd099e67b63c0/weights.pt",
+        "sha256": "cf5dad12666ddb27710c6a808a1bc07a2a30b5ae4f350f8684e686c27d09bc01",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2015",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "0fad8308bd7b76cdab95",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 3.412140999978874,
+    "artifact_directory": "results/cache/models/0fad8308bd7b76cdab95",
+    "evaluation_graph_sha256": "8e82041827bc8a02bea04d90f1dcba0bda7834401e426cecdfac8744ffc000c8",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0fad8308bd7b76cdab95/model.json",
+        "sha256": "5bb6d78b1321901cd8f09bc2e8829d3e209996127664f27447be74d433a3fa83",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/0fad8308bd7b76cdab95/training.json",
+        "sha256": "f8fb8121611a22308446b46a0b151cf651c209d7f7750c40b5c0df88c1f32e85",
+        "bytes": 1327
+      },
+      {
+        "path": "results/cache/models/0fad8308bd7b76cdab95/weights.pt",
+        "sha256": "abe0bb6f2f997acb42883e51623d3dcb10ade2b6461228300ab5847999513e45",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2016",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "72b3dc69d8ca98802285",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 4.587459800008219,
+    "artifact_directory": "results/cache/models/72b3dc69d8ca98802285",
+    "evaluation_graph_sha256": "fc9e9e01c5bdf25bb27f5d3ccbf2c1f9790ba86e2c0001d7ab388d7d1ef9138b",
+    "artifacts": [
+      {
+        "path": "results/cache/models/72b3dc69d8ca98802285/model.json",
+        "sha256": "5bb6d78b1321901cd8f09bc2e8829d3e209996127664f27447be74d433a3fa83",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/72b3dc69d8ca98802285/training.json",
+        "sha256": "2659758f582f0f4218413b9ac3b503ba7298377079ecee768ae8f29d75ec96b2",
+        "bytes": 1334
+      },
+      {
+        "path": "results/cache/models/72b3dc69d8ca98802285/weights.pt",
+        "sha256": "8b509bf5ed6318b9352668b24481d4771a30af9a61d38cd775b743771fce8bfe",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2017",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "f7b98c5d0168e4d1f737",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 5.1981236999854445,
+    "artifact_directory": "results/cache/models/f7b98c5d0168e4d1f737",
+    "evaluation_graph_sha256": "69cde312603871df8ae6403be3e09fad60d21349794bdbc46b70855fc37fe293",
+    "artifacts": [
+      {
+        "path": "results/cache/models/f7b98c5d0168e4d1f737/model.json",
+        "sha256": "5bb6d78b1321901cd8f09bc2e8829d3e209996127664f27447be74d433a3fa83",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/f7b98c5d0168e4d1f737/training.json",
+        "sha256": "72a45d07a8b2e94ffc0b49bf23f302e3cb2a2a614ab6decd2c07ea26b12c6347",
+        "bytes": 1343
+      },
+      {
+        "path": "results/cache/models/f7b98c5d0168e4d1f737/weights.pt",
+        "sha256": "d83851d5187d449043b84dd881fa0c0695552efa82f0589ef656bb0490bfccbd",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2018",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "567f1ba78478756baa49",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 6.712203499977477,
+    "artifact_directory": "results/cache/models/567f1ba78478756baa49",
+    "evaluation_graph_sha256": "f5afd0b78bda980582414eeb4e436d3d4c5be4e46b2ba89721cd6682650380ea",
+    "artifacts": [
+      {
+        "path": "results/cache/models/567f1ba78478756baa49/model.json",
+        "sha256": "5bb6d78b1321901cd8f09bc2e8829d3e209996127664f27447be74d433a3fa83",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/567f1ba78478756baa49/training.json",
+        "sha256": "349a18bc9421121a3fd7f4bfb859e2a5da143215023d015ad60e924f3e6bb65d",
+        "bytes": 1337
+      },
+      {
+        "path": "results/cache/models/567f1ba78478756baa49/weights.pt",
+        "sha256": "c07122c2f165cbe9dfb3214b8e86e1730fe7a94a4b42e9298797ee2ada9a0075",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2019",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "29c03cb87bf7208ceb86",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 7.71590940002352,
+    "artifact_directory": "results/cache/models/29c03cb87bf7208ceb86",
+    "evaluation_graph_sha256": "854d3975bc781fe81c52756e6730ececb59b844602c79682ac32484ca0ce7320",
+    "artifacts": [
+      {
+        "path": "results/cache/models/29c03cb87bf7208ceb86/model.json",
+        "sha256": "5bb6d78b1321901cd8f09bc2e8829d3e209996127664f27447be74d433a3fa83",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/29c03cb87bf7208ceb86/training.json",
+        "sha256": "dab7e50984ee6bafec19b8a66ae2653ef58ecc60ca830c81360d7f67f50a187a",
+        "bytes": 1341
+      },
+      {
+        "path": "results/cache/models/29c03cb87bf7208ceb86/weights.pt",
+        "sha256": "581c6e7c05239a9a2c8b1a3aae4a4ba8f1d57a5e049f2fd0f280f3db823fa504",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2020",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "218869e51b33c99c14db",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 8.722863600007258,
+    "artifact_directory": "results/cache/models/218869e51b33c99c14db",
+    "evaluation_graph_sha256": "9bcd7e3786f070b1e720c383ec05e9899b5b6ce67bcc6bbef7fcd04bd32aabec",
+    "artifacts": [
+      {
+        "path": "results/cache/models/218869e51b33c99c14db/model.json",
+        "sha256": "5bb6d78b1321901cd8f09bc2e8829d3e209996127664f27447be74d433a3fa83",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/218869e51b33c99c14db/training.json",
+        "sha256": "ac2114d8346d034bf7a50c4becb12f8846c6d6ceb57682ecc4aea46f40fc8bf0",
+        "bytes": 1339
+      },
+      {
+        "path": "results/cache/models/218869e51b33c99c14db/weights.pt",
+        "sha256": "a6503d193fed39f779410a2662c48db8fbd4d83f57f6872255c31d55d9e5342e",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2012",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "aecdf9f74b58c750bf0a",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.7419928000308573,
+    "artifact_directory": "results/cache/models/aecdf9f74b58c750bf0a",
+    "evaluation_graph_sha256": "54dc4b91ac2712aa18564963f3a98090ea742df94aec1611367fef09d5c3b38f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/aecdf9f74b58c750bf0a/model.json",
+        "sha256": "971bdb4f76955e8f23321fcfa079321ebdda5c8e1d9faf6fb12c845abb0f0d0f",
+        "bytes": 130
+      },
+      {
+        "path": "results/cache/models/aecdf9f74b58c750bf0a/training.json",
+        "sha256": "17c267187471b003ff859680d4b0c0101a7482c2ed486e12818107cb715c761c",
+        "bytes": 1336
+      },
+      {
+        "path": "results/cache/models/aecdf9f74b58c750bf0a/weights.pt",
+        "sha256": "4d476730e8b39cdbf0ea0716ca30c8995d8b594a2eef866b6f172bb35162da03",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2013",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "9444819dd69c25b6e076",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 1.2793962000287138,
+    "artifact_directory": "results/cache/models/9444819dd69c25b6e076",
+    "evaluation_graph_sha256": "582a5cac3ab3ebbe63a039701418609c1c65b2d3cdaa9e6b86850d4c6c1a285d",
+    "artifacts": [
+      {
+        "path": "results/cache/models/9444819dd69c25b6e076/model.json",
+        "sha256": "9ac65f1b4281a588e861f965755ba08b4ba1c82b362028c7fbe5eb005e12edf4",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/9444819dd69c25b6e076/training.json",
+        "sha256": "d359d8726290cd2e4b0c7e7d8a811278d975c2287b30d30c4a1efb4af5880a19",
+        "bytes": 1323
+      },
+      {
+        "path": "results/cache/models/9444819dd69c25b6e076/weights.pt",
+        "sha256": "fbf09dcfe2ec29dd7c3184b3cf4645728fd75988a9f9ec894cb333bcd2916198",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2014",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "4c19b96941da50352956",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 1.7781862000119872,
+    "artifact_directory": "results/cache/models/4c19b96941da50352956",
+    "evaluation_graph_sha256": "c43cce64a9cbf9c98123601cf085336f262b8a5ac21feaa29ab31fd223bdf0ea",
+    "artifacts": [
+      {
+        "path": "results/cache/models/4c19b96941da50352956/model.json",
+        "sha256": "9ac65f1b4281a588e861f965755ba08b4ba1c82b362028c7fbe5eb005e12edf4",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/4c19b96941da50352956/training.json",
+        "sha256": "d17a0a65bd92cea63287f5a03e906f8586948c8384f00c9dadff99f7e18d0645",
+        "bytes": 1325
+      },
+      {
+        "path": "results/cache/models/4c19b96941da50352956/weights.pt",
+        "sha256": "02a1576e6ed15934ddd1f3124ff70e26cad4b5f67194981fc5d365f71a9c1c6f",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2015",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "bfb3c471007bbbf5cbe6",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 2.2859516000025906,
+    "artifact_directory": "results/cache/models/bfb3c471007bbbf5cbe6",
+    "evaluation_graph_sha256": "8e82041827bc8a02bea04d90f1dcba0bda7834401e426cecdfac8744ffc000c8",
+    "artifacts": [
+      {
+        "path": "results/cache/models/bfb3c471007bbbf5cbe6/model.json",
+        "sha256": "9ac65f1b4281a588e861f965755ba08b4ba1c82b362028c7fbe5eb005e12edf4",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/bfb3c471007bbbf5cbe6/training.json",
+        "sha256": "57c84ff696daf20588f96467d9985610565452c50b5d9308fa8709016812420c",
+        "bytes": 1330
+      },
+      {
+        "path": "results/cache/models/bfb3c471007bbbf5cbe6/weights.pt",
+        "sha256": "f08e19021fc76ca482519b8177f0afa687114789d6cfce8d43e7edc2b111f74e",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2016",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "1450fbc309494674cd25",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 2.744999899994582,
+    "artifact_directory": "results/cache/models/1450fbc309494674cd25",
+    "evaluation_graph_sha256": "fc9e9e01c5bdf25bb27f5d3ccbf2c1f9790ba86e2c0001d7ab388d7d1ef9138b",
+    "artifacts": [
+      {
+        "path": "results/cache/models/1450fbc309494674cd25/model.json",
+        "sha256": "9ac65f1b4281a588e861f965755ba08b4ba1c82b362028c7fbe5eb005e12edf4",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/1450fbc309494674cd25/training.json",
+        "sha256": "e6074cd2cd13db455186b96499693ecf7d23b666642efaad239a183987a09dca",
+        "bytes": 1333
+      },
+      {
+        "path": "results/cache/models/1450fbc309494674cd25/weights.pt",
+        "sha256": "5589dff7a96dda214c97714645013f4717f07730fa2f0b1230643e259b9ecc23",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2017",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "2f839b87c2d0bf1d0836",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 3.5164516999502666,
+    "artifact_directory": "results/cache/models/2f839b87c2d0bf1d0836",
+    "evaluation_graph_sha256": "69cde312603871df8ae6403be3e09fad60d21349794bdbc46b70855fc37fe293",
+    "artifacts": [
+      {
+        "path": "results/cache/models/2f839b87c2d0bf1d0836/model.json",
+        "sha256": "9ac65f1b4281a588e861f965755ba08b4ba1c82b362028c7fbe5eb005e12edf4",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/2f839b87c2d0bf1d0836/training.json",
+        "sha256": "35efa8144c4c0e67a65931d39a507c3f3e9d56b01fecc27a65d1d7977d09690a",
+        "bytes": 1339
+      },
+      {
+        "path": "results/cache/models/2f839b87c2d0bf1d0836/weights.pt",
+        "sha256": "66e5bd22f1c0d5cb79633a2b6565f341e6242390d9013d894aea700011dbe053",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2018",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "5bd2a5c4f1a8dbd44385",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 3.9542372999712825,
+    "artifact_directory": "results/cache/models/5bd2a5c4f1a8dbd44385",
+    "evaluation_graph_sha256": "f5afd0b78bda980582414eeb4e436d3d4c5be4e46b2ba89721cd6682650380ea",
+    "artifacts": [
+      {
+        "path": "results/cache/models/5bd2a5c4f1a8dbd44385/model.json",
+        "sha256": "9ac65f1b4281a588e861f965755ba08b4ba1c82b362028c7fbe5eb005e12edf4",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/5bd2a5c4f1a8dbd44385/training.json",
+        "sha256": "332b7b788716a20a3e59069db6c695f9b9993892bf088699320d85f815bfe4a4",
+        "bytes": 1341
+      },
+      {
+        "path": "results/cache/models/5bd2a5c4f1a8dbd44385/weights.pt",
+        "sha256": "bfcbaf660d559a63e75d9ccb95e6bb6bfbdda55f76da1cb8c4d004f0244216bb",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2019",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "7ff7853185ae0036db7f",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 5.4394747000187635,
+    "artifact_directory": "results/cache/models/7ff7853185ae0036db7f",
+    "evaluation_graph_sha256": "854d3975bc781fe81c52756e6730ececb59b844602c79682ac32484ca0ce7320",
+    "artifacts": [
+      {
+        "path": "results/cache/models/7ff7853185ae0036db7f/model.json",
+        "sha256": "9ac65f1b4281a588e861f965755ba08b4ba1c82b362028c7fbe5eb005e12edf4",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/7ff7853185ae0036db7f/training.json",
+        "sha256": "8152a557036c94a2ac7f0ca872d0be9ac8ebbdd124da6f02cf2bcc50e24d39d1",
+        "bytes": 1347
+      },
+      {
+        "path": "results/cache/models/7ff7853185ae0036db7f/weights.pt",
+        "sha256": "15f04c3bf0ff4b5472b1bec50663262e22263add0723bd2e5767d0068bfde361",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2020",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "908574f73ce472214554",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 6.421400999999605,
+    "artifact_directory": "results/cache/models/908574f73ce472214554",
+    "evaluation_graph_sha256": "9bcd7e3786f070b1e720c383ec05e9899b5b6ce67bcc6bbef7fcd04bd32aabec",
+    "artifacts": [
+      {
+        "path": "results/cache/models/908574f73ce472214554/model.json",
+        "sha256": "9ac65f1b4281a588e861f965755ba08b4ba1c82b362028c7fbe5eb005e12edf4",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/908574f73ce472214554/training.json",
+        "sha256": "ab9779193d3f60ea098c35cbcc4ceffb4d56695a41ab3bc4974f26b4226bfae7",
+        "bytes": 1342
+      },
+      {
+        "path": "results/cache/models/908574f73ce472214554/weights.pt",
+        "sha256": "dbb742c868a9b6172bf301ad7f1dec5e3c78e0d85ed6189bf3fc7d5f3f6730d2",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2012",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "3e79972beba1d925d1e1",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.6417709999950603,
+    "artifact_directory": "results/cache/models/3e79972beba1d925d1e1",
+    "evaluation_graph_sha256": "54dc4b91ac2712aa18564963f3a98090ea742df94aec1611367fef09d5c3b38f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/3e79972beba1d925d1e1/model.json",
+        "sha256": "567d784c4f6a4cc803756e50f071080d798d7b2dfae6ba42255f09c2d66a931d",
+        "bytes": 130
+      },
+      {
+        "path": "results/cache/models/3e79972beba1d925d1e1/training.json",
+        "sha256": "06dd0edaac52aa7e79e5d4c09919dcfcd27bc651946229ba5219f9040d1a78b1",
+        "bytes": 1331
+      },
+      {
+        "path": "results/cache/models/3e79972beba1d925d1e1/weights.pt",
+        "sha256": "888b1650c3fd5fa3534dfd572c5d307b8e41d540d616c8ab965f971cbccd5dd4",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2013",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "2f822aacd24bff485590",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 1.3689145000535063,
+    "artifact_directory": "results/cache/models/2f822aacd24bff485590",
+    "evaluation_graph_sha256": "582a5cac3ab3ebbe63a039701418609c1c65b2d3cdaa9e6b86850d4c6c1a285d",
+    "artifacts": [
+      {
+        "path": "results/cache/models/2f822aacd24bff485590/model.json",
+        "sha256": "4c48b116087102ab4924225b01aaa3528d85f4404adf371ec2eb1782c661c3fc",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/2f822aacd24bff485590/training.json",
+        "sha256": "dc6d7361251491feff7b5cb8932a5dcce7cb7e27f66254c4209530d20c767a84",
+        "bytes": 1322
+      },
+      {
+        "path": "results/cache/models/2f822aacd24bff485590/weights.pt",
+        "sha256": "3ea0377f84afcff883f9596128c3f7453954d08fc8a947241966a945af7e7c75",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2014",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "5f7568a12535cb2cbb56",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 2.014183499966748,
+    "artifact_directory": "results/cache/models/5f7568a12535cb2cbb56",
+    "evaluation_graph_sha256": "c43cce64a9cbf9c98123601cf085336f262b8a5ac21feaa29ab31fd223bdf0ea",
+    "artifacts": [
+      {
+        "path": "results/cache/models/5f7568a12535cb2cbb56/model.json",
+        "sha256": "4c48b116087102ab4924225b01aaa3528d85f4404adf371ec2eb1782c661c3fc",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/5f7568a12535cb2cbb56/training.json",
+        "sha256": "b9bf711de0f0b244ac8c22b43521ec3df60399d4ad1fd8dff56bed3293f75cdb",
+        "bytes": 1326
+      },
+      {
+        "path": "results/cache/models/5f7568a12535cb2cbb56/weights.pt",
+        "sha256": "1c810d26a9051d314316c09bc66e1e1095d34fe92a3664496b2473b2a636f205",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2015",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "d3f27ccb6a2b07a0d704",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 2.577574499999173,
+    "artifact_directory": "results/cache/models/d3f27ccb6a2b07a0d704",
+    "evaluation_graph_sha256": "8e82041827bc8a02bea04d90f1dcba0bda7834401e426cecdfac8744ffc000c8",
+    "artifacts": [
+      {
+        "path": "results/cache/models/d3f27ccb6a2b07a0d704/model.json",
+        "sha256": "4c48b116087102ab4924225b01aaa3528d85f4404adf371ec2eb1782c661c3fc",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/d3f27ccb6a2b07a0d704/training.json",
+        "sha256": "b07d79abf3166e4dee9e9747cea27094f3e291225290c9b8322f659e59f4d1ac",
+        "bytes": 1333
+      },
+      {
+        "path": "results/cache/models/d3f27ccb6a2b07a0d704/weights.pt",
+        "sha256": "0155ed67612fe5c5153a864776f4df3ca77ba4812080a9aa2f89a92c59ceafb6",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2016",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "f5819da2c176133cf8f4",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 2.941475300001912,
+    "artifact_directory": "results/cache/models/f5819da2c176133cf8f4",
+    "evaluation_graph_sha256": "fc9e9e01c5bdf25bb27f5d3ccbf2c1f9790ba86e2c0001d7ab388d7d1ef9138b",
+    "artifacts": [
+      {
+        "path": "results/cache/models/f5819da2c176133cf8f4/model.json",
+        "sha256": "4c48b116087102ab4924225b01aaa3528d85f4404adf371ec2eb1782c661c3fc",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/f5819da2c176133cf8f4/training.json",
+        "sha256": "8eb9b48cdd017cb85b0cbcd97dfd58ea5f0e2292a934cd952133fde202ac4281",
+        "bytes": 1339
+      },
+      {
+        "path": "results/cache/models/f5819da2c176133cf8f4/weights.pt",
+        "sha256": "99c095418e681718b1f2b5c540bb7419ca62d850b9e4a3d599aef0ab9ba1938d",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2017",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "0e0293ae6dd4eac97aec",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 3.9530443000257947,
+    "artifact_directory": "results/cache/models/0e0293ae6dd4eac97aec",
+    "evaluation_graph_sha256": "69cde312603871df8ae6403be3e09fad60d21349794bdbc46b70855fc37fe293",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0e0293ae6dd4eac97aec/model.json",
+        "sha256": "4c48b116087102ab4924225b01aaa3528d85f4404adf371ec2eb1782c661c3fc",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/0e0293ae6dd4eac97aec/training.json",
+        "sha256": "497df802707ff28731c33600de26f9de92ef0e7da00cfa07459ece23847705c6",
+        "bytes": 1336
+      },
+      {
+        "path": "results/cache/models/0e0293ae6dd4eac97aec/weights.pt",
+        "sha256": "ad3879face0c1c1ba5723bfc07e2d2a3ebaf155bda25fbec61d0ce338955373c",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2018",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "90ecbc2235835a367751",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 4.6168404999771155,
+    "artifact_directory": "results/cache/models/90ecbc2235835a367751",
+    "evaluation_graph_sha256": "f5afd0b78bda980582414eeb4e436d3d4c5be4e46b2ba89721cd6682650380ea",
+    "artifacts": [
+      {
+        "path": "results/cache/models/90ecbc2235835a367751/model.json",
+        "sha256": "4c48b116087102ab4924225b01aaa3528d85f4404adf371ec2eb1782c661c3fc",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/90ecbc2235835a367751/training.json",
+        "sha256": "c610dccfab2548d84d353af3e3fdcfa5e8ad1e3f5bf208165eada901ce7ff0a6",
+        "bytes": 1341
+      },
+      {
+        "path": "results/cache/models/90ecbc2235835a367751/weights.pt",
+        "sha256": "b55639d60ea731f5c453375d67bedb7053cce5022504a8cd84ae4f1a27f9ca31",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2019",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "c10fc848eb4a638b11a1",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 5.661021800013259,
+    "artifact_directory": "results/cache/models/c10fc848eb4a638b11a1",
+    "evaluation_graph_sha256": "854d3975bc781fe81c52756e6730ececb59b844602c79682ac32484ca0ce7320",
+    "artifacts": [
+      {
+        "path": "results/cache/models/c10fc848eb4a638b11a1/model.json",
+        "sha256": "4c48b116087102ab4924225b01aaa3528d85f4404adf371ec2eb1782c661c3fc",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/c10fc848eb4a638b11a1/training.json",
+        "sha256": "641bb4bbdf769561c333f805a6cefe595dacea19e6dd8da79e86343c0afbc662",
+        "bytes": 1348
+      },
+      {
+        "path": "results/cache/models/c10fc848eb4a638b11a1/weights.pt",
+        "sha256": "355a7fcab1d1efd5f3a9f58428fe184f1d81fc42238ceac310afe0f9b2971de9",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2020",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "cb319eea0485b3d44d3a",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 6.459624800016172,
+    "artifact_directory": "results/cache/models/cb319eea0485b3d44d3a",
+    "evaluation_graph_sha256": "9bcd7e3786f070b1e720c383ec05e9899b5b6ce67bcc6bbef7fcd04bd32aabec",
+    "artifacts": [
+      {
+        "path": "results/cache/models/cb319eea0485b3d44d3a/model.json",
+        "sha256": "4c48b116087102ab4924225b01aaa3528d85f4404adf371ec2eb1782c661c3fc",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/cb319eea0485b3d44d3a/training.json",
+        "sha256": "89d153e3446722e65d936fa3d40631e9cc0ede8afbae8ff973b2c6c83bd254d5",
+        "bytes": 1342
+      },
+      {
+        "path": "results/cache/models/cb319eea0485b3d44d3a/weights.pt",
+        "sha256": "f1d991cd56a3b6a5d7af4d8e48de645cf8ccf88b3dacdc91e5365fae193d6027",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2012",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "aac35be13fd222cc0c8f",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 1.3892553999903612,
+    "artifact_directory": "results/cache/models/aac35be13fd222cc0c8f",
+    "evaluation_graph_sha256": "2f1769196d134f55dffe1a77d0d13d9930d1397642cb38ad2d778f7761545a82",
+    "artifacts": [
+      {
+        "path": "results/cache/models/aac35be13fd222cc0c8f/model.json",
+        "sha256": "0eaf68bf9ff1041035bc4f1c297dbee99d6c4b3c02d5c75f1f82f9bf79645237",
+        "bytes": 130
+      },
+      {
+        "path": "results/cache/models/aac35be13fd222cc0c8f/training.json",
+        "sha256": "67a1e347adcac6ac95486587eebefc744461643a92cc7a4cf130cf50b66cf791",
+        "bytes": 1331
+      },
+      {
+        "path": "results/cache/models/aac35be13fd222cc0c8f/weights.pt",
+        "sha256": "009e40a9b94a83164c020d6765851aaf55c9ac46cdd9ba51b76cab1824c28505",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2013",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "a71bad0107ef0dac98a7",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 2.284800599969458,
+    "artifact_directory": "results/cache/models/a71bad0107ef0dac98a7",
+    "evaluation_graph_sha256": "5004aaa6eec44a529c72e462d3de63135158bb0018f3d47bb2c4870d6cc02569",
+    "artifacts": [
+      {
+        "path": "results/cache/models/a71bad0107ef0dac98a7/model.json",
+        "sha256": "80c3fba45d365a0dc2e5ce456fa42f8cf162111f36f6ad7572de2bddd6624849",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/a71bad0107ef0dac98a7/training.json",
+        "sha256": "d57d70ce5e024a26f4fe06c815d48cd295f5ab4d28375acbcaaa99f33016ecf9",
+        "bytes": 1323
+      },
+      {
+        "path": "results/cache/models/a71bad0107ef0dac98a7/weights.pt",
+        "sha256": "41a796cfeeddf92d0d598dd4c3caf973dbb38394df4afcac5ae8a7c6cb9b84d4",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2014",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "1e64c4023a0872bdba60",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 3.3530167000135407,
+    "artifact_directory": "results/cache/models/1e64c4023a0872bdba60",
+    "evaluation_graph_sha256": "b3e9ef8557d823f3c1c68d8920275f1831b6da3c25fa0ba2493062bb3d8590d9",
+    "artifacts": [
+      {
+        "path": "results/cache/models/1e64c4023a0872bdba60/model.json",
+        "sha256": "80c3fba45d365a0dc2e5ce456fa42f8cf162111f36f6ad7572de2bddd6624849",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/1e64c4023a0872bdba60/training.json",
+        "sha256": "dbd7ba64ac4aa386deecf9d469c9e1c8281a8dcc7077081dc102347da11384b6",
+        "bytes": 1326
+      },
+      {
+        "path": "results/cache/models/1e64c4023a0872bdba60/weights.pt",
+        "sha256": "b5ec487b3d27c9d4ed7fea6e687e2f0c81e8659002a0cacec33541555be245ae",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2015",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "74d1153333f710da248a",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 4.309034300036728,
+    "artifact_directory": "results/cache/models/74d1153333f710da248a",
+    "evaluation_graph_sha256": "07fb769044fe06568c3f558736062ddfeabcf14c93fd79add655f65c292c3c3c",
+    "artifacts": [
+      {
+        "path": "results/cache/models/74d1153333f710da248a/model.json",
+        "sha256": "80c3fba45d365a0dc2e5ce456fa42f8cf162111f36f6ad7572de2bddd6624849",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/74d1153333f710da248a/training.json",
+        "sha256": "08aeb7325cdb6e1671de353ed526562a759d0f84dd684ce785f39ca7978a8be1",
+        "bytes": 1328
+      },
+      {
+        "path": "results/cache/models/74d1153333f710da248a/weights.pt",
+        "sha256": "f2a36771e2d3ce6ec0a27b3014fe71698a5712def3b5126acccb5d1841ac2b94",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2016",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "369c005059920a6da539",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 5.158425100031309,
+    "artifact_directory": "results/cache/models/369c005059920a6da539",
+    "evaluation_graph_sha256": "7f828ec05141ffa4cf429a283f65ffe397b0bf975501ce407bb9cd61382f7d9f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/369c005059920a6da539/model.json",
+        "sha256": "80c3fba45d365a0dc2e5ce456fa42f8cf162111f36f6ad7572de2bddd6624849",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/369c005059920a6da539/training.json",
+        "sha256": "814fedc862be10ccb0e40fd6f27417cf48bdb543eee9e90aad174ee361cc44fc",
+        "bytes": 1339
+      },
+      {
+        "path": "results/cache/models/369c005059920a6da539/weights.pt",
+        "sha256": "163f6f963cfe38df4979b38c1e5a37ccb141a96f1fd88945fc538fd4a3210ad8",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2017",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "2cae0b18d1c76efd3a05",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 6.423318699991796,
+    "artifact_directory": "results/cache/models/2cae0b18d1c76efd3a05",
+    "evaluation_graph_sha256": "e81668288556d275e2aca3869fe305dd97f97f5585cefc49d6ee14619790d29f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/2cae0b18d1c76efd3a05/model.json",
+        "sha256": "80c3fba45d365a0dc2e5ce456fa42f8cf162111f36f6ad7572de2bddd6624849",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/2cae0b18d1c76efd3a05/training.json",
+        "sha256": "62a61aec1cf6f24b3ef7c0c18a8ba278fd5c8104df87deff3aeb11743ef49c81",
+        "bytes": 1338
+      },
+      {
+        "path": "results/cache/models/2cae0b18d1c76efd3a05/weights.pt",
+        "sha256": "990401a2f5891ec527ba9bcae1817b6ca73cc37d4f5a105527c482371d70a60c",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2018",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "50e74b13160f623226a3",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 7.606606099987403,
+    "artifact_directory": "results/cache/models/50e74b13160f623226a3",
+    "evaluation_graph_sha256": "3fc093063b8d0c0e14f5ca54653567612ecd62c65b0d94ad2cb580b540c573ef",
+    "artifacts": [
+      {
+        "path": "results/cache/models/50e74b13160f623226a3/model.json",
+        "sha256": "80c3fba45d365a0dc2e5ce456fa42f8cf162111f36f6ad7572de2bddd6624849",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/50e74b13160f623226a3/training.json",
+        "sha256": "03aeca32ae051f1ed8619cc1ff076c81d4e51c2d21834c96672480b80822babc",
+        "bytes": 1342
+      },
+      {
+        "path": "results/cache/models/50e74b13160f623226a3/weights.pt",
+        "sha256": "d74c9541e13213b5aeab472ffa5d84e31d0cdd1287a4eacc72f5b155ed212782",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2019",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "b6d3b0c20abd088a257b",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 9.266130599949975,
+    "artifact_directory": "results/cache/models/b6d3b0c20abd088a257b",
+    "evaluation_graph_sha256": "d156813da22207d6304327fa89ac80ae7c95178d6d77903666e93a315e71e39e",
+    "artifacts": [
+      {
+        "path": "results/cache/models/b6d3b0c20abd088a257b/model.json",
+        "sha256": "80c3fba45d365a0dc2e5ce456fa42f8cf162111f36f6ad7572de2bddd6624849",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/b6d3b0c20abd088a257b/training.json",
+        "sha256": "b88cdc29d1645c7c9c4aee7b78dd033dddc73bacc3a903c892ee8a08d740c52a",
+        "bytes": 1339
+      },
+      {
+        "path": "results/cache/models/b6d3b0c20abd088a257b/weights.pt",
+        "sha256": "1b3192f1e798b4757c7300fe4e335066ebba13ebb28eb6aa0411f4e608385531",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "annual_2020",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "6856552039abc0edb98d",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 11.35148669994669,
+    "artifact_directory": "results/cache/models/6856552039abc0edb98d",
+    "evaluation_graph_sha256": "0629d93217710f6346dbb87e5fda95971a25c0d05426d2c55d74975cbdd63bea",
+    "artifacts": [
+      {
+        "path": "results/cache/models/6856552039abc0edb98d/model.json",
+        "sha256": "80c3fba45d365a0dc2e5ce456fa42f8cf162111f36f6ad7572de2bddd6624849",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/6856552039abc0edb98d/training.json",
+        "sha256": "45ebb8f27afe49a1da1d2bfb23c8b5e91eb0fdec157901ac5f4b9a000dbfc738",
+        "bytes": 1344
+      },
+      {
+        "path": "results/cache/models/6856552039abc0edb98d/weights.pt",
+        "sha256": "f21d5263fb3a105afc12af5a7b1531b3783c030f2f0a99384b77bff3fa5ab678",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2012",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "7051a02541be723d4c90",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.8781174999894574,
+    "artifact_directory": "results/cache/models/7051a02541be723d4c90",
+    "evaluation_graph_sha256": "2f1769196d134f55dffe1a77d0d13d9930d1397642cb38ad2d778f7761545a82",
+    "artifacts": [
+      {
+        "path": "results/cache/models/7051a02541be723d4c90/model.json",
+        "sha256": "cd2fb58250aa406f287c9a8822c9eaa8cfbd988231d69f18685e0b078bac2eb3",
+        "bytes": 130
+      },
+      {
+        "path": "results/cache/models/7051a02541be723d4c90/training.json",
+        "sha256": "a6bf312d53df1938ea598b206e8351f01c09852e654292e6a138af6e130773ce",
+        "bytes": 1334
+      },
+      {
+        "path": "results/cache/models/7051a02541be723d4c90/weights.pt",
+        "sha256": "23d265b7ab8a0d2dc816b9ce54a49b745a85a2b5550039e799faea2429c1d12a",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2013",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "0914fd9db1aa75c38916",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 1.6368890999583527,
+    "artifact_directory": "results/cache/models/0914fd9db1aa75c38916",
+    "evaluation_graph_sha256": "5004aaa6eec44a529c72e462d3de63135158bb0018f3d47bb2c4870d6cc02569",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0914fd9db1aa75c38916/model.json",
+        "sha256": "bb151e51a0e1eb45c8a90e5205905c819d13ac07f74ba4a0076b5e5dfa7561e2",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/0914fd9db1aa75c38916/training.json",
+        "sha256": "c955cb5501da85a0a6f5e2d32ba09b2f9380e7c2cdb9784da034b5c10c48b699",
+        "bytes": 1322
+      },
+      {
+        "path": "results/cache/models/0914fd9db1aa75c38916/weights.pt",
+        "sha256": "6789a9080ab124e200fb5b871c3504ae13ec48b0cff369507960ad4e10357dfd",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2014",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "1e9410b8406a69bd4682",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 2.260897899977863,
+    "artifact_directory": "results/cache/models/1e9410b8406a69bd4682",
+    "evaluation_graph_sha256": "b3e9ef8557d823f3c1c68d8920275f1831b6da3c25fa0ba2493062bb3d8590d9",
+    "artifacts": [
+      {
+        "path": "results/cache/models/1e9410b8406a69bd4682/model.json",
+        "sha256": "bb151e51a0e1eb45c8a90e5205905c819d13ac07f74ba4a0076b5e5dfa7561e2",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/1e9410b8406a69bd4682/training.json",
+        "sha256": "f6732f4536118558777b814870c5eb8703c308c9e13a0bdfa4ddbbce642c562f",
+        "bytes": 1326
+      },
+      {
+        "path": "results/cache/models/1e9410b8406a69bd4682/weights.pt",
+        "sha256": "c67e428a40fc5fca25513908e5eb698d17781a37e1a09ed0511428b39c0685b6",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2015",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "86074da40aaf206b4ad3",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 3.5079297000193037,
+    "artifact_directory": "results/cache/models/86074da40aaf206b4ad3",
+    "evaluation_graph_sha256": "07fb769044fe06568c3f558736062ddfeabcf14c93fd79add655f65c292c3c3c",
+    "artifacts": [
+      {
+        "path": "results/cache/models/86074da40aaf206b4ad3/model.json",
+        "sha256": "bb151e51a0e1eb45c8a90e5205905c819d13ac07f74ba4a0076b5e5dfa7561e2",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/86074da40aaf206b4ad3/training.json",
+        "sha256": "be5308a3dc90bd57bf8c0dbe05de8f419f8e611f0bb0e062285bcd9276ae758a",
+        "bytes": 1329
+      },
+      {
+        "path": "results/cache/models/86074da40aaf206b4ad3/weights.pt",
+        "sha256": "9a7788125ac0da8e4da1af5ae3de995664960ab5a3c97becce89c8562532cc17",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2016",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "977043071a50a1914227",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 4.253484800050501,
+    "artifact_directory": "results/cache/models/977043071a50a1914227",
+    "evaluation_graph_sha256": "7f828ec05141ffa4cf429a283f65ffe397b0bf975501ce407bb9cd61382f7d9f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/977043071a50a1914227/model.json",
+        "sha256": "bb151e51a0e1eb45c8a90e5205905c819d13ac07f74ba4a0076b5e5dfa7561e2",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/977043071a50a1914227/training.json",
+        "sha256": "cdb0ab36a4b1b0d992d64fac3ce545867d39e7680b829abd0f2942a8b01c24d3",
+        "bytes": 1332
+      },
+      {
+        "path": "results/cache/models/977043071a50a1914227/weights.pt",
+        "sha256": "e18e214d57d8673ef5aed698a3299e8eaac4a9feea35edefd32ac63ae7b84d2f",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2017",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "412b1c12befb471ab65c",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 4.699668799992651,
+    "artifact_directory": "results/cache/models/412b1c12befb471ab65c",
+    "evaluation_graph_sha256": "e81668288556d275e2aca3869fe305dd97f97f5585cefc49d6ee14619790d29f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/412b1c12befb471ab65c/model.json",
+        "sha256": "bb151e51a0e1eb45c8a90e5205905c819d13ac07f74ba4a0076b5e5dfa7561e2",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/412b1c12befb471ab65c/training.json",
+        "sha256": "661f5f8393b546616b3380941ae50b6fd8fdbb542578398e640d7d1859f6cec2",
+        "bytes": 1339
+      },
+      {
+        "path": "results/cache/models/412b1c12befb471ab65c/weights.pt",
+        "sha256": "cf9ca5b42ac35a956200607765af0830fdf5833e5d0cd5f1009fc1ecdcb8f2cc",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2018",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "0324b6b68629257e0cc5",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 5.439292499970179,
+    "artifact_directory": "results/cache/models/0324b6b68629257e0cc5",
+    "evaluation_graph_sha256": "3fc093063b8d0c0e14f5ca54653567612ecd62c65b0d94ad2cb580b540c573ef",
+    "artifacts": [
+      {
+        "path": "results/cache/models/0324b6b68629257e0cc5/model.json",
+        "sha256": "bb151e51a0e1eb45c8a90e5205905c819d13ac07f74ba4a0076b5e5dfa7561e2",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/0324b6b68629257e0cc5/training.json",
+        "sha256": "a25a9f7d1b47645a8af1cfe7d5f6269bfd1aff0194b3da187818ac2d3691066f",
+        "bytes": 1338
+      },
+      {
+        "path": "results/cache/models/0324b6b68629257e0cc5/weights.pt",
+        "sha256": "96453fcecbf2f68c1bbc7b9488ea260f8328fd31fc249ba34035670a321ac8c6",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2019",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "153ca7d4ca80df1a4d0c",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 7.3634342000004835,
+    "artifact_directory": "results/cache/models/153ca7d4ca80df1a4d0c",
+    "evaluation_graph_sha256": "d156813da22207d6304327fa89ac80ae7c95178d6d77903666e93a315e71e39e",
+    "artifacts": [
+      {
+        "path": "results/cache/models/153ca7d4ca80df1a4d0c/model.json",
+        "sha256": "bb151e51a0e1eb45c8a90e5205905c819d13ac07f74ba4a0076b5e5dfa7561e2",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/153ca7d4ca80df1a4d0c/training.json",
+        "sha256": "274c47d7c08e15cfc178695ba35bf13d3e2eb509e678f4125ca11d02bdf621e8",
+        "bytes": 1343
+      },
+      {
+        "path": "results/cache/models/153ca7d4ca80df1a4d0c/weights.pt",
+        "sha256": "1bb2dde12813c74eea5f0783be7c0b618ad171ce9624ec99365db1036513411c",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "annual_2020",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "45f81fcef76a2083ee37",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 7.873870399955194,
+    "artifact_directory": "results/cache/models/45f81fcef76a2083ee37",
+    "evaluation_graph_sha256": "0629d93217710f6346dbb87e5fda95971a25c0d05426d2c55d74975cbdd63bea",
+    "artifacts": [
+      {
+        "path": "results/cache/models/45f81fcef76a2083ee37/model.json",
+        "sha256": "bb151e51a0e1eb45c8a90e5205905c819d13ac07f74ba4a0076b5e5dfa7561e2",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/45f81fcef76a2083ee37/training.json",
+        "sha256": "f94355f3c05d020e57a985ee11f31fb2769a49be12ab01b12424c2da8cae90f2",
+        "bytes": 1342
+      },
+      {
+        "path": "results/cache/models/45f81fcef76a2083ee37/weights.pt",
+        "sha256": "35acc2a393e766b0da442f32f9b57c391b465187472b41caaadb61a604f64f8d",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2012",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "10c39acf98491b94c28a",
+    "train_rows": 2608,
+    "evaluation_rows": 2597,
+    "origin": "2012-05-30",
+    "train_keys_sha256": "ec3379010f49f1d27ea5a3353533f6396c457d37bb44b153782e7acd194439cb",
+    "preprocessing_sha256": "e53945ac2dc593cb8ba156df20851409c428bac42eadddaab0d849d47a1f9ea5",
+    "seconds": 0.8512442000210285,
+    "artifact_directory": "results/cache/models/10c39acf98491b94c28a",
+    "evaluation_graph_sha256": "2f1769196d134f55dffe1a77d0d13d9930d1397642cb38ad2d778f7761545a82",
+    "artifacts": [
+      {
+        "path": "results/cache/models/10c39acf98491b94c28a/model.json",
+        "sha256": "6526ff8be8ecd90821b494179a8add0ebeb720bc88686a0b6f6f8f7361d44edc",
+        "bytes": 130
+      },
+      {
+        "path": "results/cache/models/10c39acf98491b94c28a/training.json",
+        "sha256": "b9a0c2fca864be565a6e460eb36a12df4fd04c1be450ea64828971653e5a088a",
+        "bytes": 1336
+      },
+      {
+        "path": "results/cache/models/10c39acf98491b94c28a/weights.pt",
+        "sha256": "b5945837360e08ca919c5018d58698374f53b2a47f7f89233fffd618312b479f",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2013",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "e790e4b99b3cab67c099",
+    "train_rows": 5215,
+    "evaluation_rows": 2607,
+    "origin": "2013-05-30",
+    "train_keys_sha256": "7019c87528bab7be86ed5eb690105b984c55aea13658dd45367c3d02275c27f9",
+    "preprocessing_sha256": "c2d28a317b32801a4fe7c497357987fd536d8c73697ea2910c2fab9d2fe0f812",
+    "seconds": 1.4903202000423335,
+    "artifact_directory": "results/cache/models/e790e4b99b3cab67c099",
+    "evaluation_graph_sha256": "5004aaa6eec44a529c72e462d3de63135158bb0018f3d47bb2c4870d6cc02569",
+    "artifacts": [
+      {
+        "path": "results/cache/models/e790e4b99b3cab67c099/model.json",
+        "sha256": "d74573a4aa0f1322f7dff1b260b5d0b91a4cd18453fb82c7e9d561b28500e7b6",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/e790e4b99b3cab67c099/training.json",
+        "sha256": "604122db06a6143345b05d494ae0da749fe8eedd028e1cc1823c7e5044a83c0a",
+        "bytes": 1322
+      },
+      {
+        "path": "results/cache/models/e790e4b99b3cab67c099/weights.pt",
+        "sha256": "d5c3f1ee7ae36e5aef5f5e559cb834c98673939c447a7ec1effea44efa356a55",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2014",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "5b4505da8e44825d4f90",
+    "train_rows": 7812,
+    "evaluation_rows": 2660,
+    "origin": "2014-05-30",
+    "train_keys_sha256": "55bf60a5f860975764fdd8fd221a63a39a0a08d07bbc4fd44e0f9b6d6d3b5a43",
+    "preprocessing_sha256": "97782a18c20a6735bef603e18a14755e5659d0b9c405fa47c87ca77ce16a55ec",
+    "seconds": 2.286241900001187,
+    "artifact_directory": "results/cache/models/5b4505da8e44825d4f90",
+    "evaluation_graph_sha256": "b3e9ef8557d823f3c1c68d8920275f1831b6da3c25fa0ba2493062bb3d8590d9",
+    "artifacts": [
+      {
+        "path": "results/cache/models/5b4505da8e44825d4f90/model.json",
+        "sha256": "d74573a4aa0f1322f7dff1b260b5d0b91a4cd18453fb82c7e9d561b28500e7b6",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/5b4505da8e44825d4f90/training.json",
+        "sha256": "599bb15c2ea7b0d46cd3430865adf6a7703ae42fc1dd764bca914251555166c3",
+        "bytes": 1328
+      },
+      {
+        "path": "results/cache/models/5b4505da8e44825d4f90/weights.pt",
+        "sha256": "067b83253d93b412d96cdc8c9d33a6205f2a3b504c14437972ca02a16e68db8b",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2015",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "54a925e7779705b82ba9",
+    "train_rows": 10419,
+    "evaluation_rows": 2757,
+    "origin": "2015-05-30",
+    "train_keys_sha256": "dff4808abbef75cc6ba82b042f9dc238e5704860b0c5348b21bef18f0029f1c3",
+    "preprocessing_sha256": "e4192e56ac43041973813dc86d9dccb6898418423f5f9ef78e041349cf0d6d5d",
+    "seconds": 3.110643699998036,
+    "artifact_directory": "results/cache/models/54a925e7779705b82ba9",
+    "evaluation_graph_sha256": "07fb769044fe06568c3f558736062ddfeabcf14c93fd79add655f65c292c3c3c",
+    "artifacts": [
+      {
+        "path": "results/cache/models/54a925e7779705b82ba9/model.json",
+        "sha256": "d74573a4aa0f1322f7dff1b260b5d0b91a4cd18453fb82c7e9d561b28500e7b6",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/54a925e7779705b82ba9/training.json",
+        "sha256": "c9fdb92a06705490abe84055fb10b35f73d32e1ebe1fdfd65e5444a9a1e54fef",
+        "bytes": 1328
+      },
+      {
+        "path": "results/cache/models/54a925e7779705b82ba9/weights.pt",
+        "sha256": "629e7c46c2808879704d8b8967d2b158d672ee9ce805e32a24d6f7b403112f01",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2016",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "9aea70641bb7398ffb6b",
+    "train_rows": 13079,
+    "evaluation_rows": 2876,
+    "origin": "2016-05-30",
+    "train_keys_sha256": "273e7a4a3745f64ac10fed6d9b5ca72b92f4fc10eab935fad19db8a8490159dc",
+    "preprocessing_sha256": "a0b40dcb733813a2a343aea816c9c8293287ca33834f04ecaa8297612d9f09cc",
+    "seconds": 3.7214193000108935,
+    "artifact_directory": "results/cache/models/9aea70641bb7398ffb6b",
+    "evaluation_graph_sha256": "7f828ec05141ffa4cf429a283f65ffe397b0bf975501ce407bb9cd61382f7d9f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/9aea70641bb7398ffb6b/model.json",
+        "sha256": "d74573a4aa0f1322f7dff1b260b5d0b91a4cd18453fb82c7e9d561b28500e7b6",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/9aea70641bb7398ffb6b/training.json",
+        "sha256": "fc3be155d5443b81d4348fe7b2f6acac2add43524447bd92a919968c80db5ab1",
+        "bytes": 1333
+      },
+      {
+        "path": "results/cache/models/9aea70641bb7398ffb6b/weights.pt",
+        "sha256": "4eb459934f32089f63d33d693cee684020e27a58725f048a142a009bb96a75b0",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2017",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "5207a20df552a9aa9e74",
+    "train_rows": 15836,
+    "evaluation_rows": 2958,
+    "origin": "2017-05-30",
+    "train_keys_sha256": "5408675bf3f6d92d500e8d44ac3bd8f0af959a4376f05541b6e1523c7ba08d6f",
+    "preprocessing_sha256": "7dec49d590c2bd34dd8ba401401007b3d20c799f287f1f5b5d5c8e72213e33a3",
+    "seconds": 5.507527900044806,
+    "artifact_directory": "results/cache/models/5207a20df552a9aa9e74",
+    "evaluation_graph_sha256": "e81668288556d275e2aca3869fe305dd97f97f5585cefc49d6ee14619790d29f",
+    "artifacts": [
+      {
+        "path": "results/cache/models/5207a20df552a9aa9e74/model.json",
+        "sha256": "d74573a4aa0f1322f7dff1b260b5d0b91a4cd18453fb82c7e9d561b28500e7b6",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/5207a20df552a9aa9e74/training.json",
+        "sha256": "d2b79685f7e2fe7037935bff8831065edf7017a1878383b742972b24fa1f80a4",
+        "bytes": 1340
+      },
+      {
+        "path": "results/cache/models/5207a20df552a9aa9e74/weights.pt",
+        "sha256": "e5f36bf02d536ecd0559485bf8f0c258a8171798aa1f2cf09d0d06a1baaa46c5",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2018",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "1ab222a5b048ec6125e7",
+    "train_rows": 18712,
+    "evaluation_rows": 3028,
+    "origin": "2018-05-30",
+    "train_keys_sha256": "2189791d97612ddbd7dea4569d66f5e733c8ebbd03ff53107a6cb77aba81902d",
+    "preprocessing_sha256": "fc999e24b0a000cf07c57cd1002c3bd5cc9bc6f56c0d4a62e7ced827bb55006b",
+    "seconds": 6.778182000038214,
+    "artifact_directory": "results/cache/models/1ab222a5b048ec6125e7",
+    "evaluation_graph_sha256": "3fc093063b8d0c0e14f5ca54653567612ecd62c65b0d94ad2cb580b540c573ef",
+    "artifacts": [
+      {
+        "path": "results/cache/models/1ab222a5b048ec6125e7/model.json",
+        "sha256": "d74573a4aa0f1322f7dff1b260b5d0b91a4cd18453fb82c7e9d561b28500e7b6",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/1ab222a5b048ec6125e7/training.json",
+        "sha256": "d9bbdb91695338404bc14b490335fa5a6889e4ce5195c89809eab9ad854db536",
+        "bytes": 1334
+      },
+      {
+        "path": "results/cache/models/1ab222a5b048ec6125e7/weights.pt",
+        "sha256": "c02f591a745ec5223349bd585167b1709612b69796ba6937994d40f167cac21c",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2019",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "61afa863ab5cadf9b211",
+    "train_rows": 21670,
+    "evaluation_rows": 3125,
+    "origin": "2019-05-30",
+    "train_keys_sha256": "9de4f6173a70dd2335bcfb4c60cbe9a0ef2708b6bca23f45d364084c3be2941a",
+    "preprocessing_sha256": "445752fbf8ebc2231237ca1f254b9c054a4ad8ee596b56e7666e53cd7364e127",
+    "seconds": 9.178873900033068,
+    "artifact_directory": "results/cache/models/61afa863ab5cadf9b211",
+    "evaluation_graph_sha256": "d156813da22207d6304327fa89ac80ae7c95178d6d77903666e93a315e71e39e",
+    "artifacts": [
+      {
+        "path": "results/cache/models/61afa863ab5cadf9b211/model.json",
+        "sha256": "d74573a4aa0f1322f7dff1b260b5d0b91a4cd18453fb82c7e9d561b28500e7b6",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/61afa863ab5cadf9b211/training.json",
+        "sha256": "882fac293f093a089e035489cacd25a362d3c0928bace83441630165960501e5",
+        "bytes": 1341
+      },
+      {
+        "path": "results/cache/models/61afa863ab5cadf9b211/weights.pt",
+        "sha256": "aa119463f4833a2c70086351b80db4232e0e8a4d95ee903bd632560641ec0102",
+        "bytes": 2444
+      }
+    ]
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "annual_2020",
+    "code_commit": "b83a7bc8651a11aff834453ff07a8fc4e5907655",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "fb101e15a449a87a047e",
+    "train_rows": 24698,
+    "evaluation_rows": 3496,
+    "origin": "2020-05-30",
+    "train_keys_sha256": "2d795124e571c9e04080061fe71072a2e2d0c3a87331b9e74d3030d443920ad4",
+    "preprocessing_sha256": "621b1c299b28821334a52d19a47cc8f53d23ae6c42c64306c9e61ef2df48d4c1",
+    "seconds": 6.930949200002942,
+    "artifact_directory": "results/cache/models/fb101e15a449a87a047e",
+    "evaluation_graph_sha256": "0629d93217710f6346dbb87e5fda95971a25c0d05426d2c55d74975cbdd63bea",
+    "artifacts": [
+      {
+        "path": "results/cache/models/fb101e15a449a87a047e/model.json",
+        "sha256": "d74573a4aa0f1322f7dff1b260b5d0b91a4cd18453fb82c7e9d561b28500e7b6",
+        "bytes": 118
+      },
+      {
+        "path": "results/cache/models/fb101e15a449a87a047e/training.json",
+        "sha256": "66ee504c87a7938b55f52a80b7422e0984dafd2f8d853f8437b6c8563f458d67",
+        "bytes": 1337
+      },
+      {
+        "path": "results/cache/models/fb101e15a449a87a047e/weights.pt",
+        "sha256": "48b173391257678c753502cbdea49bea5c9494d4c13ee70078f23e2936facfcc",
+        "bytes": 2444
+      }
+    ]
+  }
+]
