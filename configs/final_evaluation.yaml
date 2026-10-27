@@ -1,0 +1,39 @@
+version: 1
+status: prespecified_before_test_performance
+prediction: all_frozen_test_role_keys
+families: [prevalence, logistic, xgboost, gru, gat, gat_gru, gat_gru_random, gat_gru_exogenous]
+primary_predictions: mean_of_prespecified_seed_probabilities
+additional_graph_sensitivity: nonselected_gat_gru_k_candidate; no_reselection
+explanations:
+  family: gat_gru
+  primary_seed: 11
+  primary_population: all_eligible_test_bank_quarters
+  additional_seeds: [29, 47]
+  null_controls: [gat_gru_random, gat_gru_exogenous]
+  sensitivity_rows_per_quarter: 32
+  sensitivity_selection: lowest_SHA256_of_row_id; no_outcome_selection
+  edge_budget: 2
+  edge_methods: [attention, GNNExplainer_style_edge_mask, random]
+  edge_mask_steps: 30
+  edge_mask_learning_rate: 0.1
+  edge_mask_size_penalty: 0.005
+  edge_mask_entropy_penalty: 0.1
+  edge_target: original_predicted_binary_class; no_true_label_optimization
+  financial_groups: [capital, asset_mix, credit_quality]
+  financial_subset_budget: all_7_nonempty_group_subsets
+  ranking_budget: 1_group
+  edit_lags_quarters: [0, 1]
+  donor: same_report_quarter_and_charter; within_factor_two_assets; nearest_eight_then_hash_choice
+  invalid: retain_attempt_log; no_resampling; full_ranking_requires_all_seven_subsets_valid
+  support: per_feature_training_range_and_nearest_training_distance; not_proof_of_joint_support
+  operational_relevance: crossing_a_seed_specific_validation_only_false_alarm_threshold
+robustness:
+  paired_bootstrap_replicates: 500
+  seed: 20261027
+  cluster: connected_CERT_RSSD_component
+  time_cluster: calendar_year_blocks
+  bootstrap: separately_resample_institution_clusters_and_year_blocks; multiply_counts
+  undefined_draws: record_all; intervals_conditional_on_defined_metric; exploratory_not_coverage_guarantee
+  economic_periods: [2022, 2023, 2024, 2025]
+case_studies: proposed_packets_for_eligible_failed_banks_and_pre_event_matched_survivors; pending_Ayush_selection_and_review
+stop_claims: no_causal_shocks; no_systemic_risk; no_Q1_readiness_without_remaining_finance_vintage_and_author_gates
