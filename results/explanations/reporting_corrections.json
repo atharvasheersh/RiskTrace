@@ -1,0 +1,31 @@
+{
+  "finding": "Independent reviewer identified omitted detailed control invalid-attempt ledgers; counts were present",
+  "correction": "Supplementary reporting replay with exact same frozen settings/code/models; no retuning or refreeze",
+  "primary_results_changed": false,
+  "checks": [
+    {
+      "family": "gat_gru_random",
+      "cases": 828,
+      "invalid_detail_rows": 508,
+      "saved_case_values_reproduced": true,
+      "parameters_unchanged": true,
+      "seconds": 6.036037999961991
+    },
+    {
+      "family": "gat_gru_exogenous",
+      "cases": 828,
+      "invalid_detail_rows": 508,
+      "saved_case_values_reproduced": true,
+      "parameters_unchanged": true,
+      "seconds": 6.268343899981119
+    },
+    {
+      "family": "gat_gru_other_k",
+      "cases": 828,
+      "invalid_detail_rows": 508,
+      "saved_case_values_reproduced": true,
+      "parameters_unchanged": true,
+      "seconds": 6.951150999986567
+    }
+  ]
+}

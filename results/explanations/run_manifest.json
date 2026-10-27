@@ -1,0 +1,63 @@
+{
+  "dataset_id": "analysis-v1-15e5448d4a96",
+  "plan_sha256": "6b4392a84983166a645fac4e7fa02f96744357bc56d11f20b82e13d157aa1c5e",
+  "runs": [
+    {
+      "seed": 11,
+      "parameter_sha256": "6dd3e3b8810e1893dad3fa1e5d4422ba501fb4f873d6f481614223179496b094",
+      "parameters_unchanged": true,
+      "cases": 25289,
+      "invalid_records": 14697,
+      "seconds": 227.096659599978,
+      "target": "individual fitted seed model, not the predictive ensemble"
+    },
+    {
+      "seed": 29,
+      "parameter_sha256": "e5e95e87604533865ef567cd643e2ab2d199671a9f880101225447669802ffd1",
+      "parameters_unchanged": true,
+      "cases": 828,
+      "invalid_records": 508,
+      "seconds": 11.613123600021936,
+      "target": "individual fitted seed model, not the predictive ensemble"
+    },
+    {
+      "seed": 47,
+      "parameter_sha256": "2c014abeda2a818fd11156a48866232234cd00004e27d979bfc32565f60bdbc6",
+      "parameters_unchanged": true,
+      "cases": 828,
+      "invalid_records": 508,
+      "seconds": 10.417453199974261,
+      "target": "individual fitted seed model, not the predictive ensemble"
+    },
+    {
+      "family": "gat_gru_random",
+      "seed": 11,
+      "parameters_unchanged": true,
+      "null_gap_verified": true,
+      "cases": 828,
+      "invalid_records": 508
+    },
+    {
+      "family": "gat_gru_exogenous",
+      "seed": 11,
+      "parameters_unchanged": true,
+      "null_gap_verified": true,
+      "cases": 828,
+      "invalid_records": 508
+    },
+    {
+      "family": "gat_gru_other_k",
+      "seed": 11,
+      "parameters_unchanged": true,
+      "null_gap_verified": false,
+      "cases": 828,
+      "invalid_records": 508
+    }
+  ],
+  "caveats": [
+    "GNNExplainer-style edge-only optimization adaptation, not a full benchmark reproduction",
+    "Financial groups and edge explanations have different units and are not cross-ranked",
+    "Valid accounting and range support do not establish economic/causal plausibility",
+    "Efficient own-bank replay is exact for this architecture; global spillovers are not measured"
+  ]
+}
