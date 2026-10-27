@@ -1,0 +1,124 @@
+{
+  "status": "frozen_before_first_test_performance",
+  "created_utc": "2026-10-27T10:35:14.865736+00:00",
+  "code_commit": "3cfda90b58f78fd20b030b893fc80215cce09853",
+  "source_hashes": {
+    "analysis.py": "411a0d5ba66d8ee8c282a191ae0260ba23bcb6065498cc9c117fc844d8c1ed61",
+    "core.py": "635f170c18108ed6f6e98f678366c42d054e60e3c2094be6bcef66019ca2f507",
+    "protocol.py": "6fa929dd49fc86a2fe7298c984baafd0520a7f05be2364300e2a5816e3a5ed03",
+    "audit.py": "e924d43ed34ccbbafc280dc6adfec833a66921b8bf2e5546f842f797879ee049",
+    "metrics.py": "256349c2c9cebf02375d690b5a24f93f44ba263f3fb1e2b9b9321d01bf8ed152",
+    "predictive.py": "3cf7170a9110eef5cd1f41be9a8a48057c365b961d959747a2cfc4cd6a5540cf",
+    "temporal.py": "553ffd1162918b9adce5c7240ba864a7c92b3331cee70a1eddc45d79ab438e38",
+    "graph_models.py": "1371c36de17e3bf8eee90fd784544b74eec35e24b843e211e3bd13347e708c52",
+    "holdout.py": "3c3cd15aa014858fbe0e9b9c5cce1692a548736d2d0d394b98866ff52b905538",
+    "explanation_eval.py": "5d5d8eeeab967b412a1259617a51e4322685b106770ec85462eb7332b11ddbfb",
+    "robustness.py": "7feebcaea92c3e72d971f7ec33911b2e41c0410316ea3188658401d5ce98806f"
+  },
+  "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+  "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+  "selected_models_sha256": "f13de107a1919b1cfc3cc8dfac3bda6cc4abd1885dbe27b838340e3fe04f9c94",
+  "experiments_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+  "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+  "data_spec_sha256": "8e1b6692f1181ce05ae780d8c295d92daf5baee54418ee25ee8b685b03839acd",
+  "splits_config_sha256": "3f8acffa3f9f757242b13ad5dc5bf2861fa29ac6f6ae380acbebe88301cb7242",
+  "evaluation_config_sha256": "a068faa05006ca01d6b606d3debe0460644332ab63707dd1d97222b951277b36",
+  "settings": {
+    "version": 1,
+    "status": "prespecified_before_test_performance",
+    "prediction": "all_frozen_test_role_keys",
+    "families": [
+      "prevalence",
+      "logistic",
+      "xgboost",
+      "gru",
+      "gat",
+      "gat_gru",
+      "gat_gru_random",
+      "gat_gru_exogenous"
+    ],
+    "primary_predictions": "mean_of_prespecified_seed_probabilities",
+    "additional_graph_sensitivity": "nonselected_gat_gru_k_candidate; no_reselection",
+    "explanations": {
+      "family": "gat_gru",
+      "primary_seed": 11,
+      "primary_population": "all_eligible_test_bank_quarters",
+      "additional_seeds": [
+        29,
+        47
+      ],
+      "null_controls": [
+        "gat_gru_random",
+        "gat_gru_exogenous"
+      ],
+      "sensitivity_rows_per_quarter": 32,
+      "sensitivity_selection": "lowest_SHA256_of_row_id; no_outcome_selection",
+      "edge_budget": 2,
+      "edge_methods": [
+        "attention",
+        "GNNExplainer_style_edge_mask",
+        "random"
+      ],
+      "edge_mask_steps": 30,
+      "edge_mask_learning_rate": 0.1,
+      "edge_mask_size_penalty": 0.005,
+      "edge_mask_entropy_penalty": 0.1,
+      "edge_target": "original_predicted_binary_class; no_true_label_optimization",
+      "financial_groups": [
+        "capital",
+        "asset_mix",
+        "credit_quality"
+      ],
+      "financial_subset_budget": "all_7_nonempty_group_subsets",
+      "ranking_budget": "1_group",
+      "edit_lags_quarters": [
+        0,
+        1
+      ],
+      "donor": "same_report_quarter_and_charter; within_factor_two_assets; nearest_eight_then_hash_choice",
+      "invalid": "retain_attempt_log; no_resampling; full_ranking_requires_all_seven_subsets_valid",
+      "support": "per_feature_training_range_and_nearest_training_distance; not_proof_of_joint_support",
+      "operational_relevance": "crossing_a_seed_specific_validation_only_false_alarm_threshold"
+    },
+    "robustness": {
+      "paired_bootstrap_replicates": 500,
+      "seed": 20261027,
+      "cluster": "connected_CERT_RSSD_component",
+      "time_cluster": "calendar_year_blocks",
+      "bootstrap": "separately_resample_institution_clusters_and_year_blocks; multiply_counts",
+      "undefined_draws": "record_all; intervals_conditional_on_defined_metric; exploratory_not_coverage_guarantee",
+      "economic_periods": [
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "case_studies": "proposed_packets_for_eligible_failed_banks_and_pre_event_matched_survivors; pending_Ayush_selection_and_review",
+    "stop_claims": "no_causal_shocks; no_systemic_risk; no_Q1_readiness_without_remaining_finance_vintage_and_author_gates"
+  },
+  "seed_alert_thresholds": {
+    "gat_gru": {
+      "11": 0.0076642423,
+      "29": 0.012385621,
+      "47": 0.01486541
+    },
+    "gat_gru_random": {
+      "11": 0.0055639986,
+      "29": 0.0073650302,
+      "47": 0.0037768362
+    },
+    "gat_gru_exogenous": {
+      "11": 0.039602786,
+      "29": 0.0519584,
+      "47": 0.010814806
+    },
+    "gru": {
+      "11": 0.01620912,
+      "29": 0.024293566,
+      "47": 0.027404835
+    }
+  },
+  "test_status": "previously_counted_for_feasibility; performance_not_inspected",
+  "interpretation": "exploratory sparse-event study; finance materiality and publication novelty unproved"
+}

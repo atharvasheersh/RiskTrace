@@ -27,7 +27,7 @@ def config(path=None):
 def write_json(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, allow_nan=False, default=str) + "\n", encoding="utf8")
+    path.write_text(json.dumps(value, indent=2, allow_nan=False, default=str) + "\n", encoding="utf8", newline="\n")
 
 
 def cert(value):

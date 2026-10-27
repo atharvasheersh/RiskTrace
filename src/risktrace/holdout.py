@@ -19,8 +19,13 @@ MODEL_FILES=["analysis.py","core.py","protocol.py","audit.py","metrics.py","pred
              "graph_models.py","holdout.py","explanation_eval.py","robustness.py"]
 
 
+def text_sha(path):
+    """Hash tracked text in canonical LF form; raw data/checkpoint hashes stay byte-exact."""
+    return sha(path.read_text(encoding="utf8").encode("utf8"))
+
+
 def source_fingerprint():
-    return {name:sha((ROOT/"src/risktrace"/name).read_bytes()) for name in MODEL_FILES}
+    return {name:text_sha(ROOT/"src/risktrace"/name) for name in MODEL_FILES}
 
 
 def freeze_plan():
@@ -37,12 +42,12 @@ def freeze_plan():
     plan=dict(status="frozen_before_first_test_performance",created_utc=datetime.now(timezone.utc).isoformat(),
               code_commit=code_commit(),source_hashes=source_fingerprint(),dataset_sha256=data["sha256"],
               split_sha256=data["split_keys_sha256"],
-              selected_models_sha256=sha((ROOT/"results/predictive/selected_models.json").read_bytes()),
-              experiments_sha256=sha((ROOT/"configs/experiments.yaml").read_bytes()),
-              environment_lock_sha256=sha((ROOT/"uv.lock").read_bytes()),
-              data_spec_sha256=sha((ROOT/"configs/data_spec.yaml").read_bytes()),
-              splits_config_sha256=sha((ROOT/"configs/splits.yaml").read_bytes()),
-              evaluation_config_sha256=sha((ROOT/"configs/final_evaluation.yaml").read_bytes()),
+              selected_models_sha256=text_sha(ROOT/"results/predictive/selected_models.json"),
+              experiments_sha256=text_sha(ROOT/"configs/experiments.yaml"),
+              environment_lock_sha256=text_sha(ROOT/"uv.lock"),
+              data_spec_sha256=text_sha(ROOT/"configs/data_spec.yaml"),
+              splits_config_sha256=text_sha(ROOT/"configs/splits.yaml"),
+              evaluation_config_sha256=text_sha(ROOT/"configs/final_evaluation.yaml"),
               settings=spec,seed_alert_thresholds=seed_thresholds,
               test_status="previously_counted_for_feasibility; performance_not_inspected",
               interpretation="exploratory sparse-event study; finance materiality and publication novelty unproved")
@@ -54,7 +59,7 @@ def require_frozen_plan():
     path=ROOT/"docs/final_analysis_plan.json"
     if not path.exists():raise ValueError("Final analysis plan is required before test evaluation")
     committed=subprocess.run(["git","show","HEAD:docs/final_analysis_plan.json"],cwd=ROOT,capture_output=True)
-    if committed.returncode or sha(committed.stdout)!=sha(path.read_bytes()):
+    if committed.returncode or sha(committed.stdout.replace(b"\r\n",b"\n"))!=text_sha(path):
         raise ValueError("Final analysis plan must be committed and unchanged before test evaluation")
     plan=json.loads(path.read_text())
     if plan["source_hashes"]!=source_fingerprint():raise ValueError("Model/evaluation code changed after plan freeze")
@@ -62,7 +67,7 @@ def require_frozen_plan():
                      ("uv.lock","environment_lock_sha256"),
                      ("configs/data_spec.yaml","data_spec_sha256"),("configs/splits.yaml","splits_config_sha256"),
                      ("configs/experiments.yaml","experiments_sha256"),("configs/final_evaluation.yaml","evaluation_config_sha256")]:
-        if sha((ROOT/file).read_bytes())!=plan[key]:raise ValueError("Frozen settings changed")
+        if text_sha(ROOT/file)!=plan[key]:raise ValueError("Frozen settings changed")
     _,_,_,meta=load_analysis()
     if meta["sha256"]!=plan["dataset_sha256"] or meta["split_keys_sha256"]!=plan["split_sha256"]:
         raise ValueError("Frozen data/splits changed")

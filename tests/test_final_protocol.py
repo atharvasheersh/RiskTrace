@@ -6,6 +6,7 @@ from risktrace.graph_models import GraphTemporal,snapshot_neighbors
 from risktrace.temporal import deterministic
 from risktrace.explanation_eval import edited_probabilities,target_neighbors
 from risktrace.holdout import require_frozen_plan
+from risktrace.holdout import text_sha
 from risktrace.robustness import crossed_draws,institution_components
 
 
@@ -48,6 +49,14 @@ def test_no_test_evaluation_without_a_frozen_plan(tmp_path,monkeypatch):
     import risktrace.holdout as module
     monkeypatch.setattr(module,'ROOT',tmp_path)
     with pytest.raises(ValueError,match='plan is required'):require_frozen_plan()
+
+
+def test_windows_working_copy_newlines_do_not_invalidate_committed_text(tmp_path):
+    lf=tmp_path/'lf.json';crlf=tmp_path/'crlf.json'
+    lf.write_bytes(b'{\n  "number": 1\n}\n');crlf.write_bytes(b'{\r\n  "number": 1\r\n}\r\n')
+    assert text_sha(lf)==text_sha(crlf)
+    crlf.write_bytes(b'{\r\n  "number": 2\r\n}\r\n')
+    assert text_sha(lf)!=text_sha(crlf)
 
 
 def test_uncertainty_keeps_shared_id_clusters_and_common_year_shocks():
