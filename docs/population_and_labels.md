@@ -101,8 +101,12 @@ Ayush. Odd count gives Atharva the one extra bank. This is deterministic, balanc
 by bank count, independent of outcomes, not a statistical train/test split.
 Each person owns the entire agreed eligible series for their banks, not half of
 each time series. Finalize only after all quarter counts and coverage are checked.
-Atharva owns all software/ML; Ayush owns finance literature, source verification,
-financial cases and his half's data collection, with no ML tasks.
+Atharva owns the primary software/ML pipeline. Ayush owns finance literature,
+source verification, cases and his half's collection, plus the independent ML
+replication and development explanation tasks assigned on 27 October 2026.
+See revised_work_allocation.md. The event-sufficiency paragraphs below preserve
+the original planning requirements; actual completed counts and limits are in
+dataset_freeze.md and steps_8_14_report.md.
 
 Step 3 event sufficiency is **unknown pending actual extraction**. Step 5 will
 count distinct failed CERTs and positive bank-quarters separately. Repeated positive

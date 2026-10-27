@@ -74,6 +74,11 @@ publication. Step 6 records the actual continue/narrow/reconsider decision.
 
 The 13-row matrix distinguishes primary-method text from abstracts and selected
 code inspections. Some current banking studies are preprints. Rankings and venue
-identity are separate from a method's credibility. The bibliography currently
-contains minimal title/year/URL records; add verified authors, venue, DOI, and final
-publication details before manuscript submission, rather than inventing metadata.
+identity are separate from a method's credibility. At the Step4 review the
+bibliography contained minimal title/year/URL records. The continuation adds
+verified authors and identifiers/publication details where confirmed, with17
+assessed references. Preprint versions remain explicitly marked. The completed
+experiments and current claim assessment are in
+`final_novelty_and_research_questions.md`; predictive usefulness and high novelty
+were not established. The earlier pilot decision is historical, not a claim that
+the later experiments have not been performed.

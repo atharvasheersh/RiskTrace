@@ -140,14 +140,16 @@ is not promised. Record access restrictions and unverified rankings explicitly.
 
 ## Ownership and source precedence
 
-Atharva Sheersh Pandey collects 50% of eligible banks and owns all software, data
-engineering, models, explanations, and technical evaluation. Ayush Sinha collects
-the other 50% and handles finance literature, source documentation, and financial
-case studies. No ML implementation or evaluation is assigned to Ayush. Allocate
-whole bank histories, not arbitrary halves of bank-quarter rows.
+Atharva Sheersh Pandey collects 50% of eligible banks and owns the primary data,
+model, explanation and technical pipeline. Ayush Sinha collects the other 50% and
+handles finance literature, source documentation and financial case studies. The
+user's 27 October 2026 revision also assigns Ayush independent logistic/XGBoost
+replication, development calibration/attribution and an alert-explanation prototype.
+See revised_work_allocation.md for deliverables; none are presumed completed.
+Allocate whole bank histories, not arbitrary halves of bank-quarter rows.
 
 Source precedence: the latest direct user instruction and pasted execution request
-govern; the revised 26 October work split supersedes older ownership tables. Original
+govern; the revised 27 October work split supersedes older ownership tables. Original
 blueprint assertions about novelty, 150–250 banks, 5–10% positives, or publication
 fallbacks are proposals and require verification.
 

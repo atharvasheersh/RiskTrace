@@ -34,15 +34,18 @@ model's historical label-maturity cutoff. Add explicit forecast-origin contracts
 | 8 | Atharva: run the fixed final predictive evaluation and attention/established-explainer/random comparisons | Final predictions and equal-budget explanation outputs | Completed; weak warning performance; edge explanations target nonfailure throughout |
 | 9 | Atharva: paired conditional/pipeline audit, valid financial edits, dependency recomputation, temporal replay and support diagnostics | Per-case tables, uncertainty, invalid attempts and failure cases | Completed with explicit exclusions; current mean gap only 0.0151 percentage points |
 | 10 | Atharva: prespecified robustness and bank/time uncertainty; Ayush: finance cases and plausible matched controls | Robustness tables, figures, explicit finance-review status | Technical analyses and proposed packets complete; 82/500 AP resamples undefined; finance interpretation pending |
-| 11 | Atharva: assemble manuscript and reproducible package; independent reviewer checks claims/leakage/methods | Clean-environment table reproduction, claim-to-evidence map and resolved findings | Working manuscript generated with 17 verified reference records; independent audit completed; fresh-environment reproduction in progress |
-| 12 | Authors: choose/recheck venue; Atharva: prepare exact package | Current scope/ranking/category/year/fees/guide checks and exact manuscript version | Historical shortlist only |
+| 11 | Atharva: assemble manuscript and reproducible package; independent reviewer checks claims/leakage/methods | Clean-environment table reproduction, claim-to-evidence map and resolved findings | Manuscript with17 reference records and114 empirical claim entries; technical audit,28tests and isolated inference/table/figure reproduction passed; human review pending |
+| 12 | Authors: choose/recheck venue; Atharva: prepare exact package | Current scope/ranking/category/year/fees/guide checks and exact manuscript version | Conditional scope checks and submission drafts prepared; current guide/ranking/fees and final venue unverified |
 | 13 | Both authors approve; user authorizes external submission and any charges | Recorded approvals, then actual confirmation if submitted | Not approved; no submission performed |
 | 14 | Authors: respond to actual reviews, rerun justified revisions and reapprove | Evidence-linked response and revised package; acceptance/publication only if received | Conditional future work |
 
-All programming/ML and technical evaluation stay with Atharva. Ayush owns his
-allocated data/source verification, finance literature, plausibility and case
-interpretation; no implementation/training/tuning tasks are assigned to him.
-No collaborator/editor/reviewer contact is automatic.
+The user revised responsibilities on27October2026. Atharva retains the primary
+pipeline and technical integration. Ayush now receives independent logistic/XGBoost
+replication, development calibration/attribution and an alert-explanation prototype,
+alongside source verification, finance literature, plausibility and case review.
+See revised_work_allocation.md for precise deliverables and separate output paths.
+These assignments supersede the earlier no-ML allocation. No completion or author
+approval is invented, and no collaborator/editor/reviewer contact is automatic.
 
 ## Practical priorities
 

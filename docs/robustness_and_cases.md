@@ -42,7 +42,10 @@ two, nearest log assets, an observed nonfailure horizon, and a different connect
 identity component. `results/case_studies/` contains the matching register,
 forecast trajectories, exact financial/edge explanation extracts and an explicit
 review-status record. Ayush should check source/entity meaning, matching,
-plausibility and interpretation; Atharva retains every ML/technical task.
+plausibility and interpretation. The primary ML work was completed under Atharva's
+stream. The later user instruction now assigns Ayush independent baseline ML
+replication and development explanation work; see revised_work_allocation.md.
+Those newly assigned tasks are not claimed complete.
 
 `scripts/build_figures.py` creates four PNG/SVG pairs directly from saved outputs.
 All four have been visually inspected; the revised case figure uses explicit

@@ -1,8 +1,10 @@
 # Full-half collection and integration instructions
 
-Atharva owns approximately 50% of eligible CERTs and all software/ML. Ayush owns
-the remaining CERTs, finance literature, source documentation and financial cases;
-no ML implementation, training, tuning or technical evaluation is assigned to him.
+Atharva owns approximately 50% of eligible CERTs and the primary software/ML
+pipeline. Ayush owns the remaining CERTs, finance literature, source documentation
+and financial cases. The user revised responsibilities on 27 October 2026 to add
+independent baseline ML replication and development explanation work for Ayush.
+See revised_work_allocation.md; these assignments do not imply completion.
 
 ## Reproduce collection
 
