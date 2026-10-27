@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-27T16:03:36.233242+00:00",
+  "code_commit": "eeecb0e037c9ed464dcd70f2a3102ddf63943a88",
+  "dataset_id": "analysis-v1-15e5448d4a96",
+  "bundle_sha256": "9db4c530dc8f63ff52a702d6c43e40550a689bb15cad3b4df613a5a539aeace4",
+  "source_manifest_records_verified": 102,
+  "snapshot_files": 184,
+  "uncompressed_snapshot_bytes": 115482073,
+  "status": "Local reproducibility archive; not uploaded or author-approved for public redistribution",
+  "exclusions": [
+    "environments",
+    "credentials",
+    "Git configuration",
+    "dependency and graph caches",
+    "third-party literature PDFs"
+  ],
+  "scope": "Git bundle plus exact snapshots; inference/tables/figures reproduced; full training not rerun",
+  "archive_path": "output/research_package/RiskTrace_Research_Package.zip",
+  "archive_sha256": "b0cd2bb8a9e4c926425c99c9bff6736dff1090e10cc50bf546d351ed272036eb",
+  "archive_bytes": 47565419,
+  "validation": "ZIP CRC, every snapshot SHA256 and bundle SHA256 passed",
+  "restore_validation": "Archive extracted, history cloned, documented data-copy command executed, frozen code/config/data/splits/preprocessing guards passed in restored checkout"
+}
