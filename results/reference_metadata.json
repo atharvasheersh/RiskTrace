@@ -1,0 +1,251 @@
+[
+  {
+    "id": "2604.14232",
+    "url": "https://arxiv.org/abs/2604.14232",
+    "title": [
+      "Explainable Graph Neural Networks for Interbank Contagion Surveillance: A Regulatory-Aligned Framework for the U.S. Banking Sector"
+    ],
+    "authors": [
+      "Uddin, Mohammad Nasir"
+    ],
+    "date": [
+      "2026/04/14"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:46.667733+00:00"
+  },
+  {
+    "id": "2503.06441",
+    "url": "https://arxiv.org/abs/2503.06441",
+    "title": [
+      "Identifying Evidence Subgraphs for Financial Risk Detection via Graph Counterfactual and Factual Reasoning"
+    ],
+    "authors": [
+      "Du, Huaming",
+      "Yuan, Lei",
+      "Yang, Qing",
+      "Chen, Xingyan",
+      "Zhao, Yu",
+      "Ji, Han",
+      "Zhuang, Fuzhen",
+      "Yang, Carl",
+      "Kou, Gang"
+    ],
+    "date": [
+      "2025/03/09"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:46.880879+00:00"
+  },
+  {
+    "id": "2309.16223",
+    "url": "https://arxiv.org/abs/2309.16223",
+    "title": [
+      "GInX-Eval: Towards In-Distribution Evaluation of Graph Neural Network Explanations"
+    ],
+    "authors": [
+      "Amara, Kenza",
+      "El-Assady, Mennatallah",
+      "Ying, Rex"
+    ],
+    "date": [
+      "2023/09/28"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:47.059103+00:00"
+  },
+  {
+    "id": "2201.08802",
+    "url": "https://arxiv.org/abs/2201.08802",
+    "title": [
+      "Deconfounding to Explanation Evaluation in Graph Neural Networks"
+    ],
+    "authors": [
+      "Wu, Ying-Xin",
+      "Wang, Xiang",
+      "Zhang, An",
+      "Hu, Xia",
+      "Feng, Fuli",
+      "He, Xiangnan",
+      "Chua, Tat-Seng"
+    ],
+    "date": [
+      "2022/01/21"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:47.481036+00:00"
+  },
+  {
+    "id": "2310.01820",
+    "url": "https://arxiv.org/abs/2310.01820",
+    "title": [
+      "Towards Robust Fidelity for Evaluating Explainability of Graph Neural Networks"
+    ],
+    "authors": [
+      "Zheng, Xu",
+      "Shirani, Farhad",
+      "Wang, Tianchun",
+      "Cheng, Wei",
+      "Chen, Zhuomin",
+      "Chen, Haifeng",
+      "Wei, Hua",
+      "Luo, Dongsheng"
+    ],
+    "date": [
+      "2023/10/03"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:47.588014+00:00"
+  },
+  {
+    "id": "2406.03193",
+    "url": "https://arxiv.org/abs/2406.03193",
+    "title": [
+      "Graph Neural Network Explanations are Fragile"
+    ],
+    "authors": [
+      "Li, Jiate",
+      "Pang, Meng",
+      "Dong, Yun",
+      "Jia, Jinyuan",
+      "Wang, Binghui"
+    ],
+    "date": [
+      "2024/06/05"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:47.684545+00:00"
+  },
+  {
+    "id": "2502.04224",
+    "url": "https://arxiv.org/abs/2502.04224",
+    "title": [
+      "Provably Robust Explainable Graph Neural Networks against Graph Perturbation Attacks"
+    ],
+    "authors": [
+      "Li, Jiate",
+      "Pang, Meng",
+      "Dong, Yun",
+      "Jia, Jinyuan",
+      "Wang, Binghui"
+    ],
+    "date": [
+      "2025/02/06"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:48.277078+00:00"
+  },
+  {
+    "id": "2608.27295",
+    "url": "https://arxiv.org/abs/2608.27295",
+    "title": [
+      "A Temporal Multiplex Graph Neural Network for Systemic Risk Transmission in Global Banking"
+    ],
+    "authors": [
+      "Umeorah, Nneka",
+      "Fadina, Tolulope"
+    ],
+    "date": [
+      "2026/08/27"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:48.703987+00:00"
+  },
+  {
+    "id": "1903.03894",
+    "url": "https://arxiv.org/abs/1903.03894",
+    "title": [
+      "GNNExplainer: Generating Explanations for Graph Neural Networks"
+    ],
+    "authors": [
+      "Ying, Rex",
+      "Bourgeois, Dylan",
+      "You, Jiaxuan",
+      "Zitnik, Marinka",
+      "Leskovec, Jure"
+    ],
+    "date": [
+      "2019/03/10"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:48.166392+00:00"
+  },
+  {
+    "id": "2601.20815",
+    "url": "https://arxiv.org/abs/2601.20815",
+    "title": [
+      "GNN Explanations that do not Explain and How to find Them"
+    ],
+    "authors": [
+      "Azzolin, Steve",
+      "Teso, Stefano",
+      "Lepri, Bruno",
+      "Passerini, Andrea",
+      "Malhotra, Sagar"
+    ],
+    "date": [
+      "2026/01/28"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:49.069537+00:00"
+  },
+  {
+    "id": "1603.02754",
+    "url": "https://arxiv.org/abs/1603.02754",
+    "title": [
+      "XGBoost: A Scalable Tree Boosting System"
+    ],
+    "authors": [
+      "Chen, Tianqi",
+      "Guestrin, Carlos"
+    ],
+    "date": [
+      "2016/03/09"
+    ],
+    "doi": [
+      "10.1145/2939672.2939785"
+    ],
+    "retrieved_utc": "2026-10-26T23:25:49.203775+00:00"
+  },
+  {
+    "id": "1406.1078",
+    "url": "https://arxiv.org/abs/1406.1078",
+    "title": [
+      "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation"
+    ],
+    "authors": [
+      "Cho, Kyunghyun",
+      "van Merrienboer, Bart",
+      "Gulcehre, Caglar",
+      "Bahdanau, Dzmitry",
+      "Bougares, Fethi",
+      "Schwenk, Holger",
+      "Bengio, Yoshua"
+    ],
+    "date": [
+      "2014/06/03"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:49.347796+00:00"
+  },
+  {
+    "id": "1710.10903",
+    "url": "https://arxiv.org/abs/1710.10903",
+    "title": [
+      "Graph Attention Networks"
+    ],
+    "authors": [
+      "Veli\u010dkovi\u0107, Petar",
+      "Cucurull, Guillem",
+      "Casanova, Arantxa",
+      "Romero, Adriana",
+      "Li\u00f2, Pietro",
+      "Bengio, Yoshua"
+    ],
+    "date": [
+      "2017/10/30"
+    ],
+    "doi": [],
+    "retrieved_utc": "2026-10-26T23:25:49.635413+00:00"
+  }
+]

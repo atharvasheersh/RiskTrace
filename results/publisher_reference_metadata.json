@@ -1,0 +1,169 @@
+[
+  {
+    "doi": "10.3389/fdata.2024.1392662",
+    "title": [
+      "Quantifying uncertainty in graph neural network explanations"
+    ],
+    "authors": [
+      {
+        "given": "Junji",
+        "family": "Jiang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chen",
+        "family": "Ling",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hongyi",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guangji",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xujiang",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liang",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          9
+        ]
+      ]
+    },
+    "container": [
+      "Frontiers in Big Data"
+    ],
+    "url": "https://doi.org/10.3389/fdata.2024.1392662"
+  },
+  {
+    "doi": "10.1287/opre.2020.0722",
+    "title": [
+      "Robust Risk Quantification via Shock Propagation in Financial Networks"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0304-0636",
+        "authenticated-orcid": false,
+        "given": "Dohyun",
+        "family": "Ahn",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong, Shatin, New Territories,  Hong Kong;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0014-4461",
+        "authenticated-orcid": false,
+        "given": "Nan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong, Shatin, New Territories,  Hong Kong;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9661-8707",
+        "authenticated-orcid": false,
+        "given": "Kyoung-Kuk",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Business, Korea Advanced Institute of Science and Technology, Seoul 02455, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "container": [
+      "Operations Research"
+    ],
+    "url": "https://doi.org/10.1287/opre.2020.0722"
+  }
+]

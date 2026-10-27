@@ -1,0 +1,12 @@
+{
+  "development_fits": 297,
+  "final_fits": 23,
+  "recorded_development_fit_seconds": 949.5739604004193,
+  "recorded_final_fit_seconds": 287.1468787001213,
+  "recorded_financial_audit_seconds": 249.1272363999742,
+  "cpu_threads_per_fit": 2,
+  "logical_processors": 12,
+  "physical_memory_bytes": 16794324992,
+  "paid_compute": false,
+  "interpretation": "Sum of recorded components, not total session wall time; setup, edge masks and document/review time not all included"
+}

@@ -7,3 +7,8 @@
 *.toml text eol=lf
 uv.lock text eol=lf
 *.gz -text
+*.tex text eol=lf
+*.bib text eol=lf
+*.svg text eol=lf
+*.pdf binary
+*.docx binary

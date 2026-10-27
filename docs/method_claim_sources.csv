@@ -1,0 +1,9 @@
+claim,source,selector
+"Calendar periods, origin dates and censoring rule",configs/splits.yaml; data/manifests/analysis_v1.json; results/final_evaluation/*_predictions.csv.gz,fold dates and min/max report_date; outcome_cutoff; effective test ends2025Q1
+USD1B inclusive to250B exclusive; lag60days; horizon12months,configs/data_spec.yaml; src/risktrace/analysis.py,population and labels; raw amounts USD thousands
+"Five inputs, three stochastic seeds, two candidate configurations, k3/7, one GAT head",configs/experiments.yaml; src/risktrace/graph_models.py,"model_features,seeds,families,GraphTemporal"
+Three financial groups; seven nonempty subsets; nearest8 donors; factor2assets; twoedge masks;30masksteps;32rowsperquarter; lag0/1,configs/final_evaluation.yaml; src/risktrace/explanation_eval.py,settings.explanations and probe/edge implementation
+Four cases: CERT/name/failure year and matching,results/case_studies/proposed_case_register.csv,all four rows; CERT24735/57053/59017=2023;27332=2024
+Invalid subset percent8.15%,docs/claim_evidence_map.csv,100*invalid_subset_attempts/attempted_subsets; report rounding
+Four report-year blocks with2025partial; APquantiles2.5/97.5%; seedranges notCIs,results/final_evaluation/*_predictions.csv.gz; src/risktrace/robustness.py,report_date yearnunique; crossed_draws and quantiles
+Predicted class boundary0.5; validationtargetFPR1%; warning332days,src/risktrace/explanation_eval.py; configs/experiments.yaml; results/final_evaluation/logistic_warning_events.csv,masktarget;false_alarm_rate;detected bankwarning

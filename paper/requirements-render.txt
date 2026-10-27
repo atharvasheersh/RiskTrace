@@ -1,0 +1,4 @@
+# Optional review-PDF environment, separate from frozen statistical dependencies.
+reportlab==4.4.9
+Pillow==12.3.0
+pypdf==6.10.0

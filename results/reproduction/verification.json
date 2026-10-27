@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "clean_environment": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "prefix": "C:\\Users\\admin\\AppData\\Local\\uv\\cache\\builds-v0\\.tmpqVM50D",
+  "code_commit": "c2edb7ec15fdc88c22f2497376d3242eae44bab9",
+  "verifier_sha256": "8c44f7265ba0d043bd13733d5355273448f3f971a2069f9324f3ffdc03651e4e",
+  "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+  "original_data_commit": "51e3652",
+  "original_preprocessing_sha256": "1e34b71102b26e13128edfc5464cb58ccc9f15ce6dca588eb34d27c949a9cdde",
+  "dataset_id": "analysis-v1-15e5448d4a96",
+  "checkpoint_fits_checked": 23,
+  "models_checked": 9,
+  "claims_checked": 114,
+  "predictions_recomputed": true,
+  "scope": "Saved weights inference, nine primary tables and declared numeric claim map; no training or tuning rerun",
+  "limits": "Fresh environment on same machine and raw snapshot; not independent data collection or finance review"
+}

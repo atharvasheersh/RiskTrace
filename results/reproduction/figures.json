@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "prefix": "C:\\Users\\admin\\AppData\\Local\\uv\\cache\\builds-v0\\.tmp7O1qf3",
+  "separate_environment": true,
+  "figure_pairs": 4,
+  "verified_byte_identical_outputs": {
+    "calibration_and_alarms.png": "50868d03e4848e7206a68889287a02a0089b06c733093a02a60e44e5e6d4d7a4",
+    "calibration_and_alarms.svg": "4d4c7fcdcc68f58ad3a25a281d06329788a87d869e8eca438cadffdbd85d6d1d",
+    "case_forecasts.png": "e4d1cf8cd8a1cc3c77c7b0d8640bee14bd6fd84dcec1c09eca2534a9c83df715",
+    "case_forecasts.svg": "99431699382ea649eeb3de4e8a0a341a8b08931aefb13742e560c2bddf56b94a",
+    "financial_audit.png": "e02f90b190a72c1a7bf118c5cacfb66716e6b8f00666f0170aab81fb1b775c14",
+    "financial_audit.svg": "4156b1fee2379f41dbefa9b4275326f4a981f48509bb5617ff1dd52ef29203cc",
+    "predictive_comparison.png": "a43ecc5960643063225b2e5f942c9f88b502a7a029b8e07db6af9d4e57c17570",
+    "predictive_comparison.svg": "c2737490f8ed84ca8de366d6f8485bbef83bf4d69d04161beca1eb568e3c7157"
+  },
+  "scope": "Rebuild figures and exact case extracts from saved frozen predictions/audits; not independent model training"
+}

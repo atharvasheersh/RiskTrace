@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "review_pdf_pages": 13,
+  "allocation_docx_pages_in_Word_export": 5,
+  "review_pdf_sha256": "bddf6c4e7cc45238c82577ddba6c192c75179e09229af5f66506d21c593d8db9",
+  "allocation_docx_sha256": "5f3a30421888679c13ddd9fd372a361e13ee1d650d4f091ad24ba3ec637f3507",
+  "tex_source_sha256": "34ee753c31e596b5ebb03e2f339f5ddaf69b9ecbd3896f6b74e5171eb873e2e9",
+  "review_pdf_engine": "ReportLab, from shared manuscript content.json",
+  "tex_compile": "desktop compiler reported success on current source",
+  "docx_render": "Packaged renderer missing LibreOffice; Microsoft Word export and Poppler rasterization used",
+  "visual_review": "All13 manuscript pages and all5 actual DOCX-export pages inspected; affected pages rechecked after edits",
+  "boundaries": "This checks document structure/text and records actual visual QA; not finance or author approval"
+}

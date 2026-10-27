@@ -14,3 +14,6 @@ results/cache/
 data/manifests/partial_*.json
 *.log
 *.tmp
+tmp/pdfs/
+output/research_package/*.zip
+output/research_package/*.bundle
