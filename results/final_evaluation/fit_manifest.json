@@ -1,0 +1,1150 @@
+[
+  {
+    "family": "prevalence",
+    "candidate": {
+      "name": "constant"
+    },
+    "seed": 11,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "f39eab29d36268784f5b",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 0.018436399986967444,
+    "artifact_directory": "artifacts/models/prevalence/seed_11",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/models/prevalence/seed_11/model.json",
+        "sha256": "ab205fe4c008dbc8152483e63411f09acbe9b9f78e7bd4fccc0997def6f9b9ff",
+        "bytes": 66
+      }
+    ],
+    "report_label": "prevalence",
+    "cached_artifact_directory": "results/cache/models/f39eab29d36268784f5b"
+  },
+  {
+    "family": "logistic",
+    "candidate": {
+      "name": "C1",
+      "C": 1.0
+    },
+    "seed": 11,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "332ab0caf7d6df809d8c",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 0.034499800007324666,
+    "artifact_directory": "artifacts/models/logistic/seed_11",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/models/logistic/seed_11/model.json",
+        "sha256": "07b6338a8df3331c7701906e41a4dc12fb3be3aa826fb176fa325c9f0b3b593f",
+        "bytes": 206
+      }
+    ],
+    "report_label": "logistic",
+    "cached_artifact_directory": "results/cache/models/332ab0caf7d6df809d8c"
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 11,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "837781343cb03a453bc3",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 0.7813709000474773,
+    "artifact_directory": "artifacts/models/xgboost/seed_11",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/models/xgboost/seed_11/model.ubj",
+        "sha256": "5d1e7d51d4de3c3103e949e2f23175d08b1fa459bfa8b5b1ad5aeeeaf57e430b",
+        "bytes": 68493
+      }
+    ],
+    "report_label": "xgboost",
+    "cached_artifact_directory": "results/cache/models/837781343cb03a453bc3"
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 29,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "e9266512edf352937356",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 0.2226912000332959,
+    "artifact_directory": "artifacts/models/xgboost/seed_29",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/models/xgboost/seed_29/model.ubj",
+        "sha256": "cfdefc48fe2518caaeb470e7191b1da7890d7779ed45c6cc94dac4d6e405757c",
+        "bytes": 68969
+      }
+    ],
+    "report_label": "xgboost",
+    "cached_artifact_directory": "results/cache/models/e9266512edf352937356"
+  },
+  {
+    "family": "xgboost",
+    "candidate": {
+      "name": "depth2",
+      "max_depth": 2,
+      "n_estimators": 80,
+      "learning_rate": 0.05
+    },
+    "seed": 47,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "e64b091e36655fb91b98",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 0.260353599966038,
+    "artifact_directory": "artifacts/models/xgboost/seed_47",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/models/xgboost/seed_47/model.ubj",
+        "sha256": "4abbe0fbccd8845ca38cea12580000c3da94e8b29ee9e0db67b584071c8f0479",
+        "bytes": 68765
+      }
+    ],
+    "report_label": "xgboost",
+    "cached_artifact_directory": "results/cache/models/e64b091e36655fb91b98"
+  },
+  {
+    "family": "gru",
+    "candidate": {
+      "name": "hidden8",
+      "hidden": 8,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "eb3a4502b321b6bcb8ca",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 16.012183899991214,
+    "artifact_directory": "artifacts/models/gru/seed_11",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/models/gru/seed_11/model.json",
+        "sha256": "e03a1a9e9edeefae8a2a6d0fd13e595ff83e750509b8a5fd51b84fc3481d09c1",
+        "bytes": 65
+      },
+      {
+        "path": "artifacts/models/gru/seed_11/training.json",
+        "sha256": "5c1fe6e69c8b66be1aa2d1e6bdfdd53f2e22cdedc8a14bb61cd9b471a3ec0862",
+        "bytes": 1235
+      },
+      {
+        "path": "artifacts/models/gru/seed_11/weights.pt",
+        "sha256": "71d653e3ec352bc26e72e88804402e314c1f93ac36feb5f7b66351707dcd34ec",
+        "bytes": 3848
+      }
+    ],
+    "report_label": "gru",
+    "cached_artifact_directory": "results/cache/models/eb3a4502b321b6bcb8ca"
+  },
+  {
+    "family": "gru",
+    "candidate": {
+      "name": "hidden8",
+      "hidden": 8,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "5fb6fbf4edf6707f6586",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 7.4867484999704175,
+    "artifact_directory": "artifacts/models/gru/seed_29",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/models/gru/seed_29/model.json",
+        "sha256": "e03a1a9e9edeefae8a2a6d0fd13e595ff83e750509b8a5fd51b84fc3481d09c1",
+        "bytes": 65
+      },
+      {
+        "path": "artifacts/models/gru/seed_29/training.json",
+        "sha256": "7af714563c958ebb5cb50beaa70d8ad8277121f9fa9066534ee433580b543ceb",
+        "bytes": 1237
+      },
+      {
+        "path": "artifacts/models/gru/seed_29/weights.pt",
+        "sha256": "3630620819491bd914837d9cd456c89fa329b7f5f14746794d29279e91bcc5d7",
+        "bytes": 3848
+      }
+    ],
+    "report_label": "gru",
+    "cached_artifact_directory": "results/cache/models/5fb6fbf4edf6707f6586"
+  },
+  {
+    "family": "gru",
+    "candidate": {
+      "name": "hidden8",
+      "hidden": 8,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "e049f5f766c400bc8820",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 6.393246199993882,
+    "artifact_directory": "artifacts/models/gru/seed_47",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/models/gru/seed_47/model.json",
+        "sha256": "e03a1a9e9edeefae8a2a6d0fd13e595ff83e750509b8a5fd51b84fc3481d09c1",
+        "bytes": 65
+      },
+      {
+        "path": "artifacts/models/gru/seed_47/training.json",
+        "sha256": "f1293d850d8197f0d2935b10a4f5e384321b19767a5b7042ecf35588141b4bef",
+        "bytes": 1235
+      },
+      {
+        "path": "artifacts/models/gru/seed_47/weights.pt",
+        "sha256": "1fb1c20a1f8459d6cf61d78d306aeeaf2f063b6d6d4b2a33f3fc109b2dcd854c",
+        "bytes": 3848
+      }
+    ],
+    "report_label": "gru",
+    "cached_artifact_directory": "results/cache/models/e049f5f766c400bc8820"
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "82f6e8dba9bf1ca672c6",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 13.564275700016879,
+    "artifact_directory": "artifacts/models/gat/seed_11",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "b3b00c73b255c2c74f25d62888d3a1e4c6c991fd04a3f1094c4f00ff519dc71d",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat/seed_11/model.json",
+        "sha256": "59da4b94cafcc992e837d57cb24acb9c15c63544a4ceb9a807fda654a571115b",
+        "bytes": 110
+      },
+      {
+        "path": "artifacts/models/gat/seed_11/training.json",
+        "sha256": "42430ad596cc955623f9138fc9d7715db3c570aa9fc6c27806d0752c543e93b1",
+        "bytes": 1297
+      },
+      {
+        "path": "artifacts/models/gat/seed_11/weights.pt",
+        "sha256": "d2bc02dffdc1093e74ca9bccc562ce091b4e6034354177a3886fab5f9ec4bb67",
+        "bytes": 2444
+      }
+    ],
+    "report_label": "gat",
+    "cached_artifact_directory": "results/cache/models/82f6e8dba9bf1ca672c6"
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "8ed07ba3d02a72dde654",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 10.566674100002274,
+    "artifact_directory": "artifacts/models/gat/seed_29",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "b3b00c73b255c2c74f25d62888d3a1e4c6c991fd04a3f1094c4f00ff519dc71d",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat/seed_29/model.json",
+        "sha256": "31e4f93eaf8b3b27175041fd3aedefb4420b1e23ceee8ca0df1c733012ecd993",
+        "bytes": 110
+      },
+      {
+        "path": "artifacts/models/gat/seed_29/training.json",
+        "sha256": "cbb72ad2e51ceda3058c9d242fcae9ebd36af20174188493bb0e03824d53c2ed",
+        "bytes": 1297
+      },
+      {
+        "path": "artifacts/models/gat/seed_29/weights.pt",
+        "sha256": "5fe57164c8e08a53ba35e980f188a2fc048d1978477fb4df09df359b1efb8d1e",
+        "bytes": 2444
+      }
+    ],
+    "report_label": "gat",
+    "cached_artifact_directory": "results/cache/models/8ed07ba3d02a72dde654"
+  },
+  {
+    "family": "gat",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "80c3550c5fae43bc61ad",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 15.699449600011576,
+    "artifact_directory": "artifacts/models/gat/seed_47",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "b3b00c73b255c2c74f25d62888d3a1e4c6c991fd04a3f1094c4f00ff519dc71d",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat/seed_47/model.json",
+        "sha256": "e1f8ebd64c4a4a921bac199a8ec9b78b2d3eea4394f2039950935c472e66e909",
+        "bytes": 110
+      },
+      {
+        "path": "artifacts/models/gat/seed_47/training.json",
+        "sha256": "380b2f67e8f6f342f7811bd6a3972411ae4eec3ab4b70641c1d9d7e27ebc9302",
+        "bytes": 1296
+      },
+      {
+        "path": "artifacts/models/gat/seed_47/weights.pt",
+        "sha256": "32f261247ce1eb6e553232cce51a1c2a37c18076cc4d9fb07cadee7250586b31",
+        "bytes": 2444
+      }
+    ],
+    "report_label": "gat",
+    "cached_artifact_directory": "results/cache/models/80c3550c5fae43bc61ad"
+  },
+  {
+    "family": "gat_gru",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "bc84b3596d3f7ae70ed1",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 14.01684870000463,
+    "artifact_directory": "artifacts/models/gat_gru/seed_11",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "b3b00c73b255c2c74f25d62888d3a1e4c6c991fd04a3f1094c4f00ff519dc71d",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru/seed_11/model.json",
+        "sha256": "b185ef1c93ff1378f8ae42df1d726e8675ddf7b1d2f3517aa17671ec3d85dc8f",
+        "bytes": 114
+      },
+      {
+        "path": "artifacts/models/gat_gru/seed_11/training.json",
+        "sha256": "7d0de12ea504fd8df4dcf93ca8f287c06a2d0dda09aead4c9f46f037ed69ce07",
+        "bytes": 1302
+      },
+      {
+        "path": "artifacts/models/gat_gru/seed_11/weights.pt",
+        "sha256": "8840e2984fa1ecacf6ca354d479625c85c9ae348b0416c262b2d89a47b54048a",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru",
+    "cached_artifact_directory": "results/cache/models/bc84b3596d3f7ae70ed1"
+  },
+  {
+    "family": "gat_gru",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "61bc6fcdb759e0eb96fd",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 13.043090699997265,
+    "artifact_directory": "artifacts/models/gat_gru/seed_29",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "b3b00c73b255c2c74f25d62888d3a1e4c6c991fd04a3f1094c4f00ff519dc71d",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru/seed_29/model.json",
+        "sha256": "775eacdca0c72c96a19ee6dc4dc3bf2d47870d2f522d88b2bdbb1286223eed70",
+        "bytes": 114
+      },
+      {
+        "path": "artifacts/models/gat_gru/seed_29/training.json",
+        "sha256": "5ebde4a306b29d2e7cc06fa2458f57de8c65d58b553d90d768bfb1d378dd0aec",
+        "bytes": 1307
+      },
+      {
+        "path": "artifacts/models/gat_gru/seed_29/weights.pt",
+        "sha256": "74872e7ea2825d750f260beb79d17d723df87557ec549e220211ac7c96fe6858",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru",
+    "cached_artifact_directory": "results/cache/models/61bc6fcdb759e0eb96fd"
+  },
+  {
+    "family": "gat_gru",
+    "candidate": {
+      "name": "k3",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "60a7825645194abd7cc9",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 12.5001127999858,
+    "artifact_directory": "artifacts/models/gat_gru/seed_47",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "b3b00c73b255c2c74f25d62888d3a1e4c6c991fd04a3f1094c4f00ff519dc71d",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru/seed_47/model.json",
+        "sha256": "b324ec6b8e341168c6b40542baabec0ad25b00bf1ee2d44cb23df2c98aa049c2",
+        "bytes": 114
+      },
+      {
+        "path": "artifacts/models/gat_gru/seed_47/training.json",
+        "sha256": "53c8f9968df898c0a1f5b42729a9505259d4e7b836b06317ea75a846c525924f",
+        "bytes": 1303
+      },
+      {
+        "path": "artifacts/models/gat_gru/seed_47/weights.pt",
+        "sha256": "8a1281a64f2d2a3fc51ba04e65c3d3087d52856dac022c8cacdacd9dbb95dac4",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru",
+    "cached_artifact_directory": "results/cache/models/60a7825645194abd7cc9"
+  },
+  {
+    "family": "gat_gru_random",
+    "candidate": {
+      "name": "k3_fixed_control",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "ef79df057700ac70139d",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 23.573664999974426,
+    "artifact_directory": "artifacts/models/gat_gru_random/seed_11",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "bc34cccbf378d8252e570ce9b20ce6f5e1dae4b3ed20030f42b7434aa9a23291",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru_random/seed_11/model.json",
+        "sha256": "aedacebe5e41ef6b42f428ff6b24078606759c541b75234d4131cae855372180",
+        "bytes": 120
+      },
+      {
+        "path": "artifacts/models/gat_gru_random/seed_11/training.json",
+        "sha256": "fb7e4680f46969f6cde7efc7d60f1c18846bc65acbee2855d80ce072a0fced7d",
+        "bytes": 1291
+      },
+      {
+        "path": "artifacts/models/gat_gru_random/seed_11/weights.pt",
+        "sha256": "ec665aacc6de4fca4863d3d41a22e15747c85cd6c66f842f7c8c42d7b11e8836",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru_random",
+    "cached_artifact_directory": "results/cache/models/ef79df057700ac70139d"
+  },
+  {
+    "family": "gat_gru_random",
+    "candidate": {
+      "name": "k3_fixed_control",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "3f9ce3eaa4ed471f1390",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 17.931490599992685,
+    "artifact_directory": "artifacts/models/gat_gru_random/seed_29",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "3d0930d487b602c2edd63afcf63240c3aef7e75d09753bd3b149a4be1449b151",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru_random/seed_29/model.json",
+        "sha256": "ac753429133d5ac19027f77a6a674884c13a6f51d69d759b300ab76c49da98d9",
+        "bytes": 120
+      },
+      {
+        "path": "artifacts/models/gat_gru_random/seed_29/training.json",
+        "sha256": "3d72b2a4d01638fda51eb2b05d21cd7c1f0b024d64c5f53276f6ccc02538cbc7",
+        "bytes": 1295
+      },
+      {
+        "path": "artifacts/models/gat_gru_random/seed_29/weights.pt",
+        "sha256": "af332ab68bcb4bcbe77b90be8f80cca8543f6f942081436e36855daf3f5e5505",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru_random",
+    "cached_artifact_directory": "results/cache/models/3f9ce3eaa4ed471f1390"
+  },
+  {
+    "family": "gat_gru_random",
+    "candidate": {
+      "name": "k3_fixed_control",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "9f303437da5084c758a0",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 22.155260400031693,
+    "artifact_directory": "artifacts/models/gat_gru_random/seed_47",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "d450609b95f97917e5cfb93eeca2c0379511b345fa832c56910575a190d4e115",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru_random/seed_47/model.json",
+        "sha256": "ae0970c3a6237acebe0ea834d5f93a4872361b6506397374b7727884021f832f",
+        "bytes": 120
+      },
+      {
+        "path": "artifacts/models/gat_gru_random/seed_47/training.json",
+        "sha256": "5c08199895f14a355ff5d320781fa2c423c40c6474c88b766377b4255ba42d13",
+        "bytes": 1290
+      },
+      {
+        "path": "artifacts/models/gat_gru_random/seed_47/weights.pt",
+        "sha256": "2e9efd8be164ca749f6bbf03627b41418410ebcfa5370c9462e0b172793f922e",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru_random",
+    "cached_artifact_directory": "results/cache/models/9f303437da5084c758a0"
+  },
+  {
+    "family": "gat_gru_exogenous",
+    "candidate": {
+      "name": "k3_fixed_control",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "1b1c8502ee91a399c9c9",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 19.08349630003795,
+    "artifact_directory": "artifacts/models/gat_gru_exogenous/seed_11",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "610682959399fa83d524f59e00b8294919064bd5e575d9d63f85cb3920deb63e",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru_exogenous/seed_11/model.json",
+        "sha256": "e317544161a6df7194756adeb209189e3d71a3ae56f9493df253c250cc40d934",
+        "bytes": 126
+      },
+      {
+        "path": "artifacts/models/gat_gru_exogenous/seed_11/training.json",
+        "sha256": "a3ffc1a0566420af251e4c33a3b1451289dc0af3533a28428589a56e2f06fbfd",
+        "bytes": 1299
+      },
+      {
+        "path": "artifacts/models/gat_gru_exogenous/seed_11/weights.pt",
+        "sha256": "e1ca1b31c55be9b7e837c6d9e7ff6f08f8bdee518993714e9fc3fb708c8776e7",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru_exogenous",
+    "cached_artifact_directory": "results/cache/models/1b1c8502ee91a399c9c9"
+  },
+  {
+    "family": "gat_gru_exogenous",
+    "candidate": {
+      "name": "k3_fixed_control",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "2ab223654f66258f81f3",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 16.884795099962503,
+    "artifact_directory": "artifacts/models/gat_gru_exogenous/seed_29",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "610682959399fa83d524f59e00b8294919064bd5e575d9d63f85cb3920deb63e",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru_exogenous/seed_29/model.json",
+        "sha256": "4f208f6ef4ad7c30913ae55d203400f23f6dd2a9e0887e30abf47efb811f9fa2",
+        "bytes": 126
+      },
+      {
+        "path": "artifacts/models/gat_gru_exogenous/seed_29/training.json",
+        "sha256": "6221d40bd734bcb7beb43c4d3296b37f56587bbfe170fe0ac1f8998277ecd964",
+        "bytes": 1297
+      },
+      {
+        "path": "artifacts/models/gat_gru_exogenous/seed_29/weights.pt",
+        "sha256": "8e80f48e66b749c39fe083b24062ec4585952ad35adb4490056d44c46c9ea840",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru_exogenous",
+    "cached_artifact_directory": "results/cache/models/2ab223654f66258f81f3"
+  },
+  {
+    "family": "gat_gru_exogenous",
+    "candidate": {
+      "name": "k3_fixed_control",
+      "hidden": 8,
+      "k": 3,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "06723d6a770a3b59f20a",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 17.830390400020406,
+    "artifact_directory": "artifacts/models/gat_gru_exogenous/seed_47",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "610682959399fa83d524f59e00b8294919064bd5e575d9d63f85cb3920deb63e",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru_exogenous/seed_47/model.json",
+        "sha256": "6da9c4ab454defbcd0d1bbba6e0e8eb8dc064846c17e716fe5b7e5edfcce5f69",
+        "bytes": 126
+      },
+      {
+        "path": "artifacts/models/gat_gru_exogenous/seed_47/training.json",
+        "sha256": "73bc6827e10d3ff6820346312d10b3e40051abf7ed076f90f5e63e229661421c",
+        "bytes": 1297
+      },
+      {
+        "path": "artifacts/models/gat_gru_exogenous/seed_47/weights.pt",
+        "sha256": "2dc5fbe7f6f030481e66163c366dfd541e9c9af76110159170cb26edd276ae1e",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru_exogenous",
+    "cached_artifact_directory": "results/cache/models/06723d6a770a3b59f20a"
+  },
+  {
+    "family": "gat_gru",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 11,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "2b272a0c289ce357fcb7",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 23.718158700037748,
+    "artifact_directory": "artifacts/models/gat_gru_other_k/seed_11",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "224d961904535ce8f461c33feea31727fccf8f3fc2f9071857076e0ae0e3ac25",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru_other_k/seed_11/model.json",
+        "sha256": "7c428ea817f29abb21085391f84f17aefbad4bdbe225afaef3654688df0f40f2",
+        "bytes": 114
+      },
+      {
+        "path": "artifacts/models/gat_gru_other_k/seed_11/training.json",
+        "sha256": "e106d5d999bf935a1ccbc2c5b0706403668a1ad9a65865c5a63e15ce43428194",
+        "bytes": 1302
+      },
+      {
+        "path": "artifacts/models/gat_gru_other_k/seed_11/weights.pt",
+        "sha256": "86443fbce1b5582d68dc398b3b811220ce0343865445c88282481c3dfcae006a",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru_other_k",
+    "cached_artifact_directory": "results/cache/models/2b272a0c289ce357fcb7"
+  },
+  {
+    "family": "gat_gru",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 29,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "fa58ff61c48d174ca9a4",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 17.45686440001009,
+    "artifact_directory": "artifacts/models/gat_gru_other_k/seed_29",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "224d961904535ce8f461c33feea31727fccf8f3fc2f9071857076e0ae0e3ac25",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru_other_k/seed_29/model.json",
+        "sha256": "561321ed024f137b4db88d6677612748155133a5c0dfa818c6519664ef20cabf",
+        "bytes": 114
+      },
+      {
+        "path": "artifacts/models/gat_gru_other_k/seed_29/training.json",
+        "sha256": "3242ce0f99c9eff504c59f73aa2cfb5f9a36f91eda87552c58c1d97ad8d2da50",
+        "bytes": 1302
+      },
+      {
+        "path": "artifacts/models/gat_gru_other_k/seed_29/weights.pt",
+        "sha256": "6b8822f4699e4d802b5b73e07d252eb77e9504ca3e6485552747124d933e43a7",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru_other_k",
+    "cached_artifact_directory": "results/cache/models/fa58ff61c48d174ca9a4"
+  },
+  {
+    "family": "gat_gru",
+    "candidate": {
+      "name": "k7",
+      "hidden": 8,
+      "k": 7,
+      "epochs": 40,
+      "learning_rate": 0.01
+    },
+    "seed": 47,
+    "fold": "final",
+    "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+    "dataset_sha256": "15e5448d4a9698cf3c1c44917abeb18e786afd573f8df5d47c00f7d9e83424d2",
+    "split_sha256": "abaca6fc6467668ee5bee9aab962a3f531e174994ca264c5988e9635aa2bed2a",
+    "experiment_config_sha256": "73fdb86665e80341b1e9fdac791d749946d75ac9a872255a8fef41c60d594dd0",
+    "run_id": "0076e24f07bee5a4e786",
+    "train_rows": 31319,
+    "evaluation_rows": 12783,
+    "origin": "2022-05-30",
+    "train_keys_sha256": "e0bc268d158711f9ab0cfcff0f5b47287e512d7b0f655cbcc7a646e0421fda54",
+    "preprocessing_sha256": "cfdc289beba563e8f19768bab915f5828223e78105cb6e38185cbde2835e4be3",
+    "seconds": 17.912775700038765,
+    "artifact_directory": "artifacts/models/gat_gru_other_k/seed_47",
+    "environment_lock_sha256": "a68ece8a085c0ffdf46168302a751cceac69e4ddff72924387ee8995d36ded98",
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.6.0+cpu",
+      "xgboost": "2.1.4"
+    },
+    "evaluation_graph_sha256": "224d961904535ce8f461c33feea31727fccf8f3fc2f9071857076e0ae0e3ac25",
+    "artifacts": [
+      {
+        "path": "artifacts/models/gat_gru_other_k/seed_47/model.json",
+        "sha256": "af2bf455058cf2472979f8c1c0861502bbac0f908fe87e1f3d008580c3d9cf8e",
+        "bytes": 114
+      },
+      {
+        "path": "artifacts/models/gat_gru_other_k/seed_47/training.json",
+        "sha256": "3eb2a2b2108ef0a26215a76b9c5e42e66a211a9a4fc103c1cb9411c5fa14fe81",
+        "bytes": 1301
+      },
+      {
+        "path": "artifacts/models/gat_gru_other_k/seed_47/weights.pt",
+        "sha256": "e5e25dee07725eacb37a6e30f92f259a286a629e014e6cf65b2fcbf44b6e775d",
+        "bytes": 5052
+      }
+    ],
+    "report_label": "gat_gru_other_k",
+    "cached_artifact_directory": "results/cache/models/0076e24f07bee5a4e786"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "family": "gat_gru_exogenous",
+  "hidden": 8,
+  "k": 3,
+  "kind": "exogenous",
+  "positive_weight": 100.0,
+  "seed": 11
+}

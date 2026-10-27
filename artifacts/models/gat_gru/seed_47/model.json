@@ -1,0 +1,8 @@
+{
+  "family": "gat_gru",
+  "hidden": 8,
+  "k": 3,
+  "kind": "feature",
+  "positive_weight": 100.0,
+  "seed": 47
+}

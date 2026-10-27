@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-27T10:40:47.391003+00:00",
+  "plan_sha256": "6b4392a84983166a645fac4e7fa02f96744357bc56d11f20b82e13d157aa1c5e",
+  "code_commit": "86f3f7c9525f114069a5bed63836385f32798c41",
+  "dataset_id": "analysis-v1-15e5448d4a96",
+  "purpose": "first frozen final performance evaluation"
+}

@@ -1,0 +1,5 @@
+{
+  "family": "gru",
+  "hidden": 8,
+  "positive_weight": 100.0
+}
