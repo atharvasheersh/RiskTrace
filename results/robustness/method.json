@@ -1,0 +1,15 @@
+{
+  "dataset_id": "analysis-v1-15e5448d4a96",
+  "replicates": 500,
+  "institutions": "connected CERT/RSSD components; no identity features enter models",
+  "time": "calendar-year blocks",
+  "bootstrap": "independently resample institutions and year blocks; multiply row counts; paired weights across models",
+  "interpretation": "exploratory pigeonhole-style sensitivity, not a guaranteed nominal 95% CI for nonlinear rare-event AP",
+  "limitations": [
+    "Only four positive test banks and four calendar-year blocks (2025 partial)",
+    "Undefined zero-positive resamples are counted; AP quantiles condition on valid draws",
+    "Year blocking does not guarantee all serial/common-shock dependence captured",
+    "Seed ranges are sensitivity, not independent-data confidence intervals"
+  ],
+  "reference": "Art B. Owen (2007), The pigeonhole bootstrap, https://arxiv.org/abs/0712.1111"
+}

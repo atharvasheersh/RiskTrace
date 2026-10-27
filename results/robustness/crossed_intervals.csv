@@ -1,0 +1,19 @@
+model,metric,point,lower,upper,defined_draws,undefined_draws,status
+prevalence,average_precision,0.0012516623640772,0.00031020329546751254,0.004360651619386253,418,82,exploratory percentile interval conditional on defined draws; coverage unverified
+prevalence,brier,0.0012507226932073,4.175843118450982e-06,0.00402409073992283,500,0,exploratory percentile interval conditional on defined draws; coverage unverified
+logistic,average_precision,0.0177851719516488,0.0006707154558272858,0.3490165631469978,418,82,exploratory percentile interval conditional on defined draws; coverage unverified
+logistic,brier,0.0016165032088712,0.00010892646385609319,0.004345759389487083,500,0,exploratory percentile interval conditional on defined draws; coverage unverified
+xgboost,average_precision,0.0062252167076258,0.000959831537256691,0.059094743447694116,418,82,exploratory percentile interval conditional on defined draws; coverage unverified
+xgboost,brier,0.0012527277950198,3.026141206750807e-06,0.004038427612609827,500,0,exploratory percentile interval conditional on defined draws; coverage unverified
+gru,average_precision,0.0016139199285294,0.00035270394587581176,0.007568775003627086,418,82,exploratory percentile interval conditional on defined draws; coverage unverified
+gru,brier,0.0012539513481081,1.5199266684139611e-06,0.004041385453007435,500,0,exploratory percentile interval conditional on defined draws; coverage unverified
+gat,average_precision,0.0075358144599496,0.0004220584892167009,0.08581620122122631,418,82,exploratory percentile interval conditional on defined draws; coverage unverified
+gat,brier,0.0012499331046826,2.999610194622762e-06,0.004029695039678257,500,0,exploratory percentile interval conditional on defined draws; coverage unverified
+gat_gru,average_precision,0.0019605228659014,0.00035447814672573635,0.010682532797528009,418,82,exploratory percentile interval conditional on defined draws; coverage unverified
+gat_gru,brier,0.0012540756946746,1.5501938143168793e-06,0.004040123725851929,500,0,exploratory percentile interval conditional on defined draws; coverage unverified
+gat_gru_random,average_precision,0.0019229054595185,0.0006388267866031963,0.010682057462193143,418,82,exploratory percentile interval conditional on defined draws; coverage unverified
+gat_gru_random,brier,0.0012518937009799,4.41471054725421e-07,0.004036757637484751,500,0,exploratory percentile interval conditional on defined draws; coverage unverified
+gat_gru_exogenous,average_precision,0.0010536945312941,0.00026191443794799793,0.00533836169852309,418,82,exploratory percentile interval conditional on defined draws; coverage unverified
+gat_gru_exogenous,brier,0.0012522750155841,4.1445736886631465e-07,0.004038802368180583,500,0,exploratory percentile interval conditional on defined draws; coverage unverified
+gat_gru_other_k,average_precision,0.001538126450544,0.0003555560409780967,0.006545596482082549,418,82,exploratory percentile interval conditional on defined draws; coverage unverified
+gat_gru_other_k,brier,0.0012526817931067,8.893639444237411e-07,0.004037397224320996,500,0,exploratory percentile interval conditional on defined draws; coverage unverified
